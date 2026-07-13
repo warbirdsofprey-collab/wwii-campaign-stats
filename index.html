@@ -1,135 +1,294 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Warbirds of Prey — WWII Campaign Stats</title>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0d151b">
+<title>Warbirds of Prey — WWII Campaign Portal</title>
 <style>
-body{margin:0;background:#0d151b;color:#edf3f6;font-family:Segoe UI,Arial,sans-serif}
-header,main{padding:24px 5vw}header{background:#0b1217;border-bottom:1px solid #304552}
-h1{margin:0}.muted{color:#9aadb8}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin:20px 0}
-.card,.panel{background:#17242d;border:1px solid #304552;border-radius:12px}.card{padding:18px}.label{font-size:12px;color:#9aadb8;text-transform:uppercase}.value{font-size:30px;font-weight:700;margin-top:7px}
-.panel{overflow:hidden}.toolbar{padding:14px;background:#21333f;display:flex;justify-content:space-between;gap:10px}
-input{padding:10px;width:340px;max-width:55%;background:#0e181e;color:white;border:1px solid #496170;border-radius:7px}
-.tablewrap{overflow:auto;max-height:72vh}table{width:100%;border-collapse:collapse;white-space:nowrap}
-th,td{padding:10px 12px;border-bottom:1px solid #2c404b;text-align:right}th{position:sticky;top:0;background:#213743}
-th:nth-child(2),td:nth-child(2),th:nth-child(3),td:nth-child(3){text-align:left}.pilot{font-weight:700;color:#ffd77a}
-</style></head><body>
-<header><h1>Warbirds of Prey</h1><div class="muted">WWII Persistent Campaign Statistics</div></header>
-<main><div id="status" class="muted">Loading…</div><div class="cards" id="cards"></div>
-<div class="panel"><div class="toolbar"><strong>Pilot Leaderboard</strong><input id="search" placeholder="Search pilot or rank"></div>
-<div class="tablewrap"><table id="table"></table></div></div></main>
-<script>
-let data = {};
-
-const esc = x =>
-  String(x ?? '').replace(
-    /[&<>"']/g,
-    m => ({
-      '&': '&amp;',
-      '<': '&lt;',
-      '>': '&gt;',
-      '"': '&quot;',
-      "'": '&#39;'
-    }[m])
-  );
-
-function render() {
-  const c = data.Campaign || data.campaign || {};
-  const p = data.Pilots || data.pilots || [];
-  const destroyed =
-    data.DestroyedTargets || data.destroyedTargets || [];
-  const damaged =
-    data.TargetDamage || data.targetDamage || [];
-  const generated =
-    data.GeneratedUtc || data.generatedUtc;
-
-  document.getElementById('cards').innerHTML = [
-    ['RAF Points', c.RedCampaignPoints || 0],
-    ['LW Points', c.BlueCampaignPoints || 0],
-    ['Pilots', p.length],
-    ['Destroyed Targets', destroyed.length],
-    ['Damaged Targets', damaged.length]
-  ].map(x => `
-    <div class="card">
-      <div class="label">${x[0]}</div>
-      <div class="value">${x[1]}</div>
+:root{
+  --bg:#0b1217;--bg2:#101a21;--panel:#17242d;--panel2:#20333f;--line:#304552;
+  --text:#eef3f6;--muted:#9eb0ba;--gold:#d9aa4a;--raf:#78aee0;--lw:#df786e;
+  --green:#70bf8a;--yellow:#e3ba57;--red:#df6f69;--shadow:0 18px 45px rgba(0,0,0,.25)
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:
+radial-gradient(circle at top left,rgba(76,114,137,.14),transparent 35%),
+linear-gradient(180deg,var(--bg),#0e181e 35%,#101820);color:var(--text);
+font-family:Inter,Segoe UI,Arial,sans-serif;min-height:100vh}
+button,input{font:inherit}
+a{color:inherit}
+header{padding:30px 5vw 22px;background:rgba(8,14,18,.88);border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:16px}.roundel{width:54px;height:54px;border-radius:50%;
+background:radial-gradient(circle,#d53232 0 19%,#f4f4f4 20% 38%,#2f5fa2 39% 64%,#d53232 65% 100%);
+box-shadow:0 0 0 3px rgba(255,255,255,.06)}
+h1{margin:0;font-family:Georgia,serif;font-size:clamp(28px,4vw,48px);letter-spacing:.03em}
+.subtitle{color:var(--muted);margin-top:4px}
+nav{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+padding:12px 5vw;background:rgba(13,24,30,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav button{border:1px solid #3a515e;background:#182932;color:#dce7ec;border-radius:8px;
+padding:9px 14px;cursor:pointer;transition:.18s}
+nav button:hover{transform:translateY(-1px);border-color:#617985}
+nav button.active{background:var(--gold);color:#111;border-color:var(--gold);font-weight:700}
+.status{margin-left:auto;color:var(--muted);font-size:13px}
+main{padding:24px 5vw 60px}
+.view{display:none}.view.active{display:block}
+.hero{display:grid;grid-template-columns:1.5fr 1fr;gap:18px;margin-bottom:20px}
+.panel,.card{background:linear-gradient(180deg,rgba(29,46,57,.98),rgba(21,35,44,.98));
+border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
+.hero-main{padding:24px;position:relative;overflow:hidden}
+.hero-main:after{content:"";position:absolute;inset:auto -80px -100px auto;width:280px;height:280px;
+border-radius:50%;background:radial-gradient(circle,rgba(217,170,74,.17),transparent 65%)}
+.hero-title{font-size:14px;color:var(--muted);text-transform:uppercase;letter-spacing:.12em}
+.score-row{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:16px;margin-top:16px}
+.side{text-align:center}.side .name{font-weight:700}.side .score{font-size:clamp(34px,6vw,64px);font-weight:800}
+.raf{color:var(--raf)}.lw{color:var(--lw)}.versus{color:var(--muted);font-weight:700}
+.progress{height:12px;background:#0e171d;border-radius:999px;overflow:hidden;margin-top:18px;border:1px solid #2b3f49}
+.progress>div{height:100%;background:linear-gradient(90deg,var(--raf),var(--gold),var(--lw));width:50%}
+.live-panel{padding:22px}.live-item{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid #2b414b}
+.live-item:last-child{border-bottom:0}.live-item span:first-child{color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin-bottom:20px}
+.card{padding:18px}.label{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.value{font-size:30px;font-weight:800;margin-top:7px}.small{font-size:14px;color:var(--muted)}
+.toolbar{padding:14px 16px;background:var(--panel2);display:flex;justify-content:space-between;gap:12px;align-items:center;border-bottom:1px solid var(--line)}
+.toolbar h2{font-size:18px;margin:0}
+input,select{background:#0d171d;color:white;border:1px solid #496170;border-radius:8px;padding:10px 12px}
+input{width:min(360px,60%)}
+.tablewrap{overflow:auto;max-height:72vh}
+table{width:100%;border-collapse:collapse;white-space:nowrap}
+th,td{padding:11px 12px;border-bottom:1px solid #2b414c;text-align:right}
+th{position:sticky;top:0;background:#223743;font-size:12px;text-transform:uppercase;letter-spacing:.05em;cursor:pointer}
+th:nth-child(2),td:nth-child(2),th:nth-child(3),td:nth-child(3){text-align:left}
+tr:hover td{background:#1b2d37}.pilot{font-weight:800;color:#ffd77a;cursor:pointer}
+.medal{display:inline-block;padding:4px 7px;border-radius:999px;background:#2a3e49;color:#f3d992;font-size:11px;margin:2px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.aircraft-card,.target-card{padding:18px}
+.aircraft-card h3,.target-card h3{margin:0 0 8px;font-size:17px}
+.stockbar,.damagebar{height:9px;background:#0d171d;border-radius:999px;overflow:hidden;margin-top:12px}
+.stockbar div{height:100%;background:var(--green)}.damagebar div{height:100%;background:var(--red)}
+.target-meta,.aircraft-meta{display:flex;justify-content:space-between;color:var(--muted);font-size:13px}
+.chart-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.chart-panel{padding:18px}.chart-panel canvas{width:100%;height:280px}
+.empty{padding:40px;text-align:center;color:var(--muted)}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.68);display:none;align-items:center;justify-content:center;padding:20px;z-index:50}
+.modal.open{display:flex}.modal-card{width:min(760px,100%);max-height:90vh;overflow:auto;background:#17242d;border:1px solid #425a67;border-radius:16px;box-shadow:0 25px 80px rgba(0,0,0,.5)}
+.modal-head{padding:20px 22px;background:#20333f;display:flex;justify-content:space-between;align-items:center}
+.modal-head h2{margin:0}.close{background:transparent;border:0;color:white;font-size:28px;cursor:pointer}
+.modal-body{padding:22px}.profile-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.profile-stat{background:#101c23;border:1px solid #2d4450;border-radius:10px;padding:14px}
+footer{padding:24px 5vw;color:var(--muted);font-size:13px;border-top:1px solid #263a44}
+@media(max-width:850px){.hero{grid-template-columns:1fr}.status{width:100%;margin-left:0}.score-row{gap:8px}}
+@media(max-width:650px){th:nth-child(3),td:nth-child(3),th:nth-child(7),td:nth-child(7),th:nth-child(8),td:nth-child(8){display:none}nav{position:static}.toolbar{align-items:stretch;flex-direction:column}input{width:100%}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand"><div class="roundel"></div><div><h1>Warbirds of Prey</h1><div class="subtitle">WWII Persistent Campaign Operations Room</div></div></div>
+</header>
+<nav>
+  <button data-view="dashboard" class="active">Dashboard</button>
+  <button data-view="pilots">Pilots</button>
+  <button data-view="aircraft">Aircraft</button>
+  <button data-view="targets">Targets</button>
+  <button data-view="charts">Charts</button>
+  <span class="status" id="status">Loading campaign data…</span>
+</nav>
+<main>
+<section id="dashboard" class="view active">
+  <div class="hero">
+    <div class="panel hero-main">
+      <div class="hero-title">Campaign Balance</div>
+      <div class="score-row">
+        <div class="side"><div class="name raf">RAF</div><div id="rafScore" class="score raf">0</div></div>
+        <div class="versus">VS</div>
+        <div class="side"><div class="name lw">LUFTWAFFE</div><div id="lwScore" class="score lw">0</div></div>
+      </div>
+      <div class="progress"><div id="scoreProgress"></div></div>
     </div>
-  `).join('');
+    <div class="panel live-panel">
+      <div class="hero-title">Live Campaign Feed</div>
+      <div class="live-item"><span>Last update</span><strong id="lastUpdate">—</strong></div>
+      <div class="live-item"><span>Tracked pilots</span><strong id="pilotCount">0</strong></div>
+      <div class="live-item"><span>Destroyed targets</span><strong id="destroyedCount">0</strong></div>
+      <div class="live-item"><span>Damaged targets</span><strong id="damagedCount">0</strong></div>
+    </div>
+  </div>
+  <div class="cards" id="summaryCards"></div>
+  <div class="panel">
+    <div class="toolbar"><h2>Top Pilots</h2><span class="small">Click a pilot for full profile</span></div>
+    <div class="tablewrap"><table id="topPilots"></table></div>
+  </div>
+</section>
 
-  document.getElementById('table').innerHTML =
-    '<thead><tr>' +
-    '<th>#</th><th>Pilot</th><th>Rank</th><th>Score</th>' +
-    '<th>Sorties</th><th>Air</th><th>Ground</th><th>Ships</th>' +
-    '<th>Deaths</th><th>K/D</th><th>Bomb kg</th><th>Hours</th>' +
-    '</tr></thead><tbody>' +
+<section id="pilots" class="view">
+  <div class="panel">
+    <div class="toolbar"><h2>Pilot Leaderboard</h2><input id="pilotSearch" placeholder="Search pilot or rank…"></div>
+    <div class="tablewrap"><table id="pilotTable"></table></div>
+  </div>
+</section>
 
-    p.map(x => {
-      const position = x.Position ?? x.position ?? '';
-      const pilot = x.Pilot ?? x.pilot ?? '';
-      const rank = x.Rank ?? x.rank ?? '';
-      const score = x.Score ?? x.score ?? 0;
-      const sorties = x.Sorties ?? x.sorties ?? 0;
-      const air = x.AirKills ?? x.airKills ?? 0;
-      const ground = x.GroundKills ?? x.groundKills ?? 0;
-      const ships = x.ShipKills ?? x.shipKills ?? 0;
-      const deaths = x.Deaths ?? x.deaths ?? 0;
-      const kd = x.KillDeathRatio ?? x.killDeathRatio ?? 0;
-      const bombKg = x.BombKg ?? x.bombKg ?? 0;
-      const hours = x.FlightHours ?? x.flightHours ?? 0;
+<section id="aircraft" class="view">
+  <div class="toolbar panel" style="margin-bottom:14px"><h2>Aircraft Inventory</h2><select id="armyFilter"><option value="all">All armies</option><option value="RAF">RAF / Red</option><option value="LW">LW / Blue</option></select></div>
+  <div class="grid" id="aircraftGrid"></div>
+</section>
 
-      return `
-        <tr>
-          <td>${position}</td>
-          <td class="pilot">${esc(pilot)}</td>
-          <td>${esc(rank)}</td>
-          <td>${score}</td>
-          <td>${sorties}</td>
-          <td>${air}</td>
-          <td>${ground}</td>
-          <td>${ships}</td>
-          <td>${deaths}</td>
-          <td>${kd}</td>
-          <td>${bombKg}</td>
-          <td>${hours}</td>
-        </tr>
-      `;
-    }).join('') +
+<section id="targets" class="view">
+  <div class="cards">
+    <div class="card"><div class="label">Destroyed</div><div class="value" id="destroyedTotal">0</div></div>
+    <div class="card"><div class="label">Damaged</div><div class="value" id="damageTotal">0</div></div>
+    <div class="card"><div class="label">Average Damage</div><div class="value" id="avgDamage">0%</div></div>
+  </div>
+  <div class="panel" style="margin-bottom:16px"><div class="toolbar"><h2>Target Damage</h2></div><div class="grid" id="damageGrid" style="padding:14px"></div></div>
+  <div class="panel"><div class="toolbar"><h2>Destroyed Targets</h2></div><div id="destroyedList" class="grid" style="padding:14px"></div></div>
+</section>
 
-    '</tbody>';
+<section id="charts" class="view">
+  <div class="chart-grid">
+    <div class="panel chart-panel"><h2>Top Pilot Scores</h2><canvas id="scoreChart" width="700" height="300"></canvas></div>
+    <div class="panel chart-panel"><h2>Combat Results</h2><canvas id="killChart" width="700" height="300"></canvas></div>
+    <div class="panel chart-panel"><h2>Bomb Tonnage</h2><canvas id="bombChart" width="700" height="300"></canvas></div>
+  </div>
+</section>
+</main>
+<footer>Live data refreshes every 30 seconds from the Warbirds of Prey campaign publisher.</footer>
 
-  document.getElementById('status').textContent =
-    generated
-      ? 'Updated ' + new Date(generated).toLocaleString()
-      : 'Data loaded';
+<div class="modal" id="pilotModal">
+  <div class="modal-card">
+    <div class="modal-head"><h2 id="modalPilotName">Pilot Profile</h2><button class="close" id="closeModal">×</button></div>
+    <div class="modal-body">
+      <div id="modalRank" class="small" style="margin-bottom:16px"></div>
+      <div class="profile-grid" id="profileGrid"></div>
+      <div style="margin-top:18px"><strong>Awards</strong><div id="awardList" style="margin-top:8px"></div></div>
+    </div>
+  </div>
+</div>
+
+<script>
+let portal={};
+let pilotRows=[];
+const esc=x=>String(x??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+const pick=(o,...keys)=>{for(const k of keys)if(o&&o[k]!==undefined&&o[k]!==null)return o[k];return undefined};
+const campaign=()=>pick(portal,'Campaign','campaign')||{};
+const pilots=()=>pick(portal,'Pilots','pilots')||[];
+const aircraft=()=>pick(portal,'AircraftStocks','aircraftStocks')||[];
+const damage=()=>pick(portal,'TargetDamage','targetDamage')||[];
+const destroyed=()=>pick(portal,'DestroyedTargets','destroyedTargets')||[];
+const generated=()=>pick(portal,'GeneratedUtc','generatedUtc');
+
+function normalizedPilot(x){
+ return {
+  position:pick(x,'Position','position')??'',
+  pilot:pick(x,'Pilot','pilot')??'',
+  rank:pick(x,'Rank','rank')??'',
+  score:+(pick(x,'Score','score')??0),sorties:+(pick(x,'Sorties','sorties')??0),
+  successful:+(pick(x,'SuccessfulSorties','successfulSorties')??0),
+  successRate:+(pick(x,'SuccessRate','successRate')??0),
+  air:+(pick(x,'AirKills','airKills')??0),ground:+(pick(x,'GroundKills','groundKills')??0),
+  ships:+(pick(x,'ShipKills','shipKills')??0),deaths:+(pick(x,'Deaths','deaths')??0),
+  kd:+(pick(x,'KillDeathRatio','killDeathRatio')??0),bailouts:+(pick(x,'Bailouts','bailouts')??0),
+  landings:+(pick(x,'Landings','landings')??0),bomb:+(pick(x,'BombKg','bombKg')??0),
+  minutes:+(pick(x,'FlightMinutes','flightMinutes')??0),hours:+(pick(x,'FlightHours','flightHours')??0),
+  lastSeen:pick(x,'LastSeenUtc','lastSeenUtc')??''
+ };
 }
-
-async function load() {
-  try {
-    const response = await fetch(
-      './data/portal.json?ts=' + Date.now(),
-      { cache: 'no-store' }
-    );
-
-    if (!response.ok) {
-      throw new Error('HTTP ' + response.status);
-    }
-
-    data = await response.json();
-    render();
-  } catch (error) {
-    console.error(error);
-    document.getElementById('status').textContent =
-      'Could not load campaign data: ' + error.message;
-  }
+function awards(p){
+ const a=[];
+ if(p.air>=5)a.push('Ace');if(p.air>=10)a.push('Double Ace');if(p.ground>=25)a.push('Tank Buster');
+ if(p.ships>=3)a.push('Ship Killer');if(p.bomb>=5000)a.push('Bomber Command');if(p.sorties>=50)a.push('Veteran');
+ if(p.hours>=50)a.push('Long Service');if(p.successRate>=.8&&p.sorties>=10)a.push('Reliable Return');
+ return a.length?a:['Campaign Participant'];
 }
-
-document.getElementById('search').oninput = event => {
-  const query = event.target.value.toLowerCase();
-
-  document.querySelectorAll('tbody tr').forEach(row => {
-    row.style.display =
-      row.textContent.toLowerCase().includes(query) ? '' : 'none';
-  });
+function table(el,headers,rows){
+ el.innerHTML='<thead><tr>'+headers.map(h=>`<th>${h}</th>`).join('')+'</tr></thead><tbody>'+
+ rows.map(r=>'<tr>'+r.map(c=>`<td>${c}</td>`).join('')+'</tr>').join('')+'</tbody>';
+}
+function render(){
+ const c=campaign(), ps=pilots().map(normalizedPilot), ac=aircraft(), td=damage(), dt=destroyed();
+ pilotRows=ps;
+ const raf=+(c.RedCampaignPoints??c.redCampaignPoints??0), lw=+(c.BlueCampaignPoints??c.blueCampaignPoints??0);
+ const total=Math.max(1,raf+lw);
+ document.getElementById('rafScore').textContent=raf.toLocaleString();
+ document.getElementById('lwScore').textContent=lw.toLocaleString();
+ document.getElementById('scoreProgress').style.width=(raf/total*100)+'%';
+ document.getElementById('lastUpdate').textContent=generated()?new Date(generated()).toLocaleString():'—';
+ document.getElementById('pilotCount').textContent=ps.length;
+ document.getElementById('destroyedCount').textContent=dt.length;
+ document.getElementById('damagedCount').textContent=td.length;
+ const totalSorties=ps.reduce((s,p)=>s+p.sorties,0),totalAir=ps.reduce((s,p)=>s+p.air,0),
+ totalGround=ps.reduce((s,p)=>s+p.ground,0),totalBomb=ps.reduce((s,p)=>s+p.bomb,0);
+ document.getElementById('summaryCards').innerHTML=[
+  ['Total Sorties',totalSorties.toLocaleString()],['Air Victories',totalAir.toLocaleString()],
+  ['Ground Kills',totalGround.toLocaleString()],['Bomb Tonnage',(totalBomb/1000).toFixed(1)+' t']
+ ].map(x=>`<div class="card"><div class="label">${x[0]}</div><div class="value">${x[1]}</div></div>`).join('');
+ const rows=ps.map(p=>[p.position,`<span class="pilot" data-pilot="${esc(p.pilot)}">${esc(p.pilot)}</span>`,esc(p.rank),p.score,p.sorties,p.air,p.ground,p.ships,p.deaths,p.kd,p.bomb,p.hours]);
+ const heads=['#','Pilot','Rank','Score','Sorties','Air','Ground','Ships','Deaths','K/D','Bomb kg','Hours'];
+ table(document.getElementById('pilotTable'),heads,rows);
+ table(document.getElementById('topPilots'),heads,rows.slice(0,10));
+ bindPilotClicks();
+ renderAircraft(ac);renderTargets(td,dt);drawCharts(ps);
+ document.getElementById('status').textContent='Updated '+(generated()?new Date(generated()).toLocaleTimeString():'now');
+}
+function renderAircraft(list){
+ const filter=document.getElementById('armyFilter').value;
+ const normalized=list.map(x=>({army:pick(x,'Army','army')||'',aircraft:pick(x,'Aircraft','aircraft')||'',available:+(pick(x,'Available','available')||0)}))
+ .filter(x=>filter==='all'||x.army.startsWith(filter));
+ const max=Math.max(1,...normalized.map(x=>x.available));
+ document.getElementById('aircraftGrid').innerHTML=normalized.length?normalized.map(x=>`<div class="panel aircraft-card"><h3>${esc(x.aircraft)}</h3><div class="aircraft-meta"><span>${esc(x.army)}</span><strong>${x.available} available</strong></div><div class="stockbar"><div style="width:${Math.max(4,x.available/max*100)}%"></div></div></div>`).join(''):'<div class="empty">No aircraft stock data available.</div>';
+}
+function renderTargets(td,dt){
+ const rows=td.map(x=>({target:pick(x,'Target','target')||'',damage:+(pick(x,'DamagePercent','damagePercent')||0)})).sort((a,b)=>b.damage-a.damage);
+ document.getElementById('destroyedTotal').textContent=dt.length;
+ document.getElementById('damageTotal').textContent=rows.length;
+ document.getElementById('avgDamage').textContent=(rows.length?rows.reduce((s,x)=>s+x.damage,0)/rows.length:0).toFixed(0)+'%';
+ document.getElementById('damageGrid').innerHTML=rows.length?rows.map(x=>`<div class="target-card"><h3>${esc(x.target)}</h3><div class="target-meta"><span>${x.damage>=100?'Destroyed':x.damage>=50?'Heavily damaged':'Damaged'}</span><strong>${x.damage}%</strong></div><div class="damagebar"><div style="width:${Math.min(100,x.damage)}%"></div></div></div>`).join(''):'<div class="empty">No damaged targets reported.</div>';
+ document.getElementById('destroyedList').innerHTML=dt.length?dt.map(x=>`<div class="target-card"><h3>${esc(x)}</h3><div class="small">Destroyed</div></div>`).join(''):'<div class="empty">No destroyed targets reported.</div>';
+}
+function drawBar(canvas,labels,values,title){
+ const ctx=canvas.getContext('2d'),w=canvas.width,h=canvas.height;ctx.clearRect(0,0,w,h);
+ const max=Math.max(1,...values),pad=46,barW=(w-pad*2)/Math.max(1,values.length);
+ ctx.font='12px Segoe UI';ctx.fillStyle='#9eb0ba';
+ values.forEach((v,i)=>{const bh=(h-90)*(v/max),x=pad+i*barW+8,y=h-48-bh;
+ ctx.fillStyle='#d9aa4a';ctx.fillRect(x,y,Math.max(8,barW-16),bh);ctx.fillStyle='#9eb0ba';
+ ctx.save();ctx.translate(x+4,h-30);ctx.rotate(-.45);ctx.fillText(labels[i].slice(0,12),0,0);ctx.restore();
+ ctx.fillStyle='#eef3f6';ctx.fillText(String(Math.round(v)),x,y-6)});
+}
+function drawCharts(ps){
+ const top=ps.slice(0,8);
+ drawBar(document.getElementById('scoreChart'),top.map(p=>p.pilot),top.map(p=>p.score));
+ drawBar(document.getElementById('killChart'),top.map(p=>p.pilot),top.map(p=>p.air+p.ground+p.ships));
+ drawBar(document.getElementById('bombChart'),top.map(p=>p.pilot),top.map(p=>p.bomb/1000));
+}
+function bindPilotClicks(){
+ document.querySelectorAll('[data-pilot]').forEach(el=>el.onclick=()=>openPilot(el.dataset.pilot));
+}
+function openPilot(name){
+ const p=pilotRows.find(x=>x.pilot===name);if(!p)return;
+ document.getElementById('modalPilotName').textContent=p.pilot;
+ document.getElementById('modalRank').textContent=p.rank;
+ const stats=[['Score',p.score],['Sorties',p.sorties],['Successful',p.successful],['Success Rate',(p.successRate*100).toFixed(1)+'%'],['Air Kills',p.air],['Ground Kills',p.ground],['Ship Kills',p.ships],['Deaths',p.deaths],['K/D',p.kd],['Landings',p.landings],['Bailouts',p.bailouts],['Bomb Kg',p.bomb.toLocaleString()],['Flight Hours',p.hours],['Last Seen',p.lastSeen||'—']];
+ document.getElementById('profileGrid').innerHTML=stats.map(x=>`<div class="profile-stat"><div class="label">${x[0]}</div><div class="value" style="font-size:22px">${x[1]}</div></div>`).join('');
+ document.getElementById('awardList').innerHTML=awards(p).map(a=>`<span class="medal">${esc(a)}</span>`).join('');
+ document.getElementById('pilotModal').classList.add('open');
+}
+async function load(){
+ try{
+  const r=await fetch('./data/portal.json?ts='+Date.now(),{cache:'no-store'});
+  if(!r.ok)throw Error('HTTP '+r.status);
+  portal=await r.json();render();
+ }catch(e){console.error(e);document.getElementById('status').textContent='Could not load campaign data: '+e.message}
+}
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{
+ document.querySelectorAll('nav button').forEach(x=>x.classList.remove('active'));b.classList.add('active');
+ document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));document.getElementById(b.dataset.view).classList.add('active');
+});
+document.getElementById('pilotSearch').oninput=e=>{
+ const q=e.target.value.toLowerCase();document.querySelectorAll('#pilotTable tbody tr').forEach(r=>r.style.display=r.textContent.toLowerCase().includes(q)?'':'none')
 };
-
-load();
-setInterval(load, 30000);
-</script></body></html>
+document.getElementById('armyFilter').onchange=()=>renderAircraft(aircraft());
+document.getElementById('closeModal').onclick=()=>document.getElementById('pilotModal').classList.remove('open');
+document.getElementById('pilotModal').onclick=e=>{if(e.target.id==='pilotModal')e.currentTarget.classList.remove('open')};
+load();setInterval(load,30000);
+</script>
+</body>
+</html>
