@@ -17,13 +17,119 @@ th:nth-child(2),td:nth-child(2),th:nth-child(3),td:nth-child(3){text-align:left}
 <div class="panel"><div class="toolbar"><strong>Pilot Leaderboard</strong><input id="search" placeholder="Search pilot or rank"></div>
 <div class="tablewrap"><table id="table"></table></div></div></main>
 <script>
-let data={};
-const esc=x=>String(x??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
-function render(){const c=data.campaign||{},p=data.pilots||[];
-document.getElementById('cards').innerHTML=[['RAF Points',c.RedCampaignPoints||0],['LW Points',c.BlueCampaignPoints||0],['Pilots',p.length],['Destroyed Targets',(data.destroyedTargets||[]).length],['Damaged Targets',(data.targetDamage||[]).length]].map(x=>`<div class="card"><div class="label">${x[0]}</div><div class="value">${x[1]}</div></div>`).join('');
-document.getElementById('table').innerHTML='<thead><tr><th>#</th><th>Pilot</th><th>Rank</th><th>Score</th><th>Sorties</th><th>Air</th><th>Ground</th><th>Ships</th><th>Deaths</th><th>K/D</th><th>Bomb kg</th><th>Hours</th></tr></thead><tbody>'+p.map(x=>`<tr><td>${x.position}</td><td class="pilot">${esc(x.pilot)}</td><td>${esc(x.rank)}</td><td>${x.score}</td><td>${x.sorties}</td><td>${x.airKills}</td><td>${x.groundKills}</td><td>${x.shipKills}</td><td>${x.deaths}</td><td>${x.killDeathRatio}</td><td>${x.bombKg}</td><td>${x.flightHours}</td></tr>`).join('')+'</tbody>';
-document.getElementById('status').textContent='Updated '+new Date(data.generatedUtc).toLocaleString();}
-async function load(){try{const r=await fetch('data/portal.json?ts='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);data=await r.json();render()}catch(e){document.getElementById('status').textContent='Waiting for published data…'}}
-document.getElementById('search').oninput=e=>{const q=e.target.value.toLowerCase();document.querySelectorAll('tbody tr').forEach(r=>r.style.display=r.textContent.toLowerCase().includes(q)?'':'none')};
-load();setInterval(load,30000);
+let data = {};
+
+const esc = x =>
+  String(x ?? '').replace(
+    /[&<>"']/g,
+    m => ({
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      '"': '&quot;',
+      "'": '&#39;'
+    }[m])
+  );
+
+function render() {
+  const c = data.Campaign || data.campaign || {};
+  const p = data.Pilots || data.pilots || [];
+  const destroyed =
+    data.DestroyedTargets || data.destroyedTargets || [];
+  const damaged =
+    data.TargetDamage || data.targetDamage || [];
+  const generated =
+    data.GeneratedUtc || data.generatedUtc;
+
+  document.getElementById('cards').innerHTML = [
+    ['RAF Points', c.RedCampaignPoints || 0],
+    ['LW Points', c.BlueCampaignPoints || 0],
+    ['Pilots', p.length],
+    ['Destroyed Targets', destroyed.length],
+    ['Damaged Targets', damaged.length]
+  ].map(x => `
+    <div class="card">
+      <div class="label">${x[0]}</div>
+      <div class="value">${x[1]}</div>
+    </div>
+  `).join('');
+
+  document.getElementById('table').innerHTML =
+    '<thead><tr>' +
+    '<th>#</th><th>Pilot</th><th>Rank</th><th>Score</th>' +
+    '<th>Sorties</th><th>Air</th><th>Ground</th><th>Ships</th>' +
+    '<th>Deaths</th><th>K/D</th><th>Bomb kg</th><th>Hours</th>' +
+    '</tr></thead><tbody>' +
+
+    p.map(x => {
+      const position = x.Position ?? x.position ?? '';
+      const pilot = x.Pilot ?? x.pilot ?? '';
+      const rank = x.Rank ?? x.rank ?? '';
+      const score = x.Score ?? x.score ?? 0;
+      const sorties = x.Sorties ?? x.sorties ?? 0;
+      const air = x.AirKills ?? x.airKills ?? 0;
+      const ground = x.GroundKills ?? x.groundKills ?? 0;
+      const ships = x.ShipKills ?? x.shipKills ?? 0;
+      const deaths = x.Deaths ?? x.deaths ?? 0;
+      const kd = x.KillDeathRatio ?? x.killDeathRatio ?? 0;
+      const bombKg = x.BombKg ?? x.bombKg ?? 0;
+      const hours = x.FlightHours ?? x.flightHours ?? 0;
+
+      return `
+        <tr>
+          <td>${position}</td>
+          <td class="pilot">${esc(pilot)}</td>
+          <td>${esc(rank)}</td>
+          <td>${score}</td>
+          <td>${sorties}</td>
+          <td>${air}</td>
+          <td>${ground}</td>
+          <td>${ships}</td>
+          <td>${deaths}</td>
+          <td>${kd}</td>
+          <td>${bombKg}</td>
+          <td>${hours}</td>
+        </tr>
+      `;
+    }).join('') +
+
+    '</tbody>';
+
+  document.getElementById('status').textContent =
+    generated
+      ? 'Updated ' + new Date(generated).toLocaleString()
+      : 'Data loaded';
+}
+
+async function load() {
+  try {
+    const response = await fetch(
+      './data/portal.json?ts=' + Date.now(),
+      { cache: 'no-store' }
+    );
+
+    if (!response.ok) {
+      throw new Error('HTTP ' + response.status);
+    }
+
+    data = await response.json();
+    render();
+  } catch (error) {
+    console.error(error);
+    document.getElementById('status').textContent =
+      'Could not load campaign data: ' + error.message;
+  }
+}
+
+document.getElementById('search').oninput = event => {
+  const query = event.target.value.toLowerCase();
+
+  document.querySelectorAll('tbody tr').forEach(row => {
+    row.style.display =
+      row.textContent.toLowerCase().includes(query) ? '' : 'none';
+  });
+};
+
+load();
+setInterval(load, 30000);
 </script></body></html>
