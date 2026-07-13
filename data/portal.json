@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-13T20:52:12.6277457Z",
+  "GeneratedUtc": "2026-07-13T20:53:12.6343294Z",
   "Campaign": {
     "RedCampaignPoints": 400,
     "BlueCampaignPoints": 300,
@@ -39,9 +39,9 @@
       "Pilot": "TWC_Pedro",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 15,
-      "Sorties": 8,
+      "Sorties": 9,
       "SuccessfulSorties": 3,
-      "SuccessRate": 0.375,
+      "SuccessRate": 0.3333,
       "AirKills": 0,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -53,7 +53,7 @@
       "BombKg": 0,
       "FlightMinutes": 373.2,
       "FlightHours": 6.22,
-      "LastSeenUtc": "2026-07-13 20:49:33Z"
+      "LastSeenUtc": "2026-07-13 20:52:52Z"
     },
     {
       "Position": 3,
