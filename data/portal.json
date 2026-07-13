@@ -1,0 +1,242 @@
+{
+    "generatedUtc":  "2026-07-13T18:14:47.9616961Z",
+    "campaign":  {
+                     "RedCampaignPoints":  400,
+                     "BlueCampaignPoints":  300,
+                     "RedFactoriesDestroyed":  0,
+                     "BlueFactoriesDestroyed":  0,
+                     "RedAirfieldsDestroyed":  0,
+                     "BlueAirfieldsDestroyed":  0,
+                     "RedConvoysDestroyed":  3,
+                     "BlueConvoysDestroyed":  0
+                 },
+    "pilots":  [
+                   {
+                       "pilotKey":  "twc_blacknight",
+                       "pilot":  "TWC_BlacKnight",
+                       "rank":  "Wing Commander / Major",
+                       "score":  2690,
+                       "sorties":  60,
+                       "successfulSorties":  8,
+                       "successRate":  0.1333,
+                       "airKills":  26,
+                       "groundKills":  2,
+                       "shipKills":  0,
+                       "totalKills":  28,
+                       "deaths":  0,
+                       "killDeathRatio":  28,
+                       "bailouts":  0,
+                       "landings":  8,
+                       "bombKg":  0,
+                       "flightMinutes":  11110.78,
+                       "flightHours":  185.18,
+                       "lastSeenUtc":  "2026-07-13 16:17:18Z",
+                       "position":  1
+                   },
+                   {
+                       "pilotKey":  "twc_pedro",
+                       "pilot":  "TWC_Pedro",
+                       "rank":  "Pilot Officer / Feldwebel",
+                       "score":  15,
+                       "sorties":  8,
+                       "successfulSorties":  3,
+                       "successRate":  0.375,
+                       "airKills":  0,
+                       "groundKills":  0,
+                       "shipKills":  0,
+                       "totalKills":  0,
+                       "deaths":  0,
+                       "killDeathRatio":  0,
+                       "bailouts":  0,
+                       "landings":  3,
+                       "bombKg":  0,
+                       "flightMinutes":  373.2,
+                       "flightHours":  6.22,
+                       "lastSeenUtc":  "2026-07-10 00:31:24Z",
+                       "position":  2
+                   },
+                   {
+                       "pilotKey":  "atag_slot",
+                       "pilot":  "ATAG_Slot",
+                       "rank":  "Pilot Officer / Feldwebel",
+                       "score":  10,
+                       "sorties":  4,
+                       "successfulSorties":  2,
+                       "successRate":  0.5,
+                       "airKills":  0,
+                       "groundKills":  0,
+                       "shipKills":  0,
+                       "totalKills":  0,
+                       "deaths":  0,
+                       "killDeathRatio":  0,
+                       "bailouts":  0,
+                       "landings":  2,
+                       "bombKg":  0,
+                       "flightMinutes":  513.02,
+                       "flightHours":  8.55,
+                       "lastSeenUtc":  "2026-07-10 16:15:02Z",
+                       "position":  3
+                   },
+                   {
+                       "pilotKey":  "brooklynspo",
+                       "pilot":  "brooklynspo",
+                       "rank":  "Pilot Officer / Feldwebel",
+                       "score":  10,
+                       "sorties":  3,
+                       "successfulSorties":  2,
+                       "successRate":  0.6667,
+                       "airKills":  0,
+                       "groundKills":  0,
+                       "shipKills":  0,
+                       "totalKills":  0,
+                       "deaths":  0,
+                       "killDeathRatio":  0,
+                       "bailouts":  0,
+                       "landings":  2,
+                       "bombKg":  0,
+                       "flightMinutes":  132.93,
+                       "flightHours":  2.22,
+                       "lastSeenUtc":  "2026-07-06 00:53:15Z",
+                       "position":  4
+                   },
+                   {
+                       "pilotKey":  "joffski",
+                       "pilot":  "Joffski",
+                       "rank":  "Pilot Officer / Feldwebel",
+                       "score":  5,
+                       "sorties":  2,
+                       "successfulSorties":  1,
+                       "successRate":  0.5,
+                       "airKills":  0,
+                       "groundKills":  0,
+                       "shipKills":  0,
+                       "totalKills":  0,
+                       "deaths":  0,
+                       "killDeathRatio":  0,
+                       "bailouts":  0,
+                       "landings":  1,
+                       "bombKg":  0,
+                       "flightMinutes":  55.05,
+                       "flightHours":  0.92,
+                       "lastSeenUtc":  "2026-07-06 19:36:03Z",
+                       "position":  5
+                   },
+                   {
+                       "pilotKey":  "palidian",
+                       "pilot":  "palidian",
+                       "rank":  "Pilot Officer / Feldwebel",
+                       "score":  0,
+                       "sorties":  3,
+                       "successfulSorties":  0,
+                       "successRate":  0,
+                       "airKills":  0,
+                       "groundKills":  0,
+                       "shipKills":  0,
+                       "totalKills":  0,
+                       "deaths":  0,
+                       "killDeathRatio":  0,
+                       "bailouts":  0,
+                       "landings":  0,
+                       "bombKg":  0,
+                       "flightMinutes":  32.23,
+                       "flightHours":  0.54,
+                       "lastSeenUtc":  "2026-07-10 18:59:56Z",
+                       "position":  6
+                   }
+               ],
+    "targetDamage":  [
+                         {
+                             "target":  "Oostende-Dunkirk Tanker Convoy",
+                             "damagePercent":  100
+                         },
+                         {
+                             "target":  "ObserverUxbridge (AL,27), last station of Alert (Uxbridge), ",
+                             "damagePercent":  100
+                         },
+                         {
+                             "target":  "Alert (Uxbridge) (AL,27)",
+                             "damagePercent":  100
+                         },
+                         {
+                             "target":  "Fliegerhorst Oye Plage",
+                             "damagePercent":  79
+                         },
+                         {
+                             "target":  "Fliegerhorst Calais Marck Fighter / Bomber",
+                             "damagePercent":  100
+                         },
+                         {
+                             "target":  "Calais SS Headquarter",
+                             "damagePercent":  100
+                         },
+                         {
+                             "target":  "Calais Kriegsmarine Docks Area",
+                             "damagePercent":  24
+                         },
+                         {
+                             "target":  "Calais Manufacturing Area",
+                             "damagePercent":  100
+                         },
+                         {
+                             "target":  "Bolougne_Calais Tank Convoy",
+                             "damagePercent":  100
+                         },
+                         {
+                             "target":  "Marquise West",
+                             "damagePercent":  100
+                         },
+                         {
+                             "target":  "Fliegerhorst Saint-Inglevert",
+                             "damagePercent":  100
+                         },
+                         {
+                             "target":  "Flugplatz Colembert",
+                             "damagePercent":  31
+                         },
+                         {
+                             "target":  "Flugfeld Audembert",
+                             "damagePercent":  100
+                         },
+                         {
+                             "target":  "Flugplatz Pihen Fighter",
+                             "damagePercent":  3
+                         },
+                         {
+                             "target":  "Flugplatz Norrent Fontes Bomber",
+                             "damagePercent":  100
+                         },
+                         {
+                             "target":  "Caffiers 110",
+                             "damagePercent":  8
+                         },
+                         {
+                             "target":  "Guines Airfield",
+                             "damagePercent":  81
+                         },
+                         {
+                             "target":  "Calais Rail Yard",
+                             "damagePercent":  100
+                         },
+                         {
+                             "target":  "St. Omer Wizernes Fighters",
+                             "damagePercent":  36
+                         }
+                     ],
+    "destroyedTargets":  [
+                             "Alert (Uxbridge) (AL,27)",
+                             "Bolougne_Calais Tank Convoy",
+                             "Calais Manufacturing Area",
+                             "Calais Rail Yard",
+                             "Calais SS Headquarter",
+                             "Fliegerhorst Calais Marck Fighter / Bomber",
+                             "Fliegerhorst Saint-Inglevert",
+                             "Flugfeld Audembert",
+                             "Flugplatz Norrent Fontes Bomber",
+                             "Marquise West",
+                             "ObserverUxbridge (AL,27), last station of Alert (Uxbridge),",
+                             "Oostende-Dunkirk Tanker Convoy"
+                         ],
+    "aircraftStocks":  [
+
+                       ]
+}
