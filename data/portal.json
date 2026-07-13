@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-13T21:19:12.8345934Z",
+  "GeneratedUtc": "2026-07-13T21:20:12.8304677Z",
   "Campaign": {
     "RedCampaignPoints": 400,
     "BlueCampaignPoints": 300,
@@ -17,9 +17,9 @@
       "Pilot": "TWC_BlacKnight",
       "Rank": "Wing Commander / Major",
       "Score": 2690,
-      "Sorties": 62,
+      "Sorties": 63,
       "SuccessfulSorties": 8,
-      "SuccessRate": 0.129,
+      "SuccessRate": 0.127,
       "AirKills": 26,
       "GroundKills": 2,
       "ShipKills": 0,
@@ -31,7 +31,7 @@
       "BombKg": 0,
       "FlightMinutes": 11130,
       "FlightHours": 185.5,
-      "LastSeenUtc": "2026-07-13 21:18:40Z"
+      "LastSeenUtc": "2026-07-13 21:19:21Z"
     },
     {
       "Position": 2,
@@ -39,9 +39,9 @@
       "Pilot": "TWC_Pedro",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 15,
-      "Sorties": 10,
+      "Sorties": 11,
       "SuccessfulSorties": 3,
-      "SuccessRate": 0.3,
+      "SuccessRate": 0.2727,
       "AirKills": 0,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -53,7 +53,7 @@
       "BombKg": 0,
       "FlightMinutes": 390.68,
       "FlightHours": 6.51,
-      "LastSeenUtc": "2026-07-13 21:18:31Z"
+      "LastSeenUtc": "2026-07-13 21:20:05Z"
     },
     {
       "Position": 3,
