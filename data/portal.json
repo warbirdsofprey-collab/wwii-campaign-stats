@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-13T21:33:12.9037778Z",
+  "GeneratedUtc": "2026-07-13T21:41:12.9306576Z",
   "Campaign": {
     "RedCampaignPoints": 400,
     "BlueCampaignPoints": 300,
@@ -127,7 +127,7 @@
       "Pilot": "Big-G",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -141,7 +141,7 @@
       "BombKg": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-07-13 21:33:10Z"
+      "LastSeenUtc": "2026-07-13 21:40:19Z"
     },
     {
       "Position": 7,
