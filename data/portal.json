@@ -1,7 +1,7 @@
 {
-  "GeneratedUtc": "2026-07-13T22:47:13.4424244Z",
+  "GeneratedUtc": "2026-07-13T23:00:13.5389293Z",
   "Campaign": {
-    "RedCampaignPoints": 400,
+    "RedCampaignPoints": 475,
     "BlueCampaignPoints": 300,
     "RedFactoriesDestroyed": 0,
     "BlueFactoriesDestroyed": 0,
@@ -216,6 +216,14 @@
       "damagePercent": 100
     },
     {
+      "target": "ObserverCalais (BA,21), last station of Kakadu (Calais), ",
+      "damagePercent": 100
+    },
+    {
+      "target": "Kakadu (Calais) (BA,21)",
+      "damagePercent": 100
+    },
+    {
       "target": "Guines Airfield",
       "damagePercent": 81
     },
@@ -254,7 +262,9 @@
     "Fliegerhorst Saint-Inglevert",
     "Flugfeld Audembert",
     "Flugplatz Norrent Fontes Bomber",
+    "Kakadu (Calais) (BA,21)",
     "Marquise West",
+    "ObserverCalais (BA,21), last station of Kakadu (Calais),",
     "ObserverUxbridge (AL,27), last station of Alert (Uxbridge),",
     "Oostende-Dunkirk Tanker Convoy"
   ],
