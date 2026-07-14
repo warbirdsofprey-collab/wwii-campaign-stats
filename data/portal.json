@@ -1,8 +1,8 @@
 {
-  "GeneratedUtc": "2026-07-14T22:14:00.8298302Z",
+  "GeneratedUtc": "2026-07-14T22:15:00.8416696Z",
   "Campaign": {
     "RedCampaignPoints": 1,
-    "BlueCampaignPoints": 0,
+    "BlueCampaignPoints": 2,
     "RedFactoriesDestroyed": 0,
     "BlueFactoriesDestroyed": 0,
     "RedAirfieldsDestroyed": 0,
@@ -31,11 +31,14 @@
       "BombKg": 0,
       "FlightMinutes": 815.81,
       "FlightHours": 13.6,
-      "LastSeenUtc": "2026-07-14 22:13:58Z"
+      "LastSeenUtc": "2026-07-14 22:14:16Z"
     }
   ],
   "TargetDamage": [],
-  "DestroyedTargets": [],
+  "DestroyedTargets": [
+    "Alert (Uxbridge) (AL,27)",
+    "ObserverUxbridge (AL,27), last station of Alert (Uxbridge),"
+  ],
   "AircraftStocks": [
     {
       "army": "LW / Blue",
@@ -180,7 +183,7 @@
     {
       "army": "RAF / Red",
       "aircraft": "tobruk:Aircraft.BeaufighterMkIC",
-      "available": 100
+      "available": 99
     },
     {
       "army": "RAF / Red",
@@ -271,7 +274,7 @@
   "ActivePlayers": [
     {
       "pilot": "TWC_BlacKnight",
-      "aircraft": ""
+      "aircraft": "tobruk:Aircraft.BeaufighterMkIC"
     }
   ]
 }
