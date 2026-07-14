@@ -1,8 +1,8 @@
 {
-  "GeneratedUtc": "2026-07-14T10:28:58.2626227Z",
+  "GeneratedUtc": "2026-07-14T10:34:58.2908424Z",
   "Campaign": {
-    "RedCampaignPoints": 40,
-    "BlueCampaignPoints": 8,
+    "RedCampaignPoints": 0,
+    "BlueCampaignPoints": 0,
     "RedFactoriesDestroyed": 0,
     "BlueFactoriesDestroyed": 0,
     "RedAirfieldsDestroyed": 0,
@@ -166,32 +166,8 @@
       "LastSeenUtc": "2026-07-14 00:58:21Z"
     }
   ],
-  "TargetDamage": [
-    {
-      "target": "Alert (Uxbridge) (AL,27)",
-      "damagePercent": 100
-    },
-    {
-      "target": "Bolougne_Calais Tank Convoy",
-      "damagePercent": 100
-    },
-    {
-      "target": "ObserverUxbridge (AL,27), last station of Alert (Uxbridge),",
-      "damagePercent": 100
-    },
-    {
-      "target": "Oostende-Dunkirk Tanker Convoy",
-      "damagePercent": 100
-    }
-  ],
-  "DestroyedTargets": [
-    "Alert (Uxbridge) (AL,27)",
-    "Bolougne_Calais Tank Convoy",
-    "Kakadu (Calais) (BA,21)",
-    "ObserverCalais (BA,21), last station of Kakadu (Calais),",
-    "ObserverUxbridge (AL,27), last station of Alert (Uxbridge),",
-    "Oostende-Dunkirk Tanker Convoy"
-  ],
+  "TargetDamage": [],
+  "DestroyedTargets": [],
   "AircraftStocks": [
     {
       "army": "LW / Blue",
