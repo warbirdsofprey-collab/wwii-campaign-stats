@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-14T10:49:58.3846521Z",
+  "GeneratedUtc": "2026-07-14T10:55:58.4097208Z",
   "Campaign": {
     "RedCampaignPoints": 40,
     "BlueCampaignPoints": 8,
@@ -173,6 +173,14 @@
     },
     {
       "target": "Bolougne_Calais Tank Convoy",
+      "damagePercent": 100
+    },
+    {
+      "target": "Kakadu (Calais) (BA,21)",
+      "damagePercent": 100
+    },
+    {
+      "target": "ObserverCalais (BA,21), last station of Kakadu (Calais),",
       "damagePercent": 100
     },
     {
@@ -424,5 +432,10 @@
       "available": 100
     }
   ],
-  "ActivePlayers": []
+  "ActivePlayers": [
+    {
+      "pilot": "TWC_BlacKnight",
+      "aircraft": "tobruk:Aircraft.BeaufighterMkIC"
+    }
+  ]
 }
