@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-14T00:08:13.9259341Z",
+  "GeneratedUtc": "2026-07-14T00:09:13.9268283Z",
   "Campaign": {
     "RedCampaignPoints": 475,
     "BlueCampaignPoints": 300,
@@ -149,7 +149,7 @@
       "Pilot": "palidian",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 3,
+      "Sorties": 4,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -163,7 +163,7 @@
       "BombKg": 0,
       "FlightMinutes": 32.23,
       "FlightHours": 0.54,
-      "LastSeenUtc": "2026-07-14 00:07:35Z"
+      "LastSeenUtc": "2026-07-14 00:08:40Z"
     }
   ],
   "TargetDamage": [
