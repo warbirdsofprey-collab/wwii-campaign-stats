@@ -80,15 +80,19 @@ tr:hover td{background:#1b2d37}.pilot{font-weight:800;color:#ffd77a;cursor:point
 footer{padding:24px 5vw;color:var(--muted);font-size:13px;border-top:1px solid #263a44}
 @media(max-width:850px){.hero{grid-template-columns:1fr}.status{width:100%;margin-left:0}.score-row{gap:8px}}
 @media(max-width:650px){th:nth-child(3),td:nth-child(3),th:nth-child(7),td:nth-child(7),th:nth-child(8),td:nth-child(8){display:none}nav{position:static}.toolbar{align-items:stretch;flex-direction:column}input{width:100%}}
+
+.btn{border:1px solid #3a515e;background:#182932;color:#dce7ec;border-radius:8px;padding:9px 14px;cursor:pointer}.controls{display:flex;gap:8px;flex-wrap:wrap}.export-row{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px}.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.compare-card{padding:18px}.compare-card select{width:100%;margin-bottom:12px}.compare-stat{display:flex;justify-content:space-between;padding:9px 0;border-bottom:1px solid #2b414c}
+@media(max-width:850px){.compare-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <header>
-  <div class="brand"><div class="roundel"></div><div><h1>Warbirds of Prey</h1><div class="subtitle">WWII Persistent Campaign Operations Room</div></div></div>
+  <div class="brand"><div class="roundel"></div><div><h1>Warbirds of Prey</h1><div class="subtitle">WWII Persistent Campaign Operations Room — Version 3</div></div></div>
 </header>
 <nav>
   <button data-view="dashboard" class="active">Dashboard</button>
   <button data-view="pilots">Pilots</button>
+  <button data-view="compare">Compare</button>
   <button data-view="aircraft">Aircraft</button>
   <button data-view="targets">Targets</button>
   <button data-view="charts">Charts</button>
@@ -122,10 +126,18 @@ footer{padding:24px 5vw;color:var(--muted);font-size:13px;border-top:1px solid #
 </section>
 
 <section id="pilots" class="view">
+  <div class="export-row"><button class="btn" id="exportCsv">Export Pilot CSV</button><button class="btn" id="copySummary">Copy Campaign Summary</button></div>
   <div class="panel">
-    <div class="toolbar"><h2>Pilot Leaderboard</h2><input id="pilotSearch" placeholder="Search pilot or rank…"></div>
+    <div class="toolbar"><h2>Pilot Leaderboard</h2><div class="controls"><input id="pilotSearch" placeholder="Search pilot or rank…"><select id="sortPilots"><option value="score">Score</option><option value="air">Air kills</option><option value="ground">Ground kills</option><option value="ships">Ship kills</option><option value="sorties">Sorties</option><option value="hours">Flight hours</option><option value="bomb">Bomb kg</option></select></div></div>
     <div class="tablewrap"><table id="pilotTable"></table></div>
   </div>
+</section>
+
+<section id="compare" class="view">
+  <div class="panel" style="padding:18px"><h2>Pilot Comparison</h2><div class="compare-grid">
+    <div class="compare-card"><select id="compareA"></select><div id="compareAStats"></div></div>
+    <div class="compare-card"><select id="compareB"></select><div id="compareBStats"></div></div>
+  </div></div>
 </section>
 
 <section id="aircraft" class="view">
@@ -223,12 +235,26 @@ function render(){
  ].map(x=>`<div class="card"><div class="label">${x[0]}</div><div class="value">${x[1]}</div></div>`).join('');
  const rows=ps.map(p=>[p.position,`<span class="pilot" data-pilot="${esc(p.pilot)}">${esc(p.pilot)}</span>`,esc(p.rank),p.score,p.sorties,p.air,p.ground,p.ships,p.deaths,p.kd,p.bomb,p.hours]);
  const heads=['#','Pilot','Rank','Score','Sorties','Air','Ground','Ships','Deaths','K/D','Bomb kg','Hours'];
- table(document.getElementById('pilotTable'),heads,rows);
  table(document.getElementById('topPilots'),heads,rows.slice(0,10));
- bindPilotClicks();
+ renderPilotTable();renderCompare();bindPilotClicks();
  renderAircraft(ac);renderTargets(td,dt);drawCharts(ps);
  document.getElementById('status').textContent='Updated '+(generated()?new Date(generated()).toLocaleTimeString():'now');
 }
+
+function pilotTableRows(ps){return ps.map(p=>[p.position,`<span class="pilot" data-pilot="${esc(p.pilot)}">${esc(p.pilot)}</span>`,esc(p.rank),p.score,p.sorties,p.air,p.ground,p.ships,p.deaths,p.kd,p.bomb,p.hours]);}
+function renderPilotTable(){
+ const q=document.getElementById('pilotSearch').value.toLowerCase(),key=document.getElementById('sortPilots').value;
+ let ps=[...pilotRows].filter(p=>(p.pilot+' '+p.rank).toLowerCase().includes(q));
+ ps.sort((a,b)=>(b[key]??0)-(a[key]??0));
+ const heads=['#','Pilot','Rank','Score','Sorties','Air','Ground','Ships','Deaths','K/D','Bomb kg','Hours'];
+ table(document.getElementById('pilotTable'),heads,pilotTableRows(ps));bindPilotClicks();
+}
+function compareMarkup(p){if(!p)return '<div class="empty">No pilot selected.</div>';return [['Rank',p.rank],['Score',p.score],['Sorties',p.sorties],['Success',(p.successRate*100).toFixed(1)+'%'],['Air Kills',p.air],['Ground Kills',p.ground],['Ship Kills',p.ships],['Deaths',p.deaths],['K/D',p.kd],['Bomb Kg',p.bomb],['Hours',p.hours]].map(x=>`<div class="compare-stat"><span>${x[0]}</span><strong>${x[1]}</strong></div>`).join('');}
+function renderCompare(){const a=document.getElementById('compareA'),b=document.getElementById('compareB');const opts=pilotRows.map((p,i)=>`<option value="${i}">${esc(p.pilot)}</option>`).join('');a.innerHTML=opts;b.innerHTML=opts;if(pilotRows.length>1)b.value='1';updateCompare();}
+function updateCompare(){document.getElementById('compareAStats').innerHTML=compareMarkup(pilotRows[+document.getElementById('compareA').value]);document.getElementById('compareBStats').innerHTML=compareMarkup(pilotRows[+document.getElementById('compareB').value]);}
+function exportCsvFile(){const h=['Position','Pilot','Rank','Score','Sorties','Successful Sorties','Success Rate','Air Kills','Ground Kills','Ship Kills','Deaths','K/D','Bomb Kg','Flight Hours','Last Seen'];const rows=pilotRows.map(p=>[p.position,p.pilot,p.rank,p.score,p.sorties,p.successful,p.successRate,p.air,p.ground,p.ships,p.deaths,p.kd,p.bomb,p.hours,p.lastSeen]);const csv=[h,...rows].map(r=>r.map(v=>`"${String(v).replace(/"/g,'""')}"`).join(',')).join('\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));a.download='warbirds_pilot_stats.csv';a.click();URL.revokeObjectURL(a.href);}
+async function copyCampaignSummary(){const c=campaign(),p=pilotRows[0];const text=`Warbirds of Prey Campaign\nRAF: ${c.RedCampaignPoints||0} | Luftwaffe: ${c.BlueCampaignPoints||0}\nPilots: ${pilotRows.length}\nTop Pilot: ${p?.pilot||'—'} (${p?.score||0} pts)\nUpdated: ${generated()?new Date(generated()).toLocaleString():'—'}`;await navigator.clipboard.writeText(text);const b=document.getElementById('copySummary');b.textContent='Copied';setTimeout(()=>b.textContent='Copy Campaign Summary',1500);}
+
 function renderAircraft(list){
  const filter=document.getElementById('armyFilter').value;
  const normalized=list.map(x=>({army:pick(x,'Army','army')||'',aircraft:pick(x,'Aircraft','aircraft')||'',available:+(pick(x,'Available','available')||0)}))
@@ -282,9 +308,10 @@ document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{
  document.querySelectorAll('nav button').forEach(x=>x.classList.remove('active'));b.classList.add('active');
  document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));document.getElementById(b.dataset.view).classList.add('active');
 });
-document.getElementById('pilotSearch').oninput=e=>{
- const q=e.target.value.toLowerCase();document.querySelectorAll('#pilotTable tbody tr').forEach(r=>r.style.display=r.textContent.toLowerCase().includes(q)?'':'none')
-};
+document.getElementById('pilotSearch').oninput=renderPilotTable;
+document.getElementById('sortPilots').onchange=renderPilotTable;
+document.getElementById('compareA').onchange=updateCompare;document.getElementById('compareB').onchange=updateCompare;
+document.getElementById('exportCsv').onclick=exportCsvFile;document.getElementById('copySummary').onclick=copyCampaignSummary;
 document.getElementById('armyFilter').onchange=()=>renderAircraft(aircraft());
 document.getElementById('closeModal').onclick=()=>document.getElementById('pilotModal').classList.remove('open');
 document.getElementById('pilotModal').onclick=e=>{if(e.target.id==='pilotModal')e.currentTarget.classList.remove('open')};
