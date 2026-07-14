@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-14T11:24:56.6178939Z",
+  "GeneratedUtc": "2026-07-14T11:25:56.6282150Z",
   "Campaign": {
     "RedCampaignPoints": 0,
     "BlueCampaignPoints": 0,
@@ -17,7 +17,7 @@
       "Pilot": "TWC_BlacKnight",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -31,7 +31,7 @@
       "BombKg": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-07-14 11:24:24Z"
+      "LastSeenUtc": "2026-07-14 11:25:12Z"
     }
   ],
   "TargetDamage": [],
