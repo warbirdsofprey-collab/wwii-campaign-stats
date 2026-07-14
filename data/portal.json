@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-14T05:35:56.3230409Z",
+  "GeneratedUtc": "2026-07-14T05:38:56.3524678Z",
   "Campaign": {
     "RedCampaignPoints": 40,
     "BlueCampaignPoints": 8,
@@ -424,10 +424,5 @@
       "available": 100
     }
   ],
-  "ActivePlayers": [
-    {
-      "pilot": "Big-G",
-      "aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late"
-    }
-  ]
+  "ActivePlayers": []
 }
