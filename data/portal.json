@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-15T01:12:01.9885191Z",
+  "GeneratedUtc": "2026-07-15T01:17:02.0608249Z",
   "Campaign": {
     "RedCampaignPoints": 1,
     "BlueCampaignPoints": 2,
@@ -7,7 +7,7 @@
     "BlueFactoriesDestroyed": 0,
     "RedAirfieldsDestroyed": 0,
     "BlueAirfieldsDestroyed": 0,
-    "RedConvoysDestroyed": 0,
+    "RedConvoysDestroyed": 1,
     "BlueConvoysDestroyed": 0
   },
   "Pilots": [
