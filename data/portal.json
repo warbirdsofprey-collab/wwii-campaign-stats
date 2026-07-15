@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-15T21:02:46.3694826Z",
+  "GeneratedUtc": "2026-07-15T21:03:46.3805922Z",
   "Campaign": {
     "RedCampaignPoints": 10,
     "BlueCampaignPoints": 2,
@@ -31,7 +31,7 @@
       "BombKg": 0,
       "FlightMinutes": 1929.93,
       "FlightHours": 32.17,
-      "LastSeenUtc": "2026-07-15 21:02:03Z"
+      "LastSeenUtc": "2026-07-15 21:03:02Z"
     },
     {
       "Position": 2,
@@ -294,7 +294,7 @@
     {
       "army": "RAF / Red",
       "aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late",
-      "available": 73
+      "available": 72
     },
     {
       "army": "RAF / Red",
