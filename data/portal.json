@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-15T11:18:45.3030099Z",
+  "GeneratedUtc": "2026-07-15T11:29:45.3107146Z",
   "Campaign": {
     "RedCampaignPoints": 7,
     "BlueCampaignPoints": 2,
@@ -100,7 +100,20 @@
       "LastSeenUtc": "2026-07-15 00:34:37Z"
     }
   ],
-  "TargetDamage": [],
+  "TargetDamage": [
+    {
+      "target": "Alert (Uxbridge) (AL,27)",
+      "damagePercent": 100
+    },
+    {
+      "target": "ObserverUxbridge (AL,27), last station of Alert (Uxbridge),",
+      "damagePercent": 100
+    },
+    {
+      "target": "Oostende-Dunkirk Tanker Convoy",
+      "damagePercent": 100
+    }
+  ],
   "DestroyedTargets": [
     "Alert (Uxbridge) (AL,27)",
     "ObserverUxbridge (AL,27), last station of Alert (Uxbridge),",
