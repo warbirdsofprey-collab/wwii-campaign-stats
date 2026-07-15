@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-15T01:33:02.2122858Z",
+  "GeneratedUtc": "2026-07-15T01:42:02.2539676Z",
   "Campaign": {
     "RedCampaignPoints": 7,
     "BlueCampaignPoints": 2,
@@ -57,6 +57,28 @@
     },
     {
       "Position": 3,
+      "PilotKey": "betty \\| 6-2 big-g",
+      "Pilot": "Betty | 6-2 Big-G",
+      "Rank": "Pilot Officer / Feldwebel",
+      "Score": 0,
+      "Sorties": 0,
+      "SuccessfulSorties": 0,
+      "SuccessRate": 0,
+      "AirKills": 0,
+      "GroundKills": 0,
+      "ShipKills": 0,
+      "TotalKills": 0,
+      "Deaths": 0,
+      "KillDeathRatio": 0,
+      "Bailouts": 0,
+      "Landings": 0,
+      "BombKg": 0,
+      "FlightMinutes": 0,
+      "FlightHours": 0,
+      "LastSeenUtc": "2026-07-15 01:41:41Z"
+    },
+    {
+      "Position": 4,
       "PilotKey": "big-g",
       "Pilot": "Big-G",
       "Rank": "Pilot Officer / Feldwebel",
@@ -326,7 +348,7 @@
       "aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late"
     },
     {
-      "pilot": "Big-G",
+      "pilot": "Betty | 6-2 Big-G",
       "aircraft": ""
     }
   ]
