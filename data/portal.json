@@ -1,7 +1,7 @@
 {
-  "GeneratedUtc": "2026-07-15T20:36:46.3396944Z",
+  "GeneratedUtc": "2026-07-15T20:39:46.3557364Z",
   "Campaign": {
-    "RedCampaignPoints": 7,
+    "RedCampaignPoints": 10,
     "BlueCampaignPoints": 2,
     "RedFactoriesDestroyed": 0,
     "BlueFactoriesDestroyed": 0,
@@ -31,7 +31,7 @@
       "BombKg": 0,
       "FlightMinutes": 1848.5,
       "FlightHours": 30.81,
-      "LastSeenUtc": "2026-07-15 20:12:28Z"
+      "LastSeenUtc": "2026-07-15 20:39:44Z"
     },
     {
       "Position": 2,
@@ -116,6 +116,7 @@
   ],
   "DestroyedTargets": [
     "Alert (Uxbridge) (AL,27)",
+    "Bolougne_Calais Tank Convoy",
     "ObserverUxbridge (AL,27), last station of Alert (Uxbridge),",
     "Oostende-Dunkirk Tanker Convoy"
   ],
@@ -293,7 +294,7 @@
     {
       "army": "RAF / Red",
       "aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late",
-      "available": 75
+      "available": 74
     },
     {
       "army": "RAF / Red",
