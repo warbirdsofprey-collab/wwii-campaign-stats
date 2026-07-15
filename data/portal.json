@@ -1,7 +1,7 @@
 {
-  "GeneratedUtc": "2026-07-15T01:18:02.0792517Z",
+  "GeneratedUtc": "2026-07-15T01:22:02.1260210Z",
   "Campaign": {
-    "RedCampaignPoints": 1,
+    "RedCampaignPoints": 7,
     "BlueCampaignPoints": 2,
     "RedFactoriesDestroyed": 0,
     "BlueFactoriesDestroyed": 0,
@@ -16,16 +16,16 @@
       "PilotKey": "twc_blacknight",
       "Pilot": "TWC_BlacKnight",
       "Rank": "Flight Lieutenant / Oberleutnant",
-      "Score": 900,
+      "Score": 1000,
       "Sorties": 5,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
-      "AirKills": 9,
+      "AirKills": 10,
       "GroundKills": 0,
       "ShipKills": 0,
-      "TotalKills": 9,
+      "TotalKills": 10,
       "Deaths": 0,
-      "KillDeathRatio": 9,
+      "KillDeathRatio": 10,
       "Bailouts": 0,
       "Landings": 0,
       "BombKg": 0,
@@ -81,7 +81,8 @@
   "TargetDamage": [],
   "DestroyedTargets": [
     "Alert (Uxbridge) (AL,27)",
-    "ObserverUxbridge (AL,27), last station of Alert (Uxbridge),"
+    "ObserverUxbridge (AL,27), last station of Alert (Uxbridge),",
+    "Oostende-Dunkirk Tanker Convoy"
   ],
   "AircraftStocks": [
     {
