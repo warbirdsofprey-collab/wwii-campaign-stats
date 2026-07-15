@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-15T01:22:02.1260210Z",
+  "GeneratedUtc": "2026-07-15T01:32:02.1985974Z",
   "Campaign": {
     "RedCampaignPoints": 7,
     "BlueCampaignPoints": 2,
@@ -327,7 +327,7 @@
     },
     {
       "pilot": "Big-G",
-      "aircraft": "tobruk:Aircraft.SpitfireMkVbLate"
+      "aircraft": ""
     }
   ]
 }
