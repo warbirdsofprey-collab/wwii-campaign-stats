@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-16T01:28:47.1473945Z",
+  "GeneratedUtc": "2026-07-16T01:31:47.1651562Z",
   "Campaign": {
     "RedCampaignPoints": 16,
     "BlueCampaignPoints": 2,
@@ -107,6 +107,10 @@
     },
     {
       "target": "Bolougne_Calais Tank Convoy",
+      "damagePercent": 100
+    },
+    {
+      "target": "Calais Panzer Tank Camp",
       "damagePercent": 100
     },
     {
@@ -360,7 +364,7 @@
   "ActivePlayers": [
     {
       "pilot": "TWC_BlacKnight",
-      "aircraft": "tobruk:Aircraft.WellingtonMkIc_Late"
+      "aircraft": ""
     }
   ]
 }
