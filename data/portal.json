@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-16T23:20:52.6563546Z",
+  "GeneratedUtc": "2026-07-16T23:24:52.6727377Z",
   "Campaign": {
     "RedCampaignPoints": 17,
     "BlueCampaignPoints": 2,
@@ -31,7 +31,7 @@
       "BombKg": 0,
       "FlightMinutes": 2320.73,
       "FlightHours": 38.68,
-      "LastSeenUtc": "2026-07-16 23:16:04Z"
+      "LastSeenUtc": "2026-07-16 23:24:19Z"
     },
     {
       "Position": 2,
@@ -412,7 +412,7 @@
     },
     {
       "pilot": "TWC_BlacKnight",
-      "aircraft": "tobruk:Aircraft.WellingtonMkIc_Late"
+      "aircraft": ""
     }
   ]
 }
