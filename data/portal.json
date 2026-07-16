@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-16T01:35:47.1859834Z",
+  "GeneratedUtc": "2026-07-16T01:37:47.1972682Z",
   "Campaign": {
     "RedCampaignPoints": 16,
     "BlueCampaignPoints": 2,
@@ -39,7 +39,7 @@
       "Pilot": "TWC_Pedro",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 100,
-      "Sorties": 1,
+      "Sorties": 2,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 1,
@@ -53,7 +53,7 @@
       "BombKg": 0,
       "FlightMinutes": 167.2,
       "FlightHours": 2.79,
-      "LastSeenUtc": "2026-07-16 01:35:20Z"
+      "LastSeenUtc": "2026-07-16 01:37:13Z"
     },
     {
       "Position": 3,
@@ -303,7 +303,7 @@
     {
       "army": "RAF / Red",
       "aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late",
-      "available": 66
+      "available": 65
     },
     {
       "army": "RAF / Red",
@@ -365,6 +365,10 @@
     {
       "pilot": "TWC_BlacKnight",
       "aircraft": ""
+    },
+    {
+      "pilot": "TWC_Pedro",
+      "aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late"
     }
   ]
 }
