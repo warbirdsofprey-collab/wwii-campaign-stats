@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-16T23:24:52.6727377Z",
+  "GeneratedUtc": "2026-07-16T23:25:52.6697455Z",
   "Campaign": {
     "RedCampaignPoints": 17,
     "BlueCampaignPoints": 2,
@@ -31,7 +31,7 @@
       "BombKg": 0,
       "FlightMinutes": 2320.73,
       "FlightHours": 38.68,
-      "LastSeenUtc": "2026-07-16 23:24:19Z"
+      "LastSeenUtc": "2026-07-16 23:25:02Z"
     },
     {
       "Position": 2,
@@ -397,7 +397,7 @@
     {
       "army": "RAF / Red",
       "aircraft": "tobruk:Aircraft.WellingtonMkIc_Late",
-      "available": 92
+      "available": 91
     },
     {
       "army": "RAF / Red",
@@ -412,7 +412,7 @@
     },
     {
       "pilot": "TWC_BlacKnight",
-      "aircraft": ""
+      "aircraft": "tobruk:Aircraft.WellingtonMkIc_Late"
     }
   ]
 }
