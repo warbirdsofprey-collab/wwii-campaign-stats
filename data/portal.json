@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-16T23:07:52.5902570Z",
+  "GeneratedUtc": "2026-07-16T23:10:52.6124238Z",
   "Campaign": {
     "RedCampaignPoints": 17,
     "BlueCampaignPoints": 2,
@@ -29,8 +29,8 @@
       "Bailouts": 0,
       "Landings": 4,
       "BombKg": 0,
-      "FlightMinutes": 2271.08,
-      "FlightHours": 37.85,
+      "FlightMinutes": 2292.87,
+      "FlightHours": 38.21,
       "LastSeenUtc": "2026-07-16 22:49:03Z"
     },
     {
@@ -39,9 +39,9 @@
       "Pilot": "TWC_Pedro",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 105,
-      "Sorties": 2,
+      "Sorties": 3,
       "SuccessfulSorties": 1,
-      "SuccessRate": 0.5,
+      "SuccessRate": 0.3333,
       "AirKills": 1,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -51,9 +51,9 @@
       "Bailouts": 0,
       "Landings": 1,
       "BombKg": 0,
-      "FlightMinutes": 219.34,
+      "FlightMinutes": 219.89,
       "FlightHours": 3.66,
-      "LastSeenUtc": "2026-07-16 23:07:27Z"
+      "LastSeenUtc": "2026-07-16 23:10:07Z"
     },
     {
       "Position": 3,
@@ -377,7 +377,7 @@
     {
       "army": "RAF / Red",
       "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late",
-      "available": 98
+      "available": 97
     },
     {
       "army": "RAF / Red",
@@ -409,6 +409,10 @@
     {
       "pilot": "TWC_BlacKnight",
       "aircraft": "tobruk:Aircraft.WellingtonMkIc_Late"
+    },
+    {
+      "pilot": "TWC_Pedro",
+      "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
     }
   ]
 }
