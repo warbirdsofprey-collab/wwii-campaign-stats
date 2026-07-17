@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-17T00:24:53.1627254Z",
+  "GeneratedUtc": "2026-07-17T00:27:53.2002225Z",
   "Campaign": {
     "RedCampaignPoints": 17,
     "BlueCampaignPoints": 2,
@@ -53,7 +53,7 @@
       "BombKg": 0,
       "FlightMinutes": 219.89,
       "FlightHours": 3.66,
-      "LastSeenUtc": "2026-07-17 00:20:22Z"
+      "LastSeenUtc": "2026-07-17 00:27:40Z"
     },
     {
       "Position": 3,
@@ -347,7 +347,7 @@
     {
       "army": "RAF / Red",
       "aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late",
-      "available": 59
+      "available": 58
     },
     {
       "army": "RAF / Red",
@@ -408,7 +408,7 @@
   "ActivePlayers": [
     {
       "pilot": "TWC_Pedro",
-      "aircraft": ""
+      "aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late"
     },
     {
       "pilot": "TWC_BlacKnight",
