@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-17T01:44:53.7127503Z",
+  "GeneratedUtc": "2026-07-17T01:47:53.7491915Z",
   "Campaign": {
     "RedCampaignPoints": 42,
     "BlueCampaignPoints": 2,
@@ -17,9 +17,9 @@
       "Pilot": "TWC_BlacKnight",
       "Rank": "Squadron Leader / Hauptmann",
       "Score": 1425,
-      "Sorties": 22,
+      "Sorties": 23,
       "SuccessfulSorties": 5,
-      "SuccessRate": 0.2273,
+      "SuccessRate": 0.2174,
       "AirKills": 14,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -31,7 +31,7 @@
       "BombKg": 0,
       "FlightMinutes": 2453.4,
       "FlightHours": 40.89,
-      "LastSeenUtc": "2026-07-17 01:34:43Z"
+      "LastSeenUtc": "2026-07-17 01:47:46Z"
     },
     {
       "Position": 2,
@@ -347,7 +347,7 @@
     {
       "army": "RAF / Red",
       "aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late",
-      "available": 51
+      "available": 50
     },
     {
       "army": "RAF / Red",
@@ -408,7 +408,7 @@
   "ActivePlayers": [
     {
       "pilot": "TWC_BlacKnight",
-      "aircraft": ""
+      "aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late"
     },
     {
       "pilot": "brooklynspo",
