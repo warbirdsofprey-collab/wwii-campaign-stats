@@ -263,12 +263,20 @@ function renderAircraft(list){
  document.getElementById('aircraftGrid').innerHTML=normalized.length?normalized.map(x=>`<div class="panel aircraft-card"><h3>${esc(x.aircraft)}</h3><div class="aircraft-meta"><span>${esc(x.army)}</span><strong>${x.available} available</strong></div><div class="stockbar"><div style="width:${Math.max(4,x.available/max*100)}%"></div></div></div>`).join(''):'<div class="empty">No aircraft stock data available.</div>';
 }
 function renderTargets(td,dt){
- const rows=td.map(x=>({target:pick(x,'Target','target')||'',damage:+(pick(x,'DamagePercent','damagePercent')||0)})).sort((a,b)=>b.damage-a.damage);
+ const rows=td.map(x=>{
+  const raw=+(pick(x,'DamagePercent','damagePercent')||0);
+  const damage=Math.max(0,Math.min(100,raw));
+  return {target:pick(x,'Target','target')||'',damage,remaining:Math.max(0,100-damage)};
+ }).sort((a,b)=>b.damage-a.damage);
  document.getElementById('destroyedTotal').textContent=dt.length;
- document.getElementById('damageTotal').textContent=rows.length;
+ document.getElementById('damageTotal').textContent=rows.filter(x=>x.damage<100).length;
  document.getElementById('avgDamage').textContent=(rows.length?rows.reduce((s,x)=>s+x.damage,0)/rows.length:0).toFixed(0)+'%';
- document.getElementById('damageGrid').innerHTML=rows.length?rows.map(x=>`<div class="target-card"><h3>${esc(x.target)}</h3><div class="target-meta"><span>${x.damage>=100?'Destroyed':x.damage>=50?'Heavily damaged':'Damaged'}</span><strong>${x.damage}%</strong></div><div class="damagebar"><div style="width:${Math.min(100,x.damage)}%"></div></div></div>`).join(''):'<div class="empty">No damaged targets reported.</div>';
- document.getElementById('destroyedList').innerHTML=dt.length?dt.map(x=>`<div class="target-card"><h3>${esc(x)}</h3><div class="small">Destroyed</div></div>`).join(''):'<div class="empty">No destroyed targets reported.</div>';
+ document.getElementById('damageGrid').innerHTML=rows.length?rows.map(x=>{
+  const status=x.damage>=100?'Destroyed':x.remaining<=20?'Nearly destroyed':x.damage>=50?'Priority target':'Needs attack';
+  const action=x.damage>=100?'Objective complete':`${x.remaining}% remaining`;
+  return `<div class="target-card"><h3>${esc(x.target)}</h3><div class="target-meta"><span>${status}</span><strong>${x.damage}% damaged</strong></div><div class="damagebar"><div style="width:${x.damage}%"></div></div><div class="target-meta" style="margin-top:10px"><span>Attack remaining</span><strong>${action}</strong></div></div>`;
+ }).join(''):'<div class="empty">No target damage data reported.</div>';
+ document.getElementById('destroyedList').innerHTML=dt.length?dt.map(x=>`<div class="target-card"><h3>${esc(x)}</h3><div class="small">Destroyed — 0% remaining</div></div>`).join(''):'<div class="empty">No destroyed targets reported.</div>';
 }
 function drawBar(canvas,labels,values,title){
  const ctx=canvas.getContext('2d'),w=canvas.width,h=canvas.height;ctx.clearRect(0,0,w,h);
