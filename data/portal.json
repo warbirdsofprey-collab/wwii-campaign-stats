@@ -1,7 +1,7 @@
 {
-  "GeneratedUtc": "2026-07-17T22:14:44.3109605Z",
+  "GeneratedUtc": "2026-07-17T22:15:44.3260991Z",
   "Campaign": {
-    "RedCampaignPoints": 42,
+    "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
     "RedFactoriesDestroyed": 0,
     "BlueFactoriesDestroyed": 0,
@@ -142,6 +142,10 @@
     {
       "target": "Oostende-Dunkirk Tanker Convoy",
       "damagePercent": 100
+    },
+    {
+      "target": "Coquelles Fighter",
+      "damagePercent": 98
     },
     {
       "target": "Marquise West",
