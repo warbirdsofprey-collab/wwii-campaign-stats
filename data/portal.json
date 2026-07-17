@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-17T22:29:44.4429804Z",
+  "GeneratedUtc": "2026-07-17T22:30:44.4480577Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -31,7 +31,7 @@
       "BombTargetsDestroyed": 0,
       "FlightMinutes": 2956.45,
       "FlightHours": 49.27,
-      "LastSeenUtc": "2026-07-17 22:14:35Z"
+      "LastSeenUtc": "2026-07-17 22:30:10Z"
     },
     {
       "Position": 2,
@@ -363,7 +363,7 @@
     {
       "army": "RAF / Red",
       "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late",
-      "available": 93
+      "available": 92
     },
     {
       "army": "RAF / Red",
@@ -394,7 +394,7 @@
   "ActivePlayers": [
     {
       "pilot": "TWC_BlacKnight",
-      "aircraft": ""
+      "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
     },
     {
       "pilot": "TWC_Pedro",
