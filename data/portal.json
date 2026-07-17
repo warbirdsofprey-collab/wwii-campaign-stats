@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-17T11:44:55.4400026Z",
+  "GeneratedUtc": "2026-07-17T11:49:44.7931847Z",
   "Campaign": {
     "RedCampaignPoints": 42,
     "BlueCampaignPoints": 2,
@@ -28,7 +28,7 @@
       "KillDeathRatio": 18,
       "Bailouts": 0,
       "Landings": 6,
-      "BombKg": 0,
+      "BombTargetsDestroyed": 0,
       "FlightMinutes": 2502.24,
       "FlightHours": 41.7,
       "LastSeenUtc": "2026-07-17 02:23:02Z"
@@ -50,7 +50,7 @@
       "KillDeathRatio": 1,
       "Bailouts": 0,
       "Landings": 2,
-      "BombKg": 0,
+      "BombTargetsDestroyed": 0,
       "FlightMinutes": 349.36,
       "FlightHours": 5.82,
       "LastSeenUtc": "2026-07-17 01:02:42Z"
@@ -72,7 +72,7 @@
       "KillDeathRatio": 0,
       "Bailouts": 0,
       "Landings": 1,
-      "BombKg": 0,
+      "BombTargetsDestroyed": 0,
       "FlightMinutes": 94.8,
       "FlightHours": 1.58,
       "LastSeenUtc": "2026-07-17 01:40:20Z"
@@ -94,7 +94,7 @@
       "KillDeathRatio": 0,
       "Bailouts": 0,
       "Landings": 0,
-      "BombKg": 0,
+      "BombTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
       "LastSeenUtc": "2026-07-15 01:41:41Z"
@@ -116,7 +116,7 @@
       "KillDeathRatio": 0,
       "Bailouts": 0,
       "Landings": 0,
-      "BombKg": 0,
+      "BombTargetsDestroyed": 0,
       "FlightMinutes": 57.52,
       "FlightHours": 0.96,
       "LastSeenUtc": "2026-07-15 00:34:37Z"
@@ -138,7 +138,7 @@
       "KillDeathRatio": 0,
       "Bailouts": 0,
       "Landings": 0,
-      "BombKg": 0,
+      "BombTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
       "LastSeenUtc": "2026-07-16 19:18:55Z"
