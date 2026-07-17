@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-17T01:33:53.6350145Z",
+  "GeneratedUtc": "2026-07-17T01:34:53.6502510Z",
   "Campaign": {
     "RedCampaignPoints": 42,
     "BlueCampaignPoints": 2,
@@ -31,7 +31,7 @@
       "BombKg": 0,
       "FlightMinutes": 2453.4,
       "FlightHours": 40.89,
-      "LastSeenUtc": "2026-07-17 01:17:12Z"
+      "LastSeenUtc": "2026-07-17 01:34:43Z"
     },
     {
       "Position": 2,
@@ -407,12 +407,8 @@
   ],
   "ActivePlayers": [
     {
-      "pilot": "TWC_Pedro",
-      "aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late"
-    },
-    {
       "pilot": "TWC_BlacKnight",
-      "aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late"
+      "aircraft": ""
     }
   ]
 }
