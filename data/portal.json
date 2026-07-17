@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-17T00:04:53.0141941Z",
+  "GeneratedUtc": "2026-07-17T00:14:53.0931301Z",
   "Campaign": {
     "RedCampaignPoints": 17,
     "BlueCampaignPoints": 2,
@@ -31,7 +31,7 @@
       "BombKg": 0,
       "FlightMinutes": 2320.73,
       "FlightHours": 38.68,
-      "LastSeenUtc": "2026-07-17 00:04:52Z"
+      "LastSeenUtc": "2026-07-17 00:04:53Z"
     },
     {
       "Position": 2,
@@ -53,7 +53,7 @@
       "BombKg": 0,
       "FlightMinutes": 219.89,
       "FlightHours": 3.66,
-      "LastSeenUtc": "2026-07-16 23:20:00Z"
+      "LastSeenUtc": "2026-07-17 00:14:36Z"
     },
     {
       "Position": 3,
@@ -377,7 +377,7 @@
     {
       "army": "RAF / Red",
       "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late",
-      "available": 96
+      "available": 95
     },
     {
       "army": "RAF / Red",
@@ -397,7 +397,7 @@
     {
       "army": "RAF / Red",
       "aircraft": "tobruk:Aircraft.WellingtonMkIc_Late",
-      "available": 91
+      "available": 90
     },
     {
       "army": "RAF / Red",
