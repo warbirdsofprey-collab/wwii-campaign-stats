@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-17T22:25:44.3959503Z",
+  "GeneratedUtc": "2026-07-17T22:29:44.4429804Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -39,9 +39,9 @@
       "Pilot": "TWC_Pedro",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 110,
-      "Sorties": 4,
+      "Sorties": 5,
       "SuccessfulSorties": 2,
-      "SuccessRate": 0.5,
+      "SuccessRate": 0.4,
       "AirKills": 1,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -53,7 +53,7 @@
       "BombTargetsDestroyed": 0,
       "FlightMinutes": 349.36,
       "FlightHours": 5.82,
-      "LastSeenUtc": "2026-07-17 22:24:53Z"
+      "LastSeenUtc": "2026-07-17 22:29:27Z"
     },
     {
       "Position": 3,
@@ -363,7 +363,7 @@
     {
       "army": "RAF / Red",
       "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late",
-      "available": 94
+      "available": 93
     },
     {
       "army": "RAF / Red",
@@ -398,7 +398,7 @@
     },
     {
       "pilot": "TWC_Pedro",
-      "aircraft": ""
+      "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
     }
   ]
 }
