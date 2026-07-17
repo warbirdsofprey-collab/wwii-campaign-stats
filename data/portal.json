@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-17T18:15:42.7231684Z",
+  "GeneratedUtc": "2026-07-17T18:20:42.7813569Z",
   "Campaign": {
     "RedCampaignPoints": 42,
     "BlueCampaignPoints": 2,
@@ -142,6 +142,10 @@
     {
       "target": "Oostende-Dunkirk Tanker Convoy",
       "damagePercent": 100
+    },
+    {
+      "target": "Marquise West",
+      "damagePercent": 22
     }
   ],
   "DestroyedTargets": [
