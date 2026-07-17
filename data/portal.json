@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-17T00:14:53.0931301Z",
+  "GeneratedUtc": "2026-07-17T00:15:53.0908069Z",
   "Campaign": {
     "RedCampaignPoints": 17,
     "BlueCampaignPoints": 2,
@@ -53,7 +53,7 @@
       "BombKg": 0,
       "FlightMinutes": 219.89,
       "FlightHours": 3.66,
-      "LastSeenUtc": "2026-07-17 00:14:36Z"
+      "LastSeenUtc": "2026-07-17 00:15:47Z"
     },
     {
       "Position": 3,
@@ -377,7 +377,7 @@
     {
       "army": "RAF / Red",
       "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late",
-      "available": 95
+      "available": 94
     },
     {
       "army": "RAF / Red",
