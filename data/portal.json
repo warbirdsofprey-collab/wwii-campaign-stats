@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-18T20:36:50.9763332Z",
+  "GeneratedUtc": "2026-07-18T20:37:50.9791802Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -17,9 +17,9 @@
       "Pilot": "TWC_BlacKnight",
       "Rank": "Squadron Leader / Hauptmann",
       "Score": 1965,
-      "Sorties": 41,
+      "Sorties": 42,
       "SuccessfulSorties": 13,
-      "SuccessRate": 0.3171,
+      "SuccessRate": 0.3095,
       "AirKills": 19,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -31,7 +31,7 @@
       "BombTargetsDestroyed": 0,
       "FlightMinutes": 3506.84,
       "FlightHours": 58.45,
-      "LastSeenUtc": "2026-07-18 20:10:41Z"
+      "LastSeenUtc": "2026-07-18 20:37:25Z"
     },
     {
       "Position": 2,
@@ -383,7 +383,7 @@
     {
       "army": "RAF / Red",
       "aircraft": "tobruk:Aircraft.WellingtonMkIc_Late",
-      "available": 83
+      "available": 82
     },
     {
       "army": "RAF / Red",
