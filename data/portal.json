@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-18T01:34:45.7071052Z",
+  "GeneratedUtc": "2026-07-18T01:40:45.7156953Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -392,10 +392,6 @@
     }
   ],
   "ActivePlayers": [
-    {
-      "pilot": "TWC_BlacKnight",
-      "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
-    },
     {
       "pilot": "Betty | 6-2 Big-G",
       "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
