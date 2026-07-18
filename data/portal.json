@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-18T01:14:45.6035544Z",
+  "GeneratedUtc": "2026-07-18T01:16:45.6129579Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -17,9 +17,9 @@
       "Pilot": "TWC_BlacKnight",
       "Rank": "Squadron Leader / Hauptmann",
       "Score": 1940,
-      "Sorties": 30,
+      "Sorties": 31,
       "SuccessfulSorties": 8,
-      "SuccessRate": 0.2667,
+      "SuccessRate": 0.2581,
       "AirKills": 19,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -31,7 +31,7 @@
       "BombTargetsDestroyed": 0,
       "FlightMinutes": 3209.04,
       "FlightHours": 53.48,
-      "LastSeenUtc": "2026-07-18 01:12:42Z"
+      "LastSeenUtc": "2026-07-18 01:16:09Z"
     },
     {
       "Position": 2,
@@ -83,7 +83,7 @@
       "Pilot": "Betty | 6-2 Big-G",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -97,7 +97,7 @@
       "BombTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-07-18 01:12:37Z"
+      "LastSeenUtc": "2026-07-18 01:16:05Z"
     },
     {
       "Position": 5,
@@ -363,7 +363,7 @@
     {
       "army": "RAF / Red",
       "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late",
-      "available": 91
+      "available": 89
     },
     {
       "army": "RAF / Red",
@@ -394,11 +394,11 @@
   "ActivePlayers": [
     {
       "pilot": "Betty | 6-2 Big-G",
-      "aircraft": ""
+      "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
     },
     {
       "pilot": "TWC_BlacKnight",
-      "aircraft": ""
+      "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
     }
   ]
 }
