@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-18T03:02:46.2148991Z",
+  "GeneratedUtc": "2026-07-18T03:03:46.2368665Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -31,7 +31,7 @@
       "BombTargetsDestroyed": 0,
       "FlightMinutes": 3225.69,
       "FlightHours": 53.76,
-      "LastSeenUtc": "2026-07-18 03:00:00Z"
+      "LastSeenUtc": "2026-07-18 03:02:51Z"
     },
     {
       "Position": 2,
@@ -97,7 +97,7 @@
       "BombTargetsDestroyed": 0,
       "FlightMinutes": 38.47,
       "FlightHours": 0.64,
-      "LastSeenUtc": "2026-07-18 03:02:14Z"
+      "LastSeenUtc": "2026-07-18 03:03:06Z"
     },
     {
       "Position": 5,
@@ -363,7 +363,7 @@
     {
       "army": "RAF / Red",
       "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late",
-      "available": 82
+      "available": 81
     },
     {
       "army": "RAF / Red",
@@ -393,12 +393,12 @@
   ],
   "ActivePlayers": [
     {
-      "pilot": "TWC_BlacKnight",
+      "pilot": "Betty | 6-2 Big-G",
       "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
     },
     {
-      "pilot": "Betty | 6-2 Big-G",
-      "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
+      "pilot": "TWC_BlacKnight",
+      "aircraft": ""
     }
   ]
 }
