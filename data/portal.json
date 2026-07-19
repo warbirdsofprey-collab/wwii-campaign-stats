@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-19T12:20:54.8917410Z",
+  "GeneratedUtc": "2026-07-19T12:26:54.9548458Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -29,8 +29,8 @@
       "Bailouts": 0,
       "Landings": 14,
       "BombTargetsDestroyed": 0,
-      "FlightMinutes": 3930.43,
-      "FlightHours": 65.51,
+      "FlightMinutes": 4018.51,
+      "FlightHours": 66.98,
       "LastSeenUtc": "2026-07-19 12:18:18Z"
     },
     {
@@ -146,6 +146,10 @@
     {
       "target": "Coquelles Fighter",
       "damagePercent": 98
+    },
+    {
+      "target": "Flugplatz Abbeville",
+      "damagePercent": 22
     },
     {
       "target": "Marquise West",
