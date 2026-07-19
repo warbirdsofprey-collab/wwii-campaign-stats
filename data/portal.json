@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-19T01:43:52.8469627Z",
+  "GeneratedUtc": "2026-07-19T01:45:52.8358601Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -31,7 +31,7 @@
       "BombTargetsDestroyed": 0,
       "FlightMinutes": 3816.78,
       "FlightHours": 63.61,
-      "LastSeenUtc": "2026-07-19 01:18:49Z"
+      "LastSeenUtc": "2026-07-19 01:45:51Z"
     },
     {
       "Position": 2,
@@ -61,9 +61,9 @@
       "Pilot": "brooklynspo",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 5,
-      "Sorties": 3,
+      "Sorties": 4,
       "SuccessfulSorties": 1,
-      "SuccessRate": 0.3333,
+      "SuccessRate": 0.25,
       "AirKills": 0,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -75,7 +75,7 @@
       "BombTargetsDestroyed": 0,
       "FlightMinutes": 94.8,
       "FlightHours": 1.58,
-      "LastSeenUtc": "2026-07-19 01:39:21Z"
+      "LastSeenUtc": "2026-07-19 01:45:34Z"
     },
     {
       "Position": 4,
@@ -363,7 +363,7 @@
     {
       "army": "RAF / Red",
       "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late",
-      "available": 80
+      "available": 79
     },
     {
       "army": "RAF / Red",
@@ -398,7 +398,7 @@
     },
     {
       "pilot": "brooklynspo",
-      "aircraft": ""
+      "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
     }
   ]
 }
