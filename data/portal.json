@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-19T01:39:52.8131200Z",
+  "GeneratedUtc": "2026-07-19T01:43:52.8469627Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -394,7 +394,11 @@
   "ActivePlayers": [
     {
       "pilot": "TWC_BlacKnight",
-      "aircraft": "tobruk:Aircraft.WellingtonMkIc_Late"
+      "aircraft": ""
+    },
+    {
+      "pilot": "brooklynspo",
+      "aircraft": ""
     }
   ]
 }
