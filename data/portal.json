@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-19T22:59:58.8408415Z",
+  "GeneratedUtc": "2026-07-19T23:07:58.8959034Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -398,7 +398,7 @@
   "ActivePlayers": [
     {
       "pilot": "TWC_BlacKnight",
-      "aircraft": ""
+      "aircraft": "bob:Aircraft.BlenheimMkIV_Late"
     }
   ]
 }
