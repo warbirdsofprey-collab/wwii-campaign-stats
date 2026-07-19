@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-19T02:24:53.1698752Z",
+  "GeneratedUtc": "2026-07-19T02:25:53.1927059Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -31,7 +31,7 @@
       "BombTargetsDestroyed": 0,
       "FlightMinutes": 3903.48,
       "FlightHours": 65.06,
-      "LastSeenUtc": "2026-07-19 01:57:19Z"
+      "LastSeenUtc": "2026-07-19 02:25:04Z"
     },
     {
       "Position": 2,
@@ -61,9 +61,9 @@
       "Pilot": "brooklynspo",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 5,
-      "Sorties": 4,
+      "Sorties": 5,
       "SuccessfulSorties": 1,
-      "SuccessRate": 0.25,
+      "SuccessRate": 0.2,
       "AirKills": 0,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -75,7 +75,7 @@
       "BombTargetsDestroyed": 0,
       "FlightMinutes": 132.6,
       "FlightHours": 2.21,
-      "LastSeenUtc": "2026-07-19 02:24:27Z"
+      "LastSeenUtc": "2026-07-19 02:25:48Z"
     },
     {
       "Position": 4,
@@ -363,7 +363,7 @@
     {
       "army": "RAF / Red",
       "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late",
-      "available": 77
+      "available": 76
     },
     {
       "army": "RAF / Red",
@@ -395,6 +395,10 @@
     {
       "pilot": "brooklynspo",
       "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
+    },
+    {
+      "pilot": "TWC_BlacKnight",
+      "aircraft": ""
     }
   ]
 }
