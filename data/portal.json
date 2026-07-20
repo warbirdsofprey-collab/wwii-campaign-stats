@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-20T16:32:36.2913861Z",
+  "GeneratedUtc": "2026-07-20T16:36:36.3268252Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -404,10 +404,6 @@
     {
       "pilot": "TWC_BlacKnight",
       "aircraft": "tobruk:Aircraft.WellingtonMkIc_Late"
-    },
-    {
-      "pilot": "Joffski",
-      "aircraft": "tobruk:Aircraft.Bf-109F-2_Late"
     }
   ]
 }
