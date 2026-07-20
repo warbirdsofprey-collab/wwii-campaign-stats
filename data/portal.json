@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-20T18:39:52.5424594Z",
+  "GeneratedUtc": "2026-07-20T18:43:52.5865606Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -403,7 +403,7 @@
   "ActivePlayers": [
     {
       "pilot": "TWC_BlacKnight",
-      "aircraft": "tobruk:Aircraft.WellingtonMkIc_Late"
+      "aircraft": ""
     }
   ],
   "AirbaseRepairHours": 72,
