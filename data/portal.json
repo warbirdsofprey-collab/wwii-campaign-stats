@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-20T22:06:53.8648677Z",
+  "GeneratedUtc": "2026-07-20T22:07:53.8569410Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -17,9 +17,9 @@
       "Pilot": "TWC_BlacKnight",
       "Rank": "Squadron Leader / Hauptmann",
       "Score": 2410,
-      "Sorties": 68,
+      "Sorties": 69,
       "SuccessfulSorties": 22,
-      "SuccessRate": 0.3235,
+      "SuccessRate": 0.3188,
       "AirKills": 23,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -32,7 +32,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 5861.11,
       "FlightHours": 97.69,
-      "LastSeenUtc": "2026-07-20 21:58:07Z"
+      "LastSeenUtc": "2026-07-20 22:07:43Z"
     },
     {
       "Position": 2,
