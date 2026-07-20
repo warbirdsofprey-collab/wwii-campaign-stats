@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-20T13:18:34.9946978Z",
+  "GeneratedUtc": "2026-07-20T13:21:35.0274405Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -32,7 +32,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 5327.28,
       "FlightHours": 88.79,
-      "LastSeenUtc": "2026-07-20 13:14:04Z"
+      "LastSeenUtc": "2026-07-20 13:21:11Z"
     },
     {
       "Position": 2,
@@ -392,7 +392,7 @@
     {
       "army": "RAF / Red",
       "aircraft": "tobruk:Aircraft.WellingtonMkIc_Late",
-      "available": 70
+      "available": 69
     },
     {
       "army": "RAF / Red",
