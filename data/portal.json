@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-20T14:33:35.4954995Z",
+  "GeneratedUtc": "2026-07-20T14:36:35.5335518Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -158,7 +158,7 @@
     },
     {
       "target": "Marquise West",
-      "damagePercent": 17
+      "damagePercent": 3
     }
   ],
   "DestroyedTargets": [
