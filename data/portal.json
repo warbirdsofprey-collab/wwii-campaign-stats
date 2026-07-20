@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-20T16:16:36.1682200Z",
+  "GeneratedUtc": "2026-07-20T16:19:36.1990935Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -109,7 +109,7 @@
       "Pilot": "Joffski",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 1,
+      "Sorties": 2,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -124,7 +124,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 12.95,
       "FlightHours": 0.22,
-      "LastSeenUtc": "2026-07-20 16:16:02Z"
+      "LastSeenUtc": "2026-07-20 16:19:13Z"
     }
   ],
   "TargetDamage": [
@@ -237,7 +237,7 @@
     {
       "army": "LW / Blue",
       "aircraft": "tobruk:Aircraft.Bf-109F-2_Late",
-      "available": 100
+      "available": 99
     },
     {
       "army": "LW / Blue",
@@ -407,7 +407,7 @@
     },
     {
       "pilot": "Joffski",
-      "aircraft": ""
+      "aircraft": "tobruk:Aircraft.Bf-109F-2_Late"
     }
   ]
 }
