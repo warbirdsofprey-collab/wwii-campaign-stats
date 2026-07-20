@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-20T13:14:34.9504987Z",
+  "GeneratedUtc": "2026-07-20T13:18:34.9946978Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -16,16 +16,16 @@
       "PilotKey": "twc_blacknight",
       "Pilot": "TWC_BlacKnight",
       "Rank": "Squadron Leader / Hauptmann",
-      "Score": 2085,
+      "Score": 2185,
       "Sorties": 57,
       "SuccessfulSorties": 17,
       "SuccessRate": 0.2982,
-      "AirKills": 20,
+      "AirKills": 21,
       "GroundKills": 0,
       "ShipKills": 0,
-      "TotalKills": 20,
+      "TotalKills": 21,
       "Deaths": 0,
-      "KillDeathRatio": 20,
+      "KillDeathRatio": 21,
       "Bailouts": 0,
       "Landings": 17,
       "BombKg": 0,
@@ -158,7 +158,7 @@
     },
     {
       "target": "Marquise West",
-      "damagePercent": 8
+      "damagePercent": 17
     }
   ],
   "DestroyedTargets": [
