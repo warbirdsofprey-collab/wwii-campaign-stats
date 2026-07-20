@@ -68,6 +68,7 @@ tr:hover td{background:#1b2d37}.pilot{font-weight:800;color:#ffd77a;cursor:point
 .stockbar,.damagebar{height:9px;background:#0d171d;border-radius:999px;overflow:hidden;margin-top:12px}
 .stockbar div{height:100%;background:var(--green)}.damagebar div{height:100%;background:var(--red)}
 .target-meta,.aircraft-meta{display:flex;justify-content:space-between;color:var(--muted);font-size:13px}
+.repair-card{padding:18px}.repair-card h3{margin:0 0 8px}.repair-time{font-size:24px;font-weight:800;margin:10px 0}.badge{display:inline-block;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700}.badge.red{background:rgba(223,111,105,.18);color:#ff9b95}.badge.orange{background:rgba(227,186,87,.18);color:#f0ca70}.badge.green{background:rgba(112,191,138,.18);color:#91d7a8}.timeline{display:grid;gap:10px}.timeline-item{padding:14px;border-left:3px solid var(--gold);background:#101c23;border-radius:8px}
 .chart-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
 .chart-panel{padding:18px}.chart-panel canvas{width:100%;height:280px}
 .empty{padding:40px;text-align:center;color:var(--muted)}
@@ -87,7 +88,7 @@ footer{padding:24px 5vw;color:var(--muted);font-size:13px;border-top:1px solid #
 </head>
 <body>
 <header>
-  <div class="brand"><div class="roundel"></div><div><h1>Warbirds of Prey</h1><div class="subtitle">WWII Persistent Campaign Operations Room — Version 3</div></div></div>
+  <div class="brand"><div class="roundel"></div><div><h1>Warbirds of Prey</h1><div class="subtitle">WWII Persistent Campaign Operations Room — Version 4</div></div></div>
 </header>
 <nav>
   <button data-view="dashboard" class="active">Dashboard</button>
@@ -95,6 +96,7 @@ footer{padding:24px 5vw;color:var(--muted);font-size:13px;border-top:1px solid #
   <button data-view="compare">Compare</button>
   <button data-view="aircraft">Aircraft</button>
   <button data-view="targets">Targets</button>
+  <button data-view="repairs">Repairs</button>
   <button data-view="charts">Charts</button>
   <span class="status" id="status">Loading campaign data…</span>
 </nav>
@@ -155,6 +157,18 @@ footer{padding:24px 5vw;color:var(--muted);font-size:13px;border-top:1px solid #
   <div class="panel"><div class="toolbar"><h2>Destroyed Targets</h2></div><div id="destroyedList" class="grid" style="padding:14px"></div></div>
 </section>
 
+
+<section id="repairs" class="view">
+  <div class="cards">
+    <div class="card"><div class="label">Airbases Repairing</div><div class="value" id="repairingCount">0</div></div>
+    <div class="card"><div class="label">Returning Within 24h</div><div class="value" id="returningSoonCount">0</div></div>
+    <div class="card"><div class="label">Ready to Reload</div><div class="value" id="readyCount">0</div></div>
+    <div class="card"><div class="label">Repair Cycle</div><div class="value" id="repairCycle">72h</div></div>
+  </div>
+  <div class="panel" style="margin-bottom:16px"><div class="toolbar"><h2>Airbase Repair Status</h2><span class="small">Countdowns use UTC and update live</span></div><div id="repairGrid" class="grid" style="padding:14px"></div></div>
+  <div class="panel"><div class="toolbar"><h2>Campaign Repair Timeline</h2></div><div id="repairTimeline" class="timeline" style="padding:14px"></div></div>
+</section>
+
 <section id="charts" class="view">
   <div class="chart-grid">
     <div class="panel chart-panel"><h2>Top Pilot Scores</h2><canvas id="scoreChart" width="700" height="300"></canvas></div>
@@ -187,6 +201,8 @@ const aircraft=()=>pick(portal,'AircraftStocks','aircraftStocks')||[];
 const damage=()=>pick(portal,'TargetDamage','targetDamage')||[];
 const destroyed=()=>pick(portal,'DestroyedTargets','destroyedTargets')||[];
 const generated=()=>pick(portal,'GeneratedUtc','generatedUtc');
+const destroyedBases=()=>pick(portal,'DestroyedBases','destroyedBases')||[];
+const repairHours=()=>+(pick(portal,'AirbaseRepairHours','airbaseRepairHours')||72);
 
 function normalizedPilot(x){
  return {
@@ -237,7 +253,7 @@ function render(){
  const heads=['#','Pilot','Rank','Score','Sorties','Air','Ground','Ships','Targets','Deaths','K/D','Bomb kg','Hours'];
  table(document.getElementById('topPilots'),heads,rows.slice(0,10));
  renderPilotTable();renderCompare();bindPilotClicks();
- renderAircraft(ac);renderTargets(td,dt);drawCharts(ps);
+ renderAircraft(ac);renderTargets(td,dt);renderRepairs();drawCharts(ps);
  document.getElementById('status').textContent='Updated '+(generated()?new Date(generated()).toLocaleTimeString():'now');
 }
 
@@ -254,6 +270,34 @@ function renderCompare(){const a=document.getElementById('compareA'),b=document.
 function updateCompare(){document.getElementById('compareAStats').innerHTML=compareMarkup(pilotRows[+document.getElementById('compareA').value]);document.getElementById('compareBStats').innerHTML=compareMarkup(pilotRows[+document.getElementById('compareB').value]);}
 function exportCsvFile(){const h=['Position','Pilot','Rank','Score','Sorties','Successful Sorties','Success Rate','Air Kills','Ground Kills','Ship Kills','Bombing Targets','Deaths','K/D','Bomb Kg','Flight Hours','Last Seen'];const rows=pilotRows.map(p=>[p.position,p.pilot,p.rank,p.score,p.sorties,p.successful,p.successRate,p.air,p.ground,p.ships,p.bombTargets,p.deaths,p.kd,p.bomb,p.hours,p.lastSeen]);const csv=[h,...rows].map(r=>r.map(v=>`"${String(v).replace(/"/g,'""')}"`).join(',')).join('\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));a.download='warbirds_pilot_stats.csv';a.click();URL.revokeObjectURL(a.href);}
 async function copyCampaignSummary(){const c=campaign(),p=pilotRows[0];const text=`Warbirds of Prey Campaign\nRAF: ${c.RedCampaignPoints||0} | Luftwaffe: ${c.BlueCampaignPoints||0}\nPilots: ${pilotRows.length}\nTop Pilot: ${p?.pilot||'—'} (${p?.score||0} pts)\nUpdated: ${generated()?new Date(generated()).toLocaleString():'—'}`;await navigator.clipboard.writeText(text);const b=document.getElementById('copySummary');b.textContent='Copied';setTimeout(()=>b.textContent='Copy Campaign Summary',1500);}
+
+function durationText(seconds){
+ seconds=Math.max(0,Math.floor(seconds));
+ const d=Math.floor(seconds/86400),h=Math.floor((seconds%86400)/3600),m=Math.floor((seconds%3600)/60);
+ return [d?d+'d':'',h?h+'h':'',(!d&&m)?m+'m':''].filter(Boolean).join(' ')||'Ready';
+}
+function normalizedBase(x){
+ const returnsAt=pick(x,'ReturnsAtUtc','returnsAtUtc')||'';
+ const remaining=returnsAt?Math.max(0,Math.ceil((new Date(returnsAt)-Date.now())/1000)):+(pick(x,'SecondsRemaining','secondsRemaining')||0);
+ return {file:pick(x,'FileName','fileName')||'',name:pick(x,'DisplayName','displayName')||pick(x,'FileName','fileName')||'',destroyedAt:pick(x,'DestroyedAtUtc','destroyedAtUtc')||'',returnsAt,remaining,ready:remaining<=0||!!pick(x,'Ready','ready')};
+}
+function renderRepairs(){
+ const bases=destroyedBases().map(normalizedBase).sort((a,b)=>a.ready-b.ready||new Date(a.returnsAt)-new Date(b.returnsAt));
+ const repairing=bases.filter(x=>!x.ready),soon=repairing.filter(x=>x.remaining<=86400),ready=bases.filter(x=>x.ready);
+ document.getElementById('repairingCount').textContent=repairing.length;
+ document.getElementById('returningSoonCount').textContent=soon.length;
+ document.getElementById('readyCount').textContent=ready.length;
+ document.getElementById('repairCycle').textContent=repairHours()+'h';
+ document.getElementById('repairGrid').innerHTML=bases.length?bases.map(x=>{
+   const cls=x.ready?'green':x.remaining<=21600?'orange':'red';
+   const label=x.ready?'Ready — mission will reload spawn':'Repairing';
+   return `<div class="panel repair-card"><span class="badge ${cls}">${label}</span><h3>${esc(x.name)}</h3><div class="repair-time" data-return="${esc(x.returnsAt)}">${x.ready?'Ready':durationText(x.remaining)}</div><div class="small">Destroyed: ${x.destroyedAt?new Date(x.destroyedAt).toLocaleString():'—'}</div><div class="small">Returns: ${x.returnsAt?new Date(x.returnsAt).toLocaleString():'—'} UTC</div><div class="small">Source: ${esc(x.file)}</div></div>`;
+ }).join(''):'<div class="empty">No destroyed airbases are awaiting repair.</div>';
+ document.getElementById('repairTimeline').innerHTML=bases.length?bases.map(x=>`<div class="timeline-item"><strong>${esc(x.name)}</strong><div class="small">${x.ready?'Repair complete; spawn reload pending or in progress.':'Scheduled return '+new Date(x.returnsAt).toLocaleString()+' UTC'}</div></div>`).join(''):'<div class="empty">No repair events to display.</div>';
+}
+function updateRepairCountdowns(){
+ document.querySelectorAll('[data-return]').forEach(el=>{const sec=Math.max(0,Math.ceil((new Date(el.dataset.return)-Date.now())/1000));el.textContent=sec<=0?'Ready':durationText(sec);});
+}
 
 function renderAircraft(list){
  const filter=document.getElementById('armyFilter').value;
@@ -316,6 +360,7 @@ document.getElementById('armyFilter').onchange=()=>renderAircraft(aircraft());
 document.getElementById('closeModal').onclick=()=>document.getElementById('pilotModal').classList.remove('open');
 document.getElementById('pilotModal').onclick=e=>{if(e.target.id==='pilotModal')e.currentTarget.classList.remove('open')};
 load();setInterval(load,30000);
+setInterval(updateRepairCountdowns,1000);
 </script>
 </body>
 </html>
