@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-20T20:32:53.3245985Z",
+  "GeneratedUtc": "2026-07-20T20:33:53.3382546Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -132,7 +132,7 @@
       "Pilot": "OBT~Brunov",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -147,7 +147,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-07-20 20:32:09Z"
+      "LastSeenUtc": "2026-07-20 20:33:11Z"
     }
   ],
   "TargetDamage": [
