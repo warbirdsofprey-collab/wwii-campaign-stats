@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-20T19:40:52.9469261Z",
+  "GeneratedUtc": "2026-07-20T19:49:52.9968531Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -404,10 +404,6 @@
     {
       "pilot": "TWC_BlacKnight",
       "aircraft": ""
-    },
-    {
-      "pilot": "Joffski",
-      "aircraft": "tobruk:Aircraft.Bf-109F-4"
     }
   ],
   "AirbaseRepairHours": 72,
