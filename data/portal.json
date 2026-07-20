@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-20T23:25:54.3706612Z",
+  "GeneratedUtc": "2026-07-20T23:29:54.3898175Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -17,9 +17,9 @@
       "Pilot": "TWC_BlacKnight",
       "Rank": "Wing Commander / Major",
       "Score": 2710,
-      "Sorties": 71,
+      "Sorties": 72,
       "SuccessfulSorties": 22,
-      "SuccessRate": 0.3099,
+      "SuccessRate": 0.3056,
       "AirKills": 26,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -32,7 +32,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 5925.27,
       "FlightHours": 98.75,
-      "LastSeenUtc": "2026-07-20 23:23:17Z"
+      "LastSeenUtc": "2026-07-20 23:29:01Z"
     },
     {
       "Position": 2,
@@ -109,7 +109,7 @@
       "Pilot": "Betty | 6-2 Big-G",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 3,
+      "Sorties": 4,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -124,7 +124,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 52.13,
       "FlightHours": 0.87,
-      "LastSeenUtc": "2026-07-20 23:25:49Z"
+      "LastSeenUtc": "2026-07-20 23:28:55Z"
     },
     {
       "Position": 6,
