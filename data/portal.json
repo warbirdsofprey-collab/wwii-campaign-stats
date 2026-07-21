@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-21T12:41:57.5407523Z",
+  "GeneratedUtc": "2026-07-21T12:42:57.5339918Z",
   "Campaign": {
     "RedCampaignPoints": 43,
     "BlueCampaignPoints": 2,
@@ -32,7 +32,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 7524.4,
       "FlightHours": 125.41,
-      "LastSeenUtc": "2026-07-21 12:41:53Z"
+      "LastSeenUtc": "2026-07-21 12:42:32Z"
     },
     {
       "Position": 2,
@@ -423,7 +423,12 @@
       "available": 100
     }
   ],
-  "ActivePlayers": [],
+  "ActivePlayers": [
+    {
+      "pilot": "TWC_BlacKnight",
+      "aircraft": "tobruk:Aircraft.WellingtonMkIc_Late"
+    }
+  ],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
