@@ -213,7 +213,11 @@ function normalizedPilot(x){
   successful:+(pick(x,'SuccessfulSorties','successfulSorties')??0),
   successRate:+(pick(x,'SuccessRate','successRate')??0),
   air:+(pick(x,'AirKills','airKills')??0),ground:+(pick(x,'GroundKills','groundKills')??0),
-  ships:+(pick(x,'ShipKills','shipKills')??0),deaths:+(pick(x,'Deaths','deaths')??0),
+  ships:+(pick(x,'ShipKills','shipKills')??0),tanks:+(pick(x,'TankKills','tankKills')??0),
+  trucks:+(pick(x,'TruckKills','truckKills')??0),aaa:+(pick(x,'AaaKills','aaaKills')??0),
+  artillery:+(pick(x,'ArtilleryKills','artilleryKills')??0),trains:+(pick(x,'TrainKills','trainKills')??0),
+  staticAircraft:+(pick(x,'StaticAircraftKills','staticAircraftKills')??0),buildings:+(pick(x,'BuildingKills','buildingKills')??0),
+  otherGround:+(pick(x,'OtherGroundKills','otherGroundKills')??0),deaths:+(pick(x,'Deaths','deaths')??0),
   kd:+(pick(x,'KillDeathRatio','killDeathRatio')??0),bailouts:+(pick(x,'Bailouts','bailouts')??0),
   landings:+(pick(x,'Landings','landings')??0),bomb:+(pick(x,'BombKg','bombKg')??0),bombTargets:+(pick(x,'BombingTargetsDestroyed','bombingTargetsDestroyed')??0),
   minutes:+(pick(x,'FlightMinutes','flightMinutes')??0),hours:+(pick(x,'FlightHours','flightHours')??0),
@@ -222,7 +226,7 @@ function normalizedPilot(x){
 }
 function awards(p){
  const a=[];
- if(p.air>=5)a.push('Ace');if(p.air>=10)a.push('Double Ace');if(p.ground>=25)a.push('Tank Buster');
+ if(p.air>=5)a.push('Ace');if(p.air>=10)a.push('Double Ace');if(p.tanks>=10)a.push('Tank Buster');if(p.aaa>=10)a.push('Flak Suppressor');if(p.trains>=5)a.push('Rail Interdiction');
  if(p.ships>=3)a.push('Ship Killer');if(p.bombTargets>=1)a.push('Target Destroyer');if(p.bomb>=5000)a.push('Bomber Command');if(p.sorties>=50)a.push('Veteran');
  if(p.hours>=50)a.push('Long Service');if(p.successRate>=.8&&p.sorties>=10)a.push('Reliable Return');
  return a.length?a:['Campaign Participant'];
@@ -249,26 +253,26 @@ function render(){
   ['Total Sorties',totalSorties.toLocaleString()],['Air Victories',totalAir.toLocaleString()],
   ['Ground Kills',totalGround.toLocaleString()],['Bomb Tonnage',(totalBomb/1000).toFixed(1)+' t']
  ].map(x=>`<div class="card"><div class="label">${x[0]}</div><div class="value">${x[1]}</div></div>`).join('');
- const rows=ps.map(p=>[p.position,`<span class="pilot" data-pilot="${esc(p.pilot)}">${esc(p.pilot)}</span>`,esc(p.rank),p.score,p.sorties,p.air,p.ground,p.ships,p.bombTargets,p.deaths,p.kd,p.bomb,p.hours]);
- const heads=['#','Pilot','Rank','Score','Sorties','Air','Ground','Ships','Targets','Deaths','K/D','Bomb kg','Hours'];
+ const rows=ps.map(p=>[p.position,`<span class="pilot" data-pilot="${esc(p.pilot)}">${esc(p.pilot)}</span>`,esc(p.rank),p.score,p.sorties,p.air,p.ground,p.tanks,p.trucks,p.aaa,p.artillery,p.trains,p.ships,p.bombTargets,p.deaths,p.kd,p.bomb,p.hours]);
+ const heads=['#','Pilot','Rank','Score','Sorties','Air','Ground','Tanks','Vehicles','AAA','Artillery','Trains','Ships','Targets','Deaths','K/D','Bomb kg','Hours'];
  table(document.getElementById('topPilots'),heads,rows.slice(0,10));
  renderPilotTable();renderCompare();bindPilotClicks();
  renderAircraft(ac);renderTargets(td,dt);renderRepairs();drawCharts(ps);
  document.getElementById('status').textContent='Updated '+(generated()?new Date(generated()).toLocaleTimeString():'now');
 }
 
-function pilotTableRows(ps){return ps.map(p=>[p.position,`<span class="pilot" data-pilot="${esc(p.pilot)}">${esc(p.pilot)}</span>`,esc(p.rank),p.score,p.sorties,p.air,p.ground,p.ships,p.bombTargets,p.deaths,p.kd,p.bomb,p.hours]);}
+function pilotTableRows(ps){return ps.map(p=>[p.position,`<span class="pilot" data-pilot="${esc(p.pilot)}">${esc(p.pilot)}</span>`,esc(p.rank),p.score,p.sorties,p.air,p.ground,p.tanks,p.trucks,p.aaa,p.artillery,p.trains,p.staticAircraft,p.buildings,p.otherGround,p.ships,p.bombTargets,p.deaths,p.kd,p.bomb,p.hours]);}
 function renderPilotTable(){
  const q=document.getElementById('pilotSearch').value.toLowerCase(),key=document.getElementById('sortPilots').value;
  let ps=[...pilotRows].filter(p=>(p.pilot+' '+p.rank).toLowerCase().includes(q));
  ps.sort((a,b)=>(b[key]??0)-(a[key]??0));
- const heads=['#','Pilot','Rank','Score','Sorties','Air','Ground','Ships','Targets','Deaths','K/D','Bomb kg','Hours'];
+ const heads=['#','Pilot','Rank','Score','Sorties','Air','Ground','Tanks','Vehicles','AAA','Artillery','Trains','Static A/C','Buildings','Other','Ships','Targets','Deaths','K/D','Bomb kg','Hours'];
  table(document.getElementById('pilotTable'),heads,pilotTableRows(ps));bindPilotClicks();
 }
-function compareMarkup(p){if(!p)return '<div class="empty">No pilot selected.</div>';return [['Rank',p.rank],['Score',p.score],['Sorties',p.sorties],['Success',(p.successRate*100).toFixed(1)+'%'],['Air Kills',p.air],['Ground Kills',p.ground],['Ship Kills',p.ships],['Bombing Targets',p.bombTargets],['Deaths',p.deaths],['K/D',p.kd],['Bomb Kg',p.bomb],['Hours',p.hours]].map(x=>`<div class="compare-stat"><span>${x[0]}</span><strong>${x[1]}</strong></div>`).join('');}
+function compareMarkup(p){if(!p)return '<div class="empty">No pilot selected.</div>';return [['Rank',p.rank],['Score',p.score],['Sorties',p.sorties],['Success',(p.successRate*100).toFixed(1)+'%'],['Air Kills',p.air],['Ground Kills',p.ground],['Tanks',p.tanks],['Vehicles',p.trucks],['AAA',p.aaa],['Artillery',p.artillery],['Trains',p.trains],['Ships',p.ships],['Bombing Targets',p.bombTargets],['Deaths',p.deaths],['K/D',p.kd],['Bomb Kg',p.bomb],['Hours',p.hours]].map(x=>`<div class="compare-stat"><span>${x[0]}</span><strong>${x[1]}</strong></div>`).join('');}
 function renderCompare(){const a=document.getElementById('compareA'),b=document.getElementById('compareB');const opts=pilotRows.map((p,i)=>`<option value="${i}">${esc(p.pilot)}</option>`).join('');a.innerHTML=opts;b.innerHTML=opts;if(pilotRows.length>1)b.value='1';updateCompare();}
 function updateCompare(){document.getElementById('compareAStats').innerHTML=compareMarkup(pilotRows[+document.getElementById('compareA').value]);document.getElementById('compareBStats').innerHTML=compareMarkup(pilotRows[+document.getElementById('compareB').value]);}
-function exportCsvFile(){const h=['Position','Pilot','Rank','Score','Sorties','Successful Sorties','Success Rate','Air Kills','Ground Kills','Ship Kills','Bombing Targets','Deaths','K/D','Bomb Kg','Flight Hours','Last Seen'];const rows=pilotRows.map(p=>[p.position,p.pilot,p.rank,p.score,p.sorties,p.successful,p.successRate,p.air,p.ground,p.ships,p.bombTargets,p.deaths,p.kd,p.bomb,p.hours,p.lastSeen]);const csv=[h,...rows].map(r=>r.map(v=>`"${String(v).replace(/"/g,'""')}"`).join(',')).join('\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));a.download='warbirds_pilot_stats.csv';a.click();URL.revokeObjectURL(a.href);}
+function exportCsvFile(){const h=['Position','Pilot','Rank','Score','Sorties','Successful Sorties','Success Rate','Air Kills','Ground Kills','Tank Kills','Vehicle Kills','AAA Kills','Artillery Kills','Train Kills','Static Aircraft Kills','Building Kills','Other Ground Kills','Ship Kills','Bombing Targets','Deaths','K/D','Bomb Kg','Flight Hours','Last Seen'];const rows=pilotRows.map(p=>[p.position,p.pilot,p.rank,p.score,p.sorties,p.successful,p.successRate,p.air,p.ground,p.tanks,p.trucks,p.aaa,p.artillery,p.trains,p.staticAircraft,p.buildings,p.otherGround,p.ships,p.bombTargets,p.deaths,p.kd,p.bomb,p.hours,p.lastSeen]);const csv=[h,...rows].map(r=>r.map(v=>`"${String(v).replace(/"/g,'""')}"`).join(',')).join('\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));a.download='warbirds_pilot_stats.csv';a.click();URL.revokeObjectURL(a.href);}
 async function copyCampaignSummary(){const c=campaign(),p=pilotRows[0];const text=`Warbirds of Prey Campaign\nRAF: ${c.RedCampaignPoints||0} | Luftwaffe: ${c.BlueCampaignPoints||0}\nPilots: ${pilotRows.length}\nTop Pilot: ${p?.pilot||'—'} (${p?.score||0} pts)\nUpdated: ${generated()?new Date(generated()).toLocaleString():'—'}`;await navigator.clipboard.writeText(text);const b=document.getElementById('copySummary');b.textContent='Copied';setTimeout(()=>b.textContent='Copy Campaign Summary',1500);}
 
 function durationText(seconds){
@@ -336,7 +340,7 @@ function openPilot(name){
  const p=pilotRows.find(x=>x.pilot===name);if(!p)return;
  document.getElementById('modalPilotName').textContent=p.pilot;
  document.getElementById('modalRank').textContent=p.rank;
- const stats=[['Score',p.score],['Sorties',p.sorties],['Successful',p.successful],['Success Rate',(p.successRate*100).toFixed(1)+'%'],['Air Kills',p.air],['Ground Kills',p.ground],['Ship Kills',p.ships],['Bombing Targets',p.bombTargets],['Deaths',p.deaths],['K/D',p.kd],['Landings',p.landings],['Bailouts',p.bailouts],['Bomb Kg',p.bomb.toLocaleString()],['Flight Hours',p.hours],['Last Seen',p.lastSeen||'—']];
+ const stats=[['Score',p.score],['Sorties',p.sorties],['Successful',p.successful],['Success Rate',(p.successRate*100).toFixed(1)+'%'],['Air Kills',p.air],['Ground Kills',p.ground],['Tanks',p.tanks],['Vehicles',p.trucks],['AAA',p.aaa],['Artillery',p.artillery],['Trains',p.trains],['Static Aircraft',p.staticAircraft],['Buildings',p.buildings],['Other Ground',p.otherGround],['Ship Kills',p.ships],['Bombing Targets',p.bombTargets],['Deaths',p.deaths],['K/D',p.kd],['Landings',p.landings],['Bailouts',p.bailouts],['Bomb Kg',p.bomb.toLocaleString()],['Flight Hours',p.hours],['Last Seen',p.lastSeen||'—']];
  document.getElementById('profileGrid').innerHTML=stats.map(x=>`<div class="profile-stat"><div class="label">${x[0]}</div><div class="value" style="font-size:22px">${x[1]}</div></div>`).join('');
  document.getElementById('awardList').innerHTML=awards(p).map(a=>`<span class="medal">${esc(a)}</span>`).join('');
  document.getElementById('pilotModal').classList.add('open');
