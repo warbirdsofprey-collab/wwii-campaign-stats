@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-22T18:30:15.0452340Z",
+  "GeneratedUtc": "2026-07-22T18:34:15.0803997Z",
   "Campaign": {
     "RedCampaignPoints": 47,
     "BlueCampaignPoints": 2,
@@ -587,7 +587,12 @@
       "Available": 100
     }
   ],
-  "ActivePlayers": [],
+  "ActivePlayers": [
+    {
+      "Pilot": "TWC_BlacKnight",
+      "Aircraft": ""
+    }
+  ],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
