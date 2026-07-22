@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-22T20:33:15.9123937Z",
+  "GeneratedUtc": "2026-07-22T20:36:15.9385868Z",
   "Campaign": {
     "RedCampaignPoints": 47,
     "BlueCampaignPoints": 2,
@@ -16,11 +16,11 @@
       "PilotKey": "twc_blacknight",
       "Pilot": "TWC_BlacKnight",
       "Rank": "Wing Commander / Major",
-      "Score": 3640,
+      "Score": 3740,
       "Sorties": 86,
       "SuccessfulSorties": 28,
       "SuccessRate": 0.3256,
-      "AirKills": 35,
+      "AirKills": 36,
       "GroundKills": 0,
       "ShipKills": 0,
       "TankKills": 0,
@@ -31,9 +31,9 @@
       "StaticAircraftKills": 0,
       "BuildingKills": 0,
       "OtherGroundKills": 0,
-      "TotalKills": 35,
+      "TotalKills": 36,
       "Deaths": 0,
-      "KillDeathRatio": 35,
+      "KillDeathRatio": 36,
       "Bailouts": 0,
       "Landings": 28,
       "BombKg": 0,
@@ -344,6 +344,10 @@
     {
       "Target": "Flugfeld Le Touquet",
       "DamagePercent": 58
+    },
+    {
+      "Target": "Fliegerhorst Oye Plage",
+      "DamagePercent": 43
     },
     {
       "Target": "Calais Rail Yard",
