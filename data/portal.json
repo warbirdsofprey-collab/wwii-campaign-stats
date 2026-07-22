@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-22T16:07:18.4423954Z",
+  "GeneratedUtc": "2026-07-22T16:12:18.4934785Z",
   "Campaign": {
     "RedCampaignPoints": 46,
     "BlueCampaignPoints": 2,
@@ -506,6 +506,10 @@
     {
       "pilot": "TWC_BlacKnight",
       "aircraft": "tobruk:Aircraft.WellingtonMkIc_Late"
+    },
+    {
+      "pilot": "Dolfo",
+      "aircraft": "tobruk:Aircraft.Bf-109E-7N"
     }
   ],
   "AirbaseRepairHours": 72,
