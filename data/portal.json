@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-22T18:11:17.4588741Z",
+  "GeneratedUtc": "2026-07-22T18:15:14.9690789Z",
   "Campaign": {
     "RedCampaignPoints": 47,
     "BlueCampaignPoints": 2,
@@ -270,283 +270,324 @@
   ],
   "TargetDamage": [
     {
-      "target": "Alert (Uxbridge) (AL,27)",
-      "damagePercent": 100
+      "Target": "Alert (Uxbridge) (AL,27)",
+      "DamagePercent": 100
     },
     {
-      "target": "Bolougne_Calais Tank Convoy",
-      "damagePercent": 100
+      "Target": "Bolougne_Calais Tank Convoy",
+      "DamagePercent": 100
     },
     {
-      "target": "Calais Panzer Tank Camp",
-      "damagePercent": 100
+      "Target": "Calais Jackboot Storage",
+      "DamagePercent": 100
     },
     {
-      "target": "ObserverUxbridge (AL,27), last station of Alert (Uxbridge),",
-      "damagePercent": 100
+      "Target": "Calais Manufacturing Area",
+      "DamagePercent": 100
     },
     {
-      "target": "Oostende-Dunkirk Tanker Convoy",
-      "damagePercent": 100
+      "Target": "Calais Panzer Tank Camp",
+      "DamagePercent": 100
     },
     {
-      "target": "Coquelles Fighter",
-      "damagePercent": 98
+      "Target": "Fliegerhorst Calais Marck Fighter / Bomber",
+      "DamagePercent": 100
     },
     {
-      "target": "Flugplatz Abbeville",
-      "damagePercent": 22
+      "Target": "Fliegerhorst Peuplingues",
+      "DamagePercent": 100
     },
     {
-      "target": "Marquise West",
-      "damagePercent": 3
+      "Target": "ObserverUxbridge (AL,27), last station of Alert (Uxbridge),",
+      "DamagePercent": 100
+    },
+    {
+      "Target": "Oostende-Dunkirk Tanker Convoy",
+      "DamagePercent": 100
+    },
+    {
+      "Target": "Coquelles Fighter",
+      "DamagePercent": 98
+    },
+    {
+      "Target": "Flugfeld Le Touquet",
+      "DamagePercent": 58
+    },
+    {
+      "Target": "Calais Rail Yard",
+      "DamagePercent": 33
+    },
+    {
+      "Target": "Calais Luftwaffe Signal School",
+      "DamagePercent": 22
+    },
+    {
+      "Target": "Flugplatz Abbeville",
+      "DamagePercent": 22
+    },
+    {
+      "Target": "Flugplatz Pihen Fighter",
+      "DamagePercent": 22
+    },
+    {
+      "Target": "Calais Kriegsmarine Docks Area",
+      "DamagePercent": 17
+    },
+    {
+      "Target": "Hawkinge Forward Airbase",
+      "DamagePercent": 3
+    },
+    {
+      "Target": "Marquise West",
+      "DamagePercent": 3
     }
   ],
   "DestroyedTargets": [
     "Alert (Uxbridge) (AL,27)",
     "Bolougne_Calais Tank Convoy",
+    "Calais Jackboot Storage",
+    "Calais Manufacturing Area",
     "Calais Panzer Tank Camp",
+    "Coquelles Fighter",
+    "Fliegerhorst Calais Marck Fighter / Bomber",
+    "Fliegerhorst Peuplingues",
+    "Marquise West",
     "ObserverUxbridge (AL,27), last station of Alert (Uxbridge),",
     "Oostende-Dunkirk Tanker Convoy"
   ],
   "AircraftStocks": [
     {
-      "army": "LW / Blue",
-      "aircraft": "Aircraft.Bf-110C-2",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "Aircraft.Bf-110C-2",
+      "Available": 100
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "Aircraft.Bf-110C-4",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "Aircraft.Bf-110C-4",
+      "Available": 100
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "Aircraft.Bf-110C-7",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "Aircraft.Bf-110C-7",
+      "Available": 100
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "Aircraft.G50",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "Aircraft.G50",
+      "Available": 100
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "Aircraft.He-111H-2",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "Aircraft.He-111H-2",
+      "Available": 100
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "Aircraft.He-111P-2",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "Aircraft.He-111P-2",
+      "Available": 100
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "Aircraft.Ju-87B-2",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "Aircraft.Ju-87B-2",
+      "Available": 100
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "Aircraft.Ju-88A-1",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "Aircraft.Ju-88A-1",
+      "Available": 100
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "tobruk:Aircraft.Bf-109E-7",
-      "available": 97
+      "Army": "LW / Blue",
+      "Aircraft": "tobruk:Aircraft.Bf-109E-7",
+      "Available": 97
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "tobruk:Aircraft.Bf-109E-7N",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "tobruk:Aircraft.Bf-109E-7N",
+      "Available": 100
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "tobruk:Aircraft.Bf-109E-7Z",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "tobruk:Aircraft.Bf-109E-7Z",
+      "Available": 100
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "tobruk:Aircraft.Bf-109F-1",
-      "available": 200
+      "Army": "LW / Blue",
+      "Aircraft": "tobruk:Aircraft.Bf-109F-1",
+      "Available": 200
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "tobruk:Aircraft.Bf-109F-2",
-      "available": 200
+      "Army": "LW / Blue",
+      "Aircraft": "tobruk:Aircraft.Bf-109F-2",
+      "Available": 200
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "tobruk:Aircraft.Bf-109F-2_Late",
-      "available": 99
+      "Army": "LW / Blue",
+      "Aircraft": "tobruk:Aircraft.Bf-109F-2_Late",
+      "Available": 99
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "tobruk:Aircraft.Bf-109F-4",
-      "available": 99
+      "Army": "LW / Blue",
+      "Aircraft": "tobruk:Aircraft.Bf-109F-4",
+      "Available": 99
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "tobruk:Aircraft.Bf-110C-4N-NJG_Trop",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "tobruk:Aircraft.Bf-110C-4N-NJG_Trop",
+      "Available": 100
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "tobruk:Aircraft.D520_Serie1",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "tobruk:Aircraft.D520_Serie1",
+      "Available": 100
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "tobruk:Aircraft.He-111H-6",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "tobruk:Aircraft.He-111H-6",
+      "Available": 100
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "tobruk:Aircraft.Ju-88A-5",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "tobruk:Aircraft.Ju-88A-5",
+      "Available": 100
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "tobruk:Aircraft.Ju-88A-5Late",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "tobruk:Aircraft.Ju-88A-5Late",
+      "Available": 100
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "tobruk:Aircraft.Ju-88C-2",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "tobruk:Aircraft.Ju-88C-2",
+      "Available": 100
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "tobruk:Aircraft.Ju-88C-4",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "tobruk:Aircraft.Ju-88C-4",
+      "Available": 100
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "tobruk:Aircraft.Ju-88C-4Late",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "tobruk:Aircraft.Ju-88C-4Late",
+      "Available": 100
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "tobruk:Aircraft.Macchi-C202-SeriesIII",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "tobruk:Aircraft.Macchi-C202-SeriesIII",
+      "Available": 100
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "tobruk:Aircraft.Macchi-C202-SeriesIII-AltoQuota",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "tobruk:Aircraft.Macchi-C202-SeriesIII-AltoQuota",
+      "Available": 100
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "tobruk:Aircraft.Macchi-C202-SeriesVII",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "tobruk:Aircraft.Macchi-C202-SeriesVII",
+      "Available": 100
     },
     {
-      "army": "LW / Blue",
-      "aircraft": "tobruk:Aircraft.Macchi-C202-SeriesVII-AltoQuota",
-      "available": 100
+      "Army": "LW / Blue",
+      "Aircraft": "tobruk:Aircraft.Macchi-C202-SeriesVII-AltoQuota",
+      "Available": 100
     },
     {
-      "army": "RAF / Red",
-      "aircraft": "Aircraft.BlenheimMkIV_Late",
-      "available": 100
+      "Army": "RAF / Red",
+      "Aircraft": "Aircraft.BlenheimMkIV_Late",
+      "Available": 100
     },
     {
-      "army": "RAF / Red",
-      "aircraft": "tobruk:Aircraft.BeaufighterMkIC",
-      "available": 98
+      "Army": "RAF / Red",
+      "Aircraft": "tobruk:Aircraft.BeaufighterMkIC",
+      "Available": 98
     },
     {
-      "army": "RAF / Red",
-      "aircraft": "tobruk:Aircraft.BeaufighterMkIF_Late",
-      "available": 100
+      "Army": "RAF / Red",
+      "Aircraft": "tobruk:Aircraft.BeaufighterMkIF_Late",
+      "Available": 100
     },
     {
-      "army": "RAF / Red",
-      "aircraft": "tobruk:Aircraft.BeaufighterMkINF_Late",
-      "available": 200
+      "Army": "RAF / Red",
+      "Aircraft": "tobruk:Aircraft.BeaufighterMkINF_Late",
+      "Available": 200
     },
     {
-      "army": "RAF / Red",
-      "aircraft": "tobruk:Aircraft.HurricaneMkIIb",
-      "available": 100
+      "Army": "RAF / Red",
+      "Aircraft": "tobruk:Aircraft.HurricaneMkIIb",
+      "Available": 100
     },
     {
-      "army": "RAF / Red",
-      "aircraft": "tobruk:Aircraft.HurricaneMkIIb-Late",
-      "available": 200
+      "Army": "RAF / Red",
+      "Aircraft": "tobruk:Aircraft.HurricaneMkIIb-Late",
+      "Available": 200
     },
     {
-      "army": "RAF / Red",
-      "aircraft": "tobruk:Aircraft.HurricaneMkIIc",
-      "available": 100
+      "Army": "RAF / Red",
+      "Aircraft": "tobruk:Aircraft.HurricaneMkIIc",
+      "Available": 100
     },
     {
-      "army": "RAF / Red",
-      "aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late",
-      "available": 49
+      "Army": "RAF / Red",
+      "Aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late",
+      "Available": 49
     },
     {
-      "army": "RAF / Red",
-      "aircraft": "tobruk:Aircraft.KittyhawkMkIA",
-      "available": 200
+      "Army": "RAF / Red",
+      "Aircraft": "tobruk:Aircraft.KittyhawkMkIA",
+      "Available": 200
     },
     {
-      "army": "RAF / Red",
-      "aircraft": "tobruk:Aircraft.MartletMkIII",
-      "available": 100
+      "Army": "RAF / Red",
+      "Aircraft": "tobruk:Aircraft.MartletMkIII",
+      "Available": 100
     },
     {
-      "army": "RAF / Red",
-      "aircraft": "tobruk:Aircraft.SpitfireMkVa",
-      "available": 100
+      "Army": "RAF / Red",
+      "Aircraft": "tobruk:Aircraft.SpitfireMkVa",
+      "Available": 100
     },
     {
-      "army": "RAF / Red",
-      "aircraft": "tobruk:Aircraft.SpitfireMkVb",
-      "available": 194
+      "Army": "RAF / Red",
+      "Aircraft": "tobruk:Aircraft.SpitfireMkVb",
+      "Available": 194
     },
     {
-      "army": "RAF / Red",
-      "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF",
-      "available": 100
+      "Army": "RAF / Red",
+      "Aircraft": "tobruk:Aircraft.SpitfireMkVb-HF",
+      "Available": 100
     },
     {
-      "army": "RAF / Red",
-      "aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late",
-      "available": 76
+      "Army": "RAF / Red",
+      "Aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late",
+      "Available": 76
     },
     {
-      "army": "RAF / Red",
-      "aircraft": "tobruk:Aircraft.SpitfireMkVb-Late",
-      "available": 100
+      "Army": "RAF / Red",
+      "Aircraft": "tobruk:Aircraft.SpitfireMkVb-Late",
+      "Available": 100
     },
     {
-      "army": "RAF / Red",
-      "aircraft": "tobruk:Aircraft.TomahawkMkII",
-      "available": 100
+      "Army": "RAF / Red",
+      "Aircraft": "tobruk:Aircraft.TomahawkMkII",
+      "Available": 100
     },
     {
-      "army": "RAF / Red",
-      "aircraft": "tobruk:Aircraft.TomahawkMkII-Late",
-      "available": 100
+      "Army": "RAF / Red",
+      "Aircraft": "tobruk:Aircraft.TomahawkMkII-Late",
+      "Available": 100
     },
     {
-      "army": "RAF / Red",
-      "aircraft": "tobruk:Aircraft.WellingtonMkIc_Late",
-      "available": 91
+      "Army": "RAF / Red",
+      "Aircraft": "tobruk:Aircraft.WellingtonMkIc_Late",
+      "Available": 91
     },
     {
-      "army": "RAF / Red",
-      "aircraft": "tobruk:Aircraft.WellingtonMkIc_t",
-      "available": 100
+      "Army": "RAF / Red",
+      "Aircraft": "tobruk:Aircraft.WellingtonMkIc_t",
+      "Available": 100
     }
   ],
-  "ActivePlayers": [
-    {
-      "pilot": "TWC_BlacKnight",
-      "aircraft": ""
-    }
-  ],
+  "ActivePlayers": [],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
