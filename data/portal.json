@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-22T16:39:16.8582105Z",
+  "GeneratedUtc": "2026-07-22T16:44:16.9037837Z",
   "Campaign": {
     "RedCampaignPoints": 46,
     "BlueCampaignPoints": 2,
@@ -41,7 +41,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 9079.37,
       "FlightHours": 151.32,
-      "LastSeenUtc": "2026-07-22 16:38:32Z"
+      "LastSeenUtc": "2026-07-22 16:43:45Z"
     },
     {
       "Position": 2,
@@ -511,8 +511,8 @@
   ],
   "ActivePlayers": [
     {
-      "pilot": "Dolfo",
-      "aircraft": "tobruk:Aircraft.Bf-109E-7N"
+      "pilot": "TWC_BlacKnight",
+      "aircraft": "tobruk:Aircraft.WellingtonMkIc_Late"
     }
   ],
   "AirbaseRepairHours": 72,
