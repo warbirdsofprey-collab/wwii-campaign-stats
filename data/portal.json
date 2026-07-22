@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-22T20:03:15.7118632Z",
+  "GeneratedUtc": "2026-07-22T20:04:15.7138204Z",
   "Campaign": {
     "RedCampaignPoints": 47,
     "BlueCampaignPoints": 2,
@@ -266,6 +266,38 @@
       "FlightMinutes": 40.98,
       "FlightHours": 0.68,
       "LastSeenUtc": "2026-07-20 19:30:00Z"
+    },
+    {
+      "Position": 9,
+      "PilotKey": "obt~lionel",
+      "Pilot": "OBT~Lionel",
+      "Rank": "Pilot Officer / Feldwebel",
+      "Score": 0,
+      "Sorties": 0,
+      "SuccessfulSorties": 0,
+      "SuccessRate": 0,
+      "AirKills": 0,
+      "GroundKills": 0,
+      "ShipKills": 0,
+      "TankKills": 0,
+      "TruckKills": 0,
+      "AaaKills": 0,
+      "ArtilleryKills": 0,
+      "TrainKills": 0,
+      "StaticAircraftKills": 0,
+      "BuildingKills": 0,
+      "OtherGroundKills": 0,
+      "TotalKills": 0,
+      "Deaths": 0,
+      "KillDeathRatio": 0,
+      "Bailouts": 0,
+      "Landings": 0,
+      "BombKg": 0,
+      "BombsDropped": 0,
+      "BombingTargetsDestroyed": 0,
+      "FlightMinutes": 0,
+      "FlightHours": 0,
+      "LastSeenUtc": "2026-07-22 20:04:06Z"
     }
   ],
   "TargetDamage": [
