@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-22T16:04:18.4142900Z",
+  "GeneratedUtc": "2026-07-22T16:07:18.4423954Z",
   "Campaign": {
     "RedCampaignPoints": 46,
     "BlueCampaignPoints": 2,
@@ -172,7 +172,7 @@
       "Pilot": "Dolfo",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -195,7 +195,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-07-22 16:04:17Z"
+      "LastSeenUtc": "2026-07-22 16:06:49Z"
     },
     {
       "Position": 7,
