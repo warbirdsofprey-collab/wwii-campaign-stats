@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-23T07:59:20.4580975Z",
+  "GeneratedUtc": "2026-07-23T08:01:20.4694624Z",
   "Campaign": {
     "RedCampaignPoints": 47,
     "BlueCampaignPoints": 2,
@@ -690,7 +690,7 @@
   "ActivePlayers": [
     {
       "Pilot": "johnhastie",
-      "Aircraft": "tobruk:Aircraft.Bf-109E-7"
+      "Aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late"
     }
   ],
   "AirbaseRepairHours": 72,
