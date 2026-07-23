@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-23T19:23:22.6554786Z",
+  "GeneratedUtc": "2026-07-23T19:25:22.6931121Z",
   "Campaign": {
     "RedCampaignPoints": 197,
     "BlueCampaignPoints": 2,
@@ -732,20 +732,7 @@
       "Available": 100
     }
   ],
-  "ActivePlayers": [
-    {
-      "Pilot": "TWC_BlacKnight",
-      "Aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late"
-    },
-    {
-      "Pilot": "ATAG_Slot",
-      "Aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late"
-    },
-    {
-      "Pilot": "GR_Val",
-      "Aircraft": "tobruk:Aircraft.Bf-109F-2"
-    }
-  ],
+  "ActivePlayers": [],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
