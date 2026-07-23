@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-23T23:05:24.0823002Z",
+  "GeneratedUtc": "2026-07-23T23:09:24.1140482Z",
   "Campaign": {
     "RedCampaignPoints": 197,
     "BlueCampaignPoints": 2,
@@ -37,11 +37,11 @@
       "Bailouts": 0,
       "Landings": 29,
       "BombKg": 0,
-      "BombsDropped": 38,
+      "BombsDropped": 47,
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 10435.75,
       "FlightHours": 173.93,
-      "LastSeenUtc": "2026-07-23 23:05:23Z"
+      "LastSeenUtc": "2026-07-23 23:09:15Z"
     },
     {
       "Position": 2,
@@ -471,6 +471,10 @@
     },
     {
       "Target": "Flugplatz Pihen Fighter",
+      "DamagePercent": 22
+    },
+    {
+      "Target": "St. Omer Wizernes Fighters",
       "DamagePercent": 22
     },
     {
