@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-23T07:40:20.3863839Z",
+  "GeneratedUtc": "2026-07-23T07:41:20.3903585Z",
   "Campaign": {
     "RedCampaignPoints": 47,
     "BlueCampaignPoints": 2,
@@ -305,7 +305,7 @@
       "Pilot": "johnhastie",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -329,7 +329,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-07-23 07:40:20Z"
+      "LastSeenUtc": "2026-07-23 07:40:54Z"
     },
     {
       "Position": 11,
@@ -687,7 +687,12 @@
       "Available": 100
     }
   ],
-  "ActivePlayers": [],
+  "ActivePlayers": [
+    {
+      "Pilot": "johnhastie",
+      "Aircraft": ""
+    }
+  ],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
