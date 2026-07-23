@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-23T07:47:20.4139370Z",
+  "GeneratedUtc": "2026-07-23T07:51:20.4529822Z",
   "Campaign": {
     "RedCampaignPoints": 47,
     "BlueCampaignPoints": 2,
@@ -329,7 +329,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-07-23 07:46:52Z"
+      "LastSeenUtc": "2026-07-23 07:50:45Z"
     },
     {
       "Position": 11,
@@ -690,7 +690,7 @@
   "ActivePlayers": [
     {
       "Pilot": "johnhastie",
-      "Aircraft": ""
+      "Aircraft": "tobruk:Aircraft.Bf-109E-7"
     }
   ],
   "AirbaseRepairHours": 72,
