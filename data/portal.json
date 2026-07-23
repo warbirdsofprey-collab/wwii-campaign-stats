@@ -1,11 +1,11 @@
 {
-  "GeneratedUtc": "2026-07-23T13:35:20.6207229Z",
+  "GeneratedUtc": "2026-07-23T13:40:20.6528896Z",
   "Campaign": {
     "RedCampaignPoints": 47,
     "BlueCampaignPoints": 2,
     "RedFactoriesDestroyed": 0,
     "BlueFactoriesDestroyed": 0,
-    "RedAirfieldsDestroyed": 0,
+    "RedAirfieldsDestroyed": 1,
     "BlueAirfieldsDestroyed": 0,
     "RedConvoysDestroyed": 2,
     "BlueConvoysDestroyed": 0
@@ -37,11 +37,11 @@
       "Bailouts": 0,
       "Landings": 28,
       "BombKg": 0,
-      "BombsDropped": 9,
+      "BombsDropped": 18,
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 9596.46,
       "FlightHours": 159.94,
-      "LastSeenUtc": "2026-07-23 13:35:19Z"
+      "LastSeenUtc": "2026-07-23 13:40:15Z"
     },
     {
       "Position": 2,
@@ -394,6 +394,10 @@
       "DamagePercent": 100
     },
     {
+      "Target": "Guines Airfield",
+      "DamagePercent": 100
+    },
+    {
       "Target": "ObserverUxbridge (AL,27), last station of Alert (Uxbridge),",
       "DamagePercent": 100
     },
@@ -451,6 +455,7 @@
     "Coquelles Fighter",
     "Fliegerhorst Calais Marck Fighter / Bomber",
     "Fliegerhorst Peuplingues",
+    "Guines Airfield",
     "Marquise West",
     "ObserverUxbridge (AL,27), last station of Alert (Uxbridge),",
     "Oostende-Dunkirk Tanker Convoy"
