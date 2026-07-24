@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-24T02:17:25.4024824Z",
+  "GeneratedUtc": "2026-07-24T02:22:25.4306300Z",
   "Campaign": {
     "RedCampaignPoints": 222,
     "BlueCampaignPoints": 2,
@@ -769,7 +769,12 @@
       "Available": 100
     }
   ],
-  "ActivePlayers": [],
+  "ActivePlayers": [
+    {
+      "Pilot": "Pinguim01",
+      "Aircraft": "bob:Aircraft.Bf-110C-7"
+    }
+  ],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
