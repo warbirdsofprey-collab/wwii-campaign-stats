@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-24T02:14:25.3788921Z",
+  "GeneratedUtc": "2026-07-24T02:17:25.4024824Z",
   "Campaign": {
     "RedCampaignPoints": 222,
     "BlueCampaignPoints": 2,
@@ -401,7 +401,7 @@
       "Pilot": "Pinguim01",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -425,7 +425,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-07-24 02:13:39Z"
+      "LastSeenUtc": "2026-07-24 02:17:22Z"
     }
   ],
   "TargetDamage": [
