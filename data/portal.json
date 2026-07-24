@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-24T00:05:24.4784802Z",
+  "GeneratedUtc": "2026-07-24T00:10:24.5291322Z",
   "Campaign": {
     "RedCampaignPoints": 197,
     "BlueCampaignPoints": 2,
@@ -37,11 +37,11 @@
       "Bailouts": 0,
       "Landings": 29,
       "BombKg": 0,
-      "BombsDropped": 47,
+      "BombsDropped": 56,
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 10435.75,
       "FlightHours": 173.93,
-      "LastSeenUtc": "2026-07-24 00:00:35Z"
+      "LastSeenUtc": "2026-07-24 00:09:29Z"
     },
     {
       "Position": 2,
@@ -438,6 +438,10 @@
       "DamagePercent": 100
     },
     {
+      "Target": "St. Omer Wizernes Fighters",
+      "DamagePercent": 100
+    },
+    {
       "Target": "Coquelles Fighter",
       "DamagePercent": 98
     },
@@ -474,10 +478,6 @@
       "DamagePercent": 22
     },
     {
-      "Target": "St. Omer Wizernes Fighters",
-      "DamagePercent": 22
-    },
-    {
       "Target": "Calais Kriegsmarine Docks Area",
       "DamagePercent": 17
     },
@@ -502,7 +502,8 @@
     "Guines Airfield",
     "Marquise West",
     "ObserverUxbridge (AL,27), last station of Alert (Uxbridge),",
-    "Oostende-Dunkirk Tanker Convoy"
+    "Oostende-Dunkirk Tanker Convoy",
+    "St. Omer Wizernes Fighters"
   ],
   "AircraftStocks": [
     {
