@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-24T08:22:27.6875740Z",
+  "GeneratedUtc": "2026-07-24T08:32:27.7557313Z",
   "Campaign": {
     "RedCampaignPoints": 222,
     "BlueCampaignPoints": 2,
@@ -297,7 +297,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-07-24 08:18:39Z"
+      "LastSeenUtc": "2026-07-24 08:32:05Z"
     },
     {
       "Position": 10,
@@ -801,7 +801,12 @@
       "Available": 100
     }
   ],
-  "ActivePlayers": [],
+  "ActivePlayers": [
+    {
+      "Pilot": "fedchuk457",
+      "Aircraft": ""
+    }
+  ],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
