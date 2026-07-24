@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-24T13:50:27.8793245Z",
+  "GeneratedUtc": "2026-07-24T13:52:27.9058624Z",
   "Campaign": {
     "RedCampaignPoints": 222,
     "BlueCampaignPoints": 2,
@@ -801,12 +801,7 @@
       "Available": 100
     }
   ],
-  "ActivePlayers": [
-    {
-      "Pilot": "TWC_BlacKnight",
-      "Aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
-    }
-  ],
+  "ActivePlayers": [],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
