@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-24T08:34:27.7518310Z",
+  "GeneratedUtc": "2026-07-24T08:42:27.7947900Z",
   "Campaign": {
     "RedCampaignPoints": 222,
     "BlueCampaignPoints": 2,
@@ -804,7 +804,7 @@
   "ActivePlayers": [
     {
       "Pilot": "fedchuk457",
-      "Aircraft": ""
+      "Aircraft": "tobruk:Aircraft.Bf-109E-7"
     }
   ],
   "AirbaseRepairHours": 72,
