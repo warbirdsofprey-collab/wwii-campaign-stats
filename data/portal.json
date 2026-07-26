@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-26T16:47:43.2657908Z",
+  "GeneratedUtc": "2026-07-26T16:48:43.2578980Z",
   "Campaign": {
     "RedCampaignPoints": 247,
     "BlueCampaignPoints": 2,
@@ -17,9 +17,9 @@
       "Pilot": "TWC_BlacKnight",
       "Rank": "Group Captain / Oberst",
       "Score": 5495,
-      "Sorties": 104,
+      "Sorties": 105,
       "SuccessfulSorties": 34,
-      "SuccessRate": 0.3269,
+      "SuccessRate": 0.3238,
       "AirKills": 52,
       "GroundKills": 2,
       "ShipKills": 1,
@@ -41,7 +41,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 13002.99,
       "FlightHours": 216.72,
-      "LastSeenUtc": "2026-07-26 16:47:12Z"
+      "LastSeenUtc": "2026-07-26 16:47:59Z"
     },
     {
       "Position": 2,
@@ -529,7 +529,7 @@
       "Pilot": "TWC_Spartacus",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 1,
+      "Sorties": 2,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -553,7 +553,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 50.9,
       "FlightHours": 0.85,
-      "LastSeenUtc": "2026-07-25 16:15:11Z"
+      "LastSeenUtc": "2026-07-26 16:48:40Z"
     },
     {
       "Position": 18,
