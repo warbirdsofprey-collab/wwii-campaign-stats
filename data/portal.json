@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-26T21:23:44.7761624Z",
+  "GeneratedUtc": "2026-07-26T21:24:44.7802213Z",
   "Campaign": {
     "RedCampaignPoints": 247,
     "BlueCampaignPoints": 2,
@@ -37,11 +37,11 @@
       "Bailouts": 0,
       "Landings": 35,
       "BombKg": 0,
-      "BombsDropped": 93,
+      "BombsDropped": 102,
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 13044.3,
       "FlightHours": 217.4,
-      "LastSeenUtc": "2026-07-26 21:23:42Z"
+      "LastSeenUtc": "2026-07-26 21:24:22Z"
     },
     {
       "Position": 2,
@@ -622,6 +622,10 @@
       "DamagePercent": 100
     },
     {
+      "Target": "Flugfeld Audembert",
+      "DamagePercent": 100
+    },
+    {
       "Target": "Guines Airfield",
       "DamagePercent": 100
     },
@@ -692,6 +696,7 @@
     "Fighter Bomber Zutkerque",
     "Fliegerhorst Calais Marck Fighter / Bomber",
     "Fliegerhorst Peuplingues",
+    "Flugfeld Audembert",
     "Guines Airfield",
     "Marquise West",
     "ObserverUxbridge (AL,27), last station of Alert (Uxbridge),",
