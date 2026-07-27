@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-27T08:54:49.3188888Z",
+  "GeneratedUtc": "2026-07-27T08:56:49.3553859Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1035,7 +1035,12 @@
       "Available": 100
     }
   ],
-  "ActivePlayers": [],
+  "ActivePlayers": [
+    {
+      "Pilot": "Bonditaria",
+      "Aircraft": "tobruk:Aircraft.HurricaneMkIIb-Late"
+    }
+  ],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
