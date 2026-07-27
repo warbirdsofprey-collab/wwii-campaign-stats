@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-27T22:30:52.3617422Z",
+  "GeneratedUtc": "2026-07-27T22:31:52.3731663Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -49,9 +49,9 @@
       "Pilot": "TWC_Pedro",
       "Rank": "Flying Officer / Leutnant",
       "Score": 210,
-      "Sorties": 5,
+      "Sorties": 6,
       "SuccessfulSorties": 2,
-      "SuccessRate": 0.4,
+      "SuccessRate": 0.3333,
       "AirKills": 2,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -73,7 +73,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 397.85,
       "FlightHours": 6.63,
-      "LastSeenUtc": "2026-07-27 22:29:08Z"
+      "LastSeenUtc": "2026-07-27 22:31:36Z"
     },
     {
       "Position": 3,
@@ -1103,7 +1103,16 @@
       "Available": 100
     }
   ],
-  "ActivePlayers": [],
+  "ActivePlayers": [
+    {
+      "Pilot": "TWC_BlacKnight",
+      "Aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late"
+    },
+    {
+      "Pilot": "TWC_Pedro",
+      "Aircraft": ""
+    }
+  ],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
