@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-27T11:20:48.3210065Z",
+  "GeneratedUtc": "2026-07-27T11:26:48.3571729Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -41,7 +41,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 13331.62,
       "FlightHours": 222.19,
-      "LastSeenUtc": "2026-07-27 11:20:00Z"
+      "LastSeenUtc": "2026-07-27 11:26:19Z"
     },
     {
       "Position": 2,
@@ -1035,7 +1035,12 @@
       "Available": 100
     }
   ],
-  "ActivePlayers": [],
+  "ActivePlayers": [
+    {
+      "Pilot": "TWC_BlacKnight",
+      "Aircraft": "tobruk:Aircraft.BeaufighterMkIC"
+    }
+  ],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
