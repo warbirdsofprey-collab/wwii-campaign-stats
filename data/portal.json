@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-27T00:46:46.1505544Z",
+  "GeneratedUtc": "2026-07-27T00:54:46.1870642Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -37,11 +37,11 @@
       "Bailouts": 0,
       "Landings": 35,
       "BombKg": 0,
-      "BombsDropped": 113,
+      "BombsDropped": 115,
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 13196.19,
       "FlightHours": 219.94,
-      "LastSeenUtc": "2026-07-27 00:31:29Z"
+      "LastSeenUtc": "2026-07-27 00:54:23Z"
     },
     {
       "Position": 2,
@@ -740,6 +740,10 @@
     {
       "Target": "Calais Kriegsmarine Docks Area",
       "DamagePercent": 17
+    },
+    {
+      "Target": "Flugfeld Querqueville",
+      "DamagePercent": 5
     },
     {
       "Target": "Hawkinge Forward Airbase",
