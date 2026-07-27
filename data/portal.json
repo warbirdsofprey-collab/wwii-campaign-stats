@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-27T19:25:51.2437800Z",
+  "GeneratedUtc": "2026-07-27T19:26:51.2593008Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -41,7 +41,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 14073.15,
       "FlightHours": 234.55,
-      "LastSeenUtc": "2026-07-27 19:23:14Z"
+      "LastSeenUtc": "2026-07-27 19:26:33Z"
     },
     {
       "Position": 2,
@@ -237,6 +237,38 @@
     },
     {
       "Position": 8,
+      "PilotKey": "gr_val",
+      "Pilot": "GR_Val",
+      "Rank": "Pilot Officer / Feldwebel",
+      "Score": 5,
+      "Sorties": 2,
+      "SuccessfulSorties": 1,
+      "SuccessRate": 0.5,
+      "AirKills": 0,
+      "GroundKills": 0,
+      "ShipKills": 0,
+      "TankKills": 0,
+      "TruckKills": 0,
+      "AaaKills": 0,
+      "ArtilleryKills": 0,
+      "TrainKills": 0,
+      "StaticAircraftKills": 0,
+      "BuildingKills": 0,
+      "OtherGroundKills": 0,
+      "TotalKills": 0,
+      "Deaths": 0,
+      "KillDeathRatio": 0,
+      "Bailouts": 0,
+      "Landings": 1,
+      "BombKg": 0,
+      "BombsDropped": 0,
+      "BombingTargetsDestroyed": 0,
+      "FlightMinutes": 45.39,
+      "FlightHours": 0.76,
+      "LastSeenUtc": "2026-07-27 18:51:11Z"
+    },
+    {
+      "Position": 9,
       "PilotKey": "johnhastie",
       "Pilot": "johnhastie",
       "Rank": "Pilot Officer / Feldwebel",
@@ -268,7 +300,7 @@
       "LastSeenUtc": "2026-07-23 07:58:39Z"
     },
     {
-      "Position": 9,
+      "Position": 10,
       "PilotKey": "obt~brunov",
       "Pilot": "OBT~Brunov",
       "Rank": "Pilot Officer / Feldwebel",
@@ -300,7 +332,7 @@
       "LastSeenUtc": "2026-07-20 20:33:11Z"
     },
     {
-      "Position": 10,
+      "Position": 11,
       "PilotKey": "szewcu",
       "Pilot": "SZEWCU",
       "Rank": "Pilot Officer / Feldwebel",
@@ -332,7 +364,7 @@
       "LastSeenUtc": "2026-07-26 22:11:57Z"
     },
     {
-      "Position": 11,
+      "Position": 12,
       "PilotKey": "*kot_pilot*",
       "Pilot": "*KoT_Pilot*",
       "Rank": "Pilot Officer / Feldwebel",
@@ -364,7 +396,7 @@
       "LastSeenUtc": "2026-07-26 10:03:55Z"
     },
     {
-      "Position": 12,
+      "Position": 13,
       "PilotKey": "betty \\| 6-2 big-g",
       "Pilot": "Betty | 6-2 Big-G",
       "Rank": "Pilot Officer / Feldwebel",
@@ -396,7 +428,7 @@
       "LastSeenUtc": "2026-07-21 00:17:53Z"
     },
     {
-      "Position": 13,
+      "Position": 14,
       "PilotKey": "dolfo",
       "Pilot": "Dolfo",
       "Rank": "Pilot Officer / Feldwebel",
@@ -428,7 +460,7 @@
       "LastSeenUtc": "2026-07-22 16:06:49Z"
     },
     {
-      "Position": 14,
+      "Position": 15,
       "PilotKey": "fls_tepes",
       "Pilot": "FLS_Tepes",
       "Rank": "Pilot Officer / Feldwebel",
@@ -458,38 +490,6 @@
       "FlightMinutes": 0,
       "FlightHours": 0,
       "LastSeenUtc": "2026-07-23 00:26:52Z"
-    },
-    {
-      "Position": 15,
-      "PilotKey": "gr_val",
-      "Pilot": "GR_Val",
-      "Rank": "Pilot Officer / Feldwebel",
-      "Score": 0,
-      "Sorties": 2,
-      "SuccessfulSorties": 0,
-      "SuccessRate": 0,
-      "AirKills": 0,
-      "GroundKills": 0,
-      "ShipKills": 0,
-      "TankKills": 0,
-      "TruckKills": 0,
-      "AaaKills": 0,
-      "ArtilleryKills": 0,
-      "TrainKills": 0,
-      "StaticAircraftKills": 0,
-      "BuildingKills": 0,
-      "OtherGroundKills": 0,
-      "TotalKills": 0,
-      "Deaths": 0,
-      "KillDeathRatio": 0,
-      "Bailouts": 0,
-      "Landings": 0,
-      "BombKg": 0,
-      "BombsDropped": 0,
-      "BombingTargetsDestroyed": 0,
-      "FlightMinutes": 10.7,
-      "FlightHours": 0.18,
-      "LastSeenUtc": "2026-07-27 18:51:11Z"
     },
     {
       "Position": 16,
