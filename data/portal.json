@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-27T19:28:51.2801111Z",
+  "GeneratedUtc": "2026-07-27T19:29:51.3022605Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1075,14 +1075,6 @@
     {
       "Pilot": "TWC_BlacKnight",
       "Aircraft": "tobruk:Aircraft.WellingtonMkIc_Late"
-    },
-    {
-      "Pilot": "GR_Val",
-      "Aircraft": "tobruk:Aircraft.Bf-109F-4"
-    },
-    {
-      "Pilot": "Hun Hunter",
-      "Aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
     }
   ],
   "AirbaseRepairHours": 72,
