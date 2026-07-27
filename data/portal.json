@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-27T08:46:49.2413845Z",
+  "GeneratedUtc": "2026-07-27T08:51:49.2947022Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -365,6 +365,38 @@
     },
     {
       "Position": 12,
+      "PilotKey": "bonditaria",
+      "Pilot": "Bonditaria",
+      "Rank": "Pilot Officer / Feldwebel",
+      "Score": 0,
+      "Sorties": 0,
+      "SuccessfulSorties": 0,
+      "SuccessRate": 0,
+      "AirKills": 0,
+      "GroundKills": 0,
+      "ShipKills": 0,
+      "TankKills": 0,
+      "TruckKills": 0,
+      "AaaKills": 0,
+      "ArtilleryKills": 0,
+      "TrainKills": 0,
+      "StaticAircraftKills": 0,
+      "BuildingKills": 0,
+      "OtherGroundKills": 0,
+      "TotalKills": 0,
+      "Deaths": 0,
+      "KillDeathRatio": 0,
+      "Bailouts": 0,
+      "Landings": 0,
+      "BombKg": 0,
+      "BombsDropped": 0,
+      "BombingTargetsDestroyed": 0,
+      "FlightMinutes": 0,
+      "FlightHours": 0,
+      "LastSeenUtc": "2026-07-27 08:51:27Z"
+    },
+    {
+      "Position": 13,
       "PilotKey": "dolfo",
       "Pilot": "Dolfo",
       "Rank": "Pilot Officer / Feldwebel",
@@ -396,7 +428,7 @@
       "LastSeenUtc": "2026-07-22 16:06:49Z"
     },
     {
-      "Position": 13,
+      "Position": 14,
       "PilotKey": "fls_tepes",
       "Pilot": "FLS_Tepes",
       "Rank": "Pilot Officer / Feldwebel",
@@ -428,7 +460,7 @@
       "LastSeenUtc": "2026-07-23 00:26:52Z"
     },
     {
-      "Position": 14,
+      "Position": 15,
       "PilotKey": "gr_val",
       "Pilot": "GR_Val",
       "Rank": "Pilot Officer / Feldwebel",
@@ -460,7 +492,7 @@
       "LastSeenUtc": "2026-07-23 19:07:06Z"
     },
     {
-      "Position": 15,
+      "Position": 16,
       "PilotKey": "joffski",
       "Pilot": "Joffski",
       "Rank": "Pilot Officer / Feldwebel",
@@ -492,7 +524,7 @@
       "LastSeenUtc": "2026-07-20 19:30:00Z"
     },
     {
-      "Position": 16,
+      "Position": 17,
       "PilotKey": "no boss no toss",
       "Pilot": "No Boss No Toss",
       "Rank": "Pilot Officer / Feldwebel",
@@ -524,7 +556,7 @@
       "LastSeenUtc": "2026-07-25 14:04:32Z"
     },
     {
-      "Position": 17,
+      "Position": 18,
       "PilotKey": "obt~lionel",
       "Pilot": "OBT~Lionel",
       "Rank": "Pilot Officer / Feldwebel",
@@ -556,7 +588,7 @@
       "LastSeenUtc": "2026-07-22 20:04:55Z"
     },
     {
-      "Position": 18,
+      "Position": 19,
       "PilotKey": "pinguim01",
       "Pilot": "Pinguim01",
       "Rank": "Pilot Officer / Feldwebel",
@@ -588,7 +620,7 @@
       "LastSeenUtc": "2026-07-24 02:31:27Z"
     },
     {
-      "Position": 19,
+      "Position": 20,
       "PilotKey": "puma_cl",
       "Pilot": "Puma_Cl",
       "Rank": "Pilot Officer / Feldwebel",
@@ -620,7 +652,7 @@
       "LastSeenUtc": "2026-07-26 21:32:52Z"
     },
     {
-      "Position": 20,
+      "Position": 21,
       "PilotKey": "vf-1_fakino",
       "Pilot": "VF-1_FAKINO",
       "Rank": "Pilot Officer / Feldwebel",
