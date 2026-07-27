@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-27T18:59:51.0771686Z",
+  "GeneratedUtc": "2026-07-27T19:09:51.1401086Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -497,7 +497,7 @@
       "Pilot": "Hun Hunter",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -521,7 +521,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-07-27 18:57:53Z"
+      "LastSeenUtc": "2026-07-27 18:59:51Z"
     },
     {
       "Position": 17,
@@ -1078,7 +1078,7 @@
     },
     {
       "Pilot": "Hun Hunter",
-      "Aircraft": ""
+      "Aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
     }
   ],
   "AirbaseRepairHours": 72,
