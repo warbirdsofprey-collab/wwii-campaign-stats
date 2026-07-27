@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-27T08:51:49.2947022Z",
+  "GeneratedUtc": "2026-07-27T08:54:49.3188888Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -369,7 +369,7 @@
       "Pilot": "Bonditaria",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -393,7 +393,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-07-27 08:51:27Z"
+      "LastSeenUtc": "2026-07-27 08:54:26Z"
     },
     {
       "Position": 13,
