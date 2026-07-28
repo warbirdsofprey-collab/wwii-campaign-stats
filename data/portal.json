@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-28T14:54:57.6391801Z",
+  "GeneratedUtc": "2026-07-28T14:58:57.6946877Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1135,12 +1135,7 @@
       "Available": 100
     }
   ],
-  "ActivePlayers": [
-    {
-      "Pilot": "kozlo",
-      "Aircraft": "tobruk:Aircraft.He-111H-6"
-    }
-  ],
+  "ActivePlayers": [],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
