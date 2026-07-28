@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-28T14:44:57.5641636Z",
+  "GeneratedUtc": "2026-07-28T14:48:57.5922952Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -617,7 +617,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-07-28 14:44:19Z"
+      "LastSeenUtc": "2026-07-28 14:48:10Z"
     },
     {
       "Position": 20,
@@ -1135,7 +1135,12 @@
       "Available": 100
     }
   ],
-  "ActivePlayers": [],
+  "ActivePlayers": [
+    {
+      "Pilot": "kozlo",
+      "Aircraft": "tobruk:Aircraft.He-111H-6"
+    }
+  ],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
