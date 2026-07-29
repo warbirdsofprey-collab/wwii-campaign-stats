@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-29T23:04:10.2035016Z",
+  "GeneratedUtc": "2026-07-29T23:06:10.2086302Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -785,7 +785,7 @@
       "Pilot": "RS_Odyssey",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -809,7 +809,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-07-29 23:03:41Z"
+      "LastSeenUtc": "2026-07-29 23:05:39Z"
     },
     {
       "Position": 26,
