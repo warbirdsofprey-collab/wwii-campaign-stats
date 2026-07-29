@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-29T12:32:05.6161477Z",
+  "GeneratedUtc": "2026-07-29T12:33:05.6393260Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -883,7 +883,7 @@
     },
     {
       "Target": "Fliegerhorst Oye Plage",
-      "DamagePercent": 43
+      "DamagePercent": 50
     },
     {
       "Target": "Calais Rail Yard",
