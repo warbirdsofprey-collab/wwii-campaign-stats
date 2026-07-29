@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-29T23:06:10.2086302Z",
+  "GeneratedUtc": "2026-07-29T23:08:10.2342469Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1199,7 +1199,12 @@
       "Available": 100
     }
   ],
-  "ActivePlayers": [],
+  "ActivePlayers": [
+    {
+      "Pilot": "RS_Odyssey",
+      "Aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late"
+    }
+  ],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
