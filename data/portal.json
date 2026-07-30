@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-30T06:28:13.6142968Z",
+  "GeneratedUtc": "2026-07-30T06:30:13.6244473Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -465,7 +465,7 @@
       "Pilot": "=AnDron=",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -489,7 +489,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-07-30 06:27:38Z"
+      "LastSeenUtc": "2026-07-30 06:29:51Z"
     },
     {
       "Position": 16,
@@ -1231,7 +1231,12 @@
       "Available": 100
     }
   ],
-  "ActivePlayers": [],
+  "ActivePlayers": [
+    {
+      "Pilot": "",
+      "Aircraft": "AnDron=="
+    }
+  ],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
