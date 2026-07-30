@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-30T06:30:13.6244473Z",
+  "GeneratedUtc": "2026-07-30T06:40:13.6771810Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1234,7 +1234,7 @@
   "ActivePlayers": [
     {
       "Pilot": "",
-      "Aircraft": "AnDron=="
+      "Aircraft": "AnDron==tobruk:Aircraft.MartletMkIII"
     }
   ],
   "AirbaseRepairHours": 72,
