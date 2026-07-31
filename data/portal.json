@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-31T15:42:23.0670499Z",
+  "GeneratedUtc": "2026-07-31T15:51:23.1431897Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1327,12 +1327,7 @@
       "Available": 100
     }
   ],
-  "ActivePlayers": [
-    {
-      "Pilot": "Ranger 01",
-      "Aircraft": "bob:Aircraft.Ju-87B-2"
-    }
-  ],
+  "ActivePlayers": [],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
