@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-31T13:16:22.0706855Z",
+  "GeneratedUtc": "2026-07-31T13:21:22.1240187Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -167,8 +167,8 @@
       "BombKg": 0,
       "BombsDropped": 0,
       "BombingTargetsDestroyed": 0,
-      "FlightMinutes": 49.99,
-      "FlightHours": 0.83,
+      "FlightMinutes": 54.58,
+      "FlightHours": 0.91,
       "LastSeenUtc": "2026-07-31 13:16:20Z"
     },
     {
@@ -1295,12 +1295,7 @@
       "Available": 100
     }
   ],
-  "ActivePlayers": [
-    {
-      "Pilot": "alb612",
-      "Aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late"
-    }
-  ],
+  "ActivePlayers": [],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
