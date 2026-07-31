@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-07-31T14:42:22.6848539Z",
+  "GeneratedUtc": "2026-07-31T14:47:22.7341645Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -849,7 +849,7 @@
       "Pilot": "Ranger 01",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -873,7 +873,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-07-31 14:41:29Z"
+      "LastSeenUtc": "2026-07-31 14:46:42Z"
     },
     {
       "Position": 28,
