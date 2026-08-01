@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-01T13:00:29.7438895Z",
+  "GeneratedUtc": "2026-08-01T13:03:29.7602842Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1363,10 +1363,6 @@
     {
       "Pilot": "PFT_Mici_(308)",
       "Aircraft": ""
-    },
-    {
-      "Pilot": "alb612",
-      "Aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late"
     }
   ],
   "AirbaseRepairHours": 72,
