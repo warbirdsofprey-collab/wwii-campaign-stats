@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-01T12:08:29.3670988Z",
+  "GeneratedUtc": "2026-08-01T12:09:29.3717077Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -817,7 +817,7 @@
       "Pilot": "PFT_Mici_(308)",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -841,7 +841,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-08-01 12:07:41Z"
+      "LastSeenUtc": "2026-08-01 12:08:31Z"
     },
     {
       "Position": 27,
