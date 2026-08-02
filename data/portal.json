@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-02T22:50:40.3572113Z",
+  "GeneratedUtc": "2026-08-02T23:00:40.4347708Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -233,7 +233,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-08-02 22:16:06Z"
+      "LastSeenUtc": "2026-08-02 23:00:13Z"
     },
     {
       "Position": 8,
@@ -1362,7 +1362,7 @@
   "ActivePlayers": [
     {
       "Pilot": "Puma_Cl",
-      "Aircraft": "tobruk:Aircraft.SpitfireMkVb-HF"
+      "Aircraft": ""
     }
   ],
   "AirbaseRepairHours": 72,
