@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-02T22:10:40.1907086Z",
+  "GeneratedUtc": "2026-08-02T22:16:40.2162669Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -881,7 +881,7 @@
       "Pilot": "Puma_Cl",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -905,7 +905,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-07-26 21:32:52Z"
+      "LastSeenUtc": "2026-08-02 22:16:06Z"
     },
     {
       "Position": 29,
