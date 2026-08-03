@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-03T17:02:45.2664407Z",
+  "GeneratedUtc": "2026-08-03T17:03:45.2630470Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1009,7 +1009,7 @@
       "Pilot": "TIGERTACTICS",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -1033,7 +1033,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-08-03 17:02:40Z"
+      "LastSeenUtc": "2026-08-03 17:03:13Z"
     },
     {
       "Position": 33,
