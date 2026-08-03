@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-03T17:07:45.2604514Z",
+  "GeneratedUtc": "2026-08-03T17:10:45.3172943Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1423,7 +1423,12 @@
       "Available": 100
     }
   ],
-  "ActivePlayers": [],
+  "ActivePlayers": [
+    {
+      "Pilot": "TIGERTACTICS",
+      "Aircraft": "tobruk:Aircraft.Bf-109E-7"
+    }
+  ],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
