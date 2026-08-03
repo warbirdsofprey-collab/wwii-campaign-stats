@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-03T00:10:40.8840567Z",
+  "GeneratedUtc": "2026-08-03T00:17:40.9075427Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -176,10 +176,10 @@
       "PilotKey": "puma_cl",
       "Pilot": "Puma_Cl",
       "Rank": "Pilot Officer / Feldwebel",
-      "Score": 105,
+      "Score": 110,
       "Sorties": 2,
-      "SuccessfulSorties": 1,
-      "SuccessRate": 0.5,
+      "SuccessfulSorties": 2,
+      "SuccessRate": 1,
       "AirKills": 1,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -195,12 +195,12 @@
       "Deaths": 0,
       "KillDeathRatio": 1,
       "Bailouts": 0,
-      "Landings": 1,
+      "Landings": 2,
       "BombKg": 0,
       "BombsDropped": 0,
       "BombingTargetsDestroyed": 0,
-      "FlightMinutes": 92.63,
-      "FlightHours": 1.54,
+      "FlightMinutes": 120.26,
+      "FlightHours": 2,
       "LastSeenUtc": "2026-08-02 23:49:05Z"
     },
     {
