@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-03T00:30:41.0481282Z",
+  "GeneratedUtc": "2026-08-03T00:32:41.0458354Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -305,9 +305,9 @@
       "Pilot": "69th_biggles3",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 5,
-      "Sorties": 1,
+      "Sorties": 2,
       "SuccessfulSorties": 1,
-      "SuccessRate": 1,
+      "SuccessRate": 0.5,
       "AirKills": 0,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -329,7 +329,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 45.9,
       "FlightHours": 0.77,
-      "LastSeenUtc": "2026-08-02 23:53:52Z"
+      "LastSeenUtc": "2026-08-03 00:32:30Z"
     },
     {
       "Position": 11,
