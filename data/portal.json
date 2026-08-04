@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-04T13:02:51.0737381Z",
+  "GeneratedUtc": "2026-08-04T13:04:51.0688853Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -273,9 +273,9 @@
       "Pilot": "ATAG_Slot",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 10,
-      "Sorties": 3,
+      "Sorties": 4,
       "SuccessfulSorties": 2,
-      "SuccessRate": 0.6667,
+      "SuccessRate": 0.5,
       "AirKills": 0,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -297,7 +297,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 143.68,
       "FlightHours": 2.39,
-      "LastSeenUtc": "2026-08-04 13:02:01Z"
+      "LastSeenUtc": "2026-08-04 13:04:16Z"
     },
     {
       "Position": 10,
