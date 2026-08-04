@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-04T12:52:50.9851519Z",
+  "GeneratedUtc": "2026-08-04T13:02:51.0737381Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -297,7 +297,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 143.68,
       "FlightHours": 2.39,
-      "LastSeenUtc": "2026-07-23 19:02:42Z"
+      "LastSeenUtc": "2026-08-04 13:02:01Z"
     },
     {
       "Position": 10,
@@ -1423,7 +1423,12 @@
       "Available": 100
     }
   ],
-  "ActivePlayers": [],
+  "ActivePlayers": [
+    {
+      "Pilot": "ATAG_Slot",
+      "Aircraft": ""
+    }
+  ],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
