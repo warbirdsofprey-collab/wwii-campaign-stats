@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-04T10:55:50.2236483Z",
+  "GeneratedUtc": "2026-08-04T10:56:50.2349270Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -241,9 +241,9 @@
       "Pilot": "alb612",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 25,
-      "Sorties": 6,
+      "Sorties": 7,
       "SuccessfulSorties": 5,
-      "SuccessRate": 0.8333,
+      "SuccessRate": 0.7143,
       "AirKills": 0,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -265,7 +265,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 261.66,
       "FlightHours": 4.36,
-      "LastSeenUtc": "2026-08-04 10:55:33Z"
+      "LastSeenUtc": "2026-08-04 10:55:59Z"
     },
     {
       "Position": 9,
