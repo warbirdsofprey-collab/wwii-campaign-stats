@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-05T15:04:58.9316473Z",
+  "GeneratedUtc": "2026-08-05T15:05:58.9469011Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -48,10 +48,10 @@
       "PilotKey": "atag_slot",
       "Pilot": "ATAG_Slot",
       "Rank": "Flying Officer / Leutnant",
-      "Score": 290,
+      "Score": 295,
       "Sorties": 6,
-      "SuccessfulSorties": 3,
-      "SuccessRate": 0.5,
+      "SuccessfulSorties": 4,
+      "SuccessRate": 0.6667,
       "AirKills": 2,
       "GroundKills": 0,
       "ShipKills": 1,
@@ -67,12 +67,12 @@
       "Deaths": 0,
       "KillDeathRatio": 3,
       "Bailouts": 0,
-      "Landings": 3,
+      "Landings": 4,
       "BombKg": 0,
       "BombsDropped": 8,
       "BombingTargetsDestroyed": 0,
-      "FlightMinutes": 274.28,
-      "FlightHours": 4.57,
+      "FlightMinutes": 325.54,
+      "FlightHours": 5.43,
       "LastSeenUtc": "2026-08-05 14:57:19Z"
     },
     {
