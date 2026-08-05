@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-05T11:51:57.5372631Z",
+  "GeneratedUtc": "2026-08-05T12:01:57.5784678Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1423,12 +1423,7 @@
       "Available": 100
     }
   ],
-  "ActivePlayers": [
-    {
-      "Pilot": "ATAG_Slot",
-      "Aircraft": ""
-    }
-  ],
+  "ActivePlayers": [],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
