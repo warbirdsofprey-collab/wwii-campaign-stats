@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-05T15:59:59.2214603Z",
+  "GeneratedUtc": "2026-08-05T16:00:59.2378006Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1176,6 +1176,10 @@
     {
       "Target": "RAF Gravesend",
       "DamagePercent": 3
+    },
+    {
+      "Target": "RAF Canterbury Bomber",
+      "DamagePercent": 2
     }
   ],
   "DestroyedTargets": [
