@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-05T15:01:58.9203258Z",
+  "GeneratedUtc": "2026-08-05T15:04:58.9316473Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -45,6 +45,38 @@
     },
     {
       "Position": 2,
+      "PilotKey": "atag_slot",
+      "Pilot": "ATAG_Slot",
+      "Rank": "Flying Officer / Leutnant",
+      "Score": 290,
+      "Sorties": 6,
+      "SuccessfulSorties": 3,
+      "SuccessRate": 0.5,
+      "AirKills": 2,
+      "GroundKills": 0,
+      "ShipKills": 1,
+      "TankKills": 0,
+      "TruckKills": 0,
+      "AaaKills": 0,
+      "ArtilleryKills": 0,
+      "TrainKills": 0,
+      "StaticAircraftKills": 0,
+      "BuildingKills": 0,
+      "OtherGroundKills": 0,
+      "TotalKills": 3,
+      "Deaths": 0,
+      "KillDeathRatio": 3,
+      "Bailouts": 0,
+      "Landings": 3,
+      "BombKg": 0,
+      "BombsDropped": 8,
+      "BombingTargetsDestroyed": 0,
+      "FlightMinutes": 274.28,
+      "FlightHours": 4.57,
+      "LastSeenUtc": "2026-08-05 14:57:19Z"
+    },
+    {
+      "Position": 3,
       "PilotKey": "twc_pedro",
       "Pilot": "TWC_Pedro",
       "Rank": "Flying Officer / Leutnant",
@@ -76,7 +108,7 @@
       "LastSeenUtc": "2026-07-27 23:51:37Z"
     },
     {
-      "Position": 3,
+      "Position": 4,
       "PilotKey": "puma_cl",
       "Pilot": "Puma_Cl",
       "Rank": "Flying Officer / Leutnant",
@@ -108,7 +140,7 @@
       "LastSeenUtc": "2026-08-02 23:49:05Z"
     },
     {
-      "Position": 4,
+      "Position": 5,
       "PilotKey": "gr_val",
       "Pilot": "GR_Val",
       "Rank": "Flying Officer / Leutnant",
@@ -140,7 +172,7 @@
       "LastSeenUtc": "2026-07-27 18:51:11Z"
     },
     {
-      "Position": 5,
+      "Position": 6,
       "PilotKey": "twc_spartacus",
       "Pilot": "TWC_Spartacus",
       "Rank": "Flying Officer / Leutnant",
@@ -172,7 +204,7 @@
       "LastSeenUtc": "2026-07-26 17:17:25Z"
     },
     {
-      "Position": 6,
+      "Position": 7,
       "PilotKey": "hun hunter",
       "Pilot": "Hun Hunter",
       "Rank": "Flying Officer / Leutnant",
@@ -202,38 +234,6 @@
       "FlightMinutes": 54.58,
       "FlightHours": 0.91,
       "LastSeenUtc": "2026-07-31 13:16:20Z"
-    },
-    {
-      "Position": 7,
-      "PilotKey": "atag_slot",
-      "Pilot": "ATAG_Slot",
-      "Rank": "Flying Officer / Leutnant",
-      "Score": 190,
-      "Sorties": 6,
-      "SuccessfulSorties": 3,
-      "SuccessRate": 0.5,
-      "AirKills": 1,
-      "GroundKills": 0,
-      "ShipKills": 1,
-      "TankKills": 0,
-      "TruckKills": 0,
-      "AaaKills": 0,
-      "ArtilleryKills": 0,
-      "TrainKills": 0,
-      "StaticAircraftKills": 0,
-      "BuildingKills": 0,
-      "OtherGroundKills": 0,
-      "TotalKills": 2,
-      "Deaths": 0,
-      "KillDeathRatio": 2,
-      "Bailouts": 0,
-      "Landings": 3,
-      "BombKg": 0,
-      "BombsDropped": 8,
-      "BombingTargetsDestroyed": 0,
-      "FlightMinutes": 274.28,
-      "FlightHours": 4.57,
-      "LastSeenUtc": "2026-08-05 14:57:19Z"
     },
     {
       "Position": 8,
