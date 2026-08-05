@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-05T18:58:51.3539984Z",
+  "GeneratedUtc": "2026-08-05T19:03:51.3704954Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -529,9 +529,9 @@
       "Pilot": "Stormrider",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 5,
-      "Sorties": 3,
+      "Sorties": 4,
       "SuccessfulSorties": 1,
-      "SuccessRate": 0.3333,
+      "SuccessRate": 0.25,
       "AirKills": 0,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -553,7 +553,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 179.33,
       "FlightHours": 2.99,
-      "LastSeenUtc": "2026-08-05 18:57:47Z"
+      "LastSeenUtc": "2026-08-05 19:03:15Z"
     },
     {
       "Position": 18,
