@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-06T21:05:00.5173663Z",
+  "GeneratedUtc": "2026-08-06T21:08:00.5223066Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -657,7 +657,7 @@
       "Pilot": "Blondi",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -681,7 +681,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-08-06 21:04:37Z"
+      "LastSeenUtc": "2026-08-06 21:07:44Z"
     },
     {
       "Position": 22,
