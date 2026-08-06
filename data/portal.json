@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-06T23:55:01.6897200Z",
+  "GeneratedUtc": "2026-08-06T23:56:01.6760362Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -39,8 +39,8 @@
       "BombKg": 0,
       "BombsDropped": 165,
       "BombingTargetsDestroyed": 0,
-      "FlightMinutes": 21923.07,
-      "FlightHours": 365.38,
+      "FlightMinutes": 22462.94,
+      "FlightHours": 374.38,
       "LastSeenUtc": "2026-08-06 23:23:31Z"
     },
     {
@@ -103,8 +103,8 @@
       "BombKg": 0,
       "BombsDropped": 2,
       "BombingTargetsDestroyed": 0,
-      "FlightMinutes": 414.71,
-      "FlightHours": 6.91,
+      "FlightMinutes": 495.7,
+      "FlightHours": 8.26,
       "LastSeenUtc": "2026-08-06 23:30:34Z"
     },
     {
