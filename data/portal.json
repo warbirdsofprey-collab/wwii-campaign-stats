@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-06T21:50:00.7503205Z",
+  "GeneratedUtc": "2026-08-06T21:52:00.7803756Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -365,6 +365,38 @@
     },
     {
       "Position": 12,
+      "PilotKey": "blondi",
+      "Pilot": "Blondi",
+      "Rank": "Pilot Officer / Feldwebel",
+      "Score": 5,
+      "Sorties": 1,
+      "SuccessfulSorties": 1,
+      "SuccessRate": 1,
+      "AirKills": 0,
+      "GroundKills": 0,
+      "ShipKills": 0,
+      "TankKills": 0,
+      "TruckKills": 0,
+      "AaaKills": 0,
+      "ArtilleryKills": 0,
+      "TrainKills": 0,
+      "StaticAircraftKills": 0,
+      "BuildingKills": 0,
+      "OtherGroundKills": 0,
+      "TotalKills": 0,
+      "Deaths": 0,
+      "KillDeathRatio": 0,
+      "Bailouts": 0,
+      "Landings": 1,
+      "BombKg": 0,
+      "BombsDropped": 0,
+      "BombingTargetsDestroyed": 0,
+      "FlightMinutes": 48.81,
+      "FlightHours": 0.81,
+      "LastSeenUtc": "2026-08-06 21:15:22Z"
+    },
+    {
+      "Position": 13,
       "PilotKey": "bonditaria",
       "Pilot": "Bonditaria",
       "Rank": "Pilot Officer / Feldwebel",
@@ -396,7 +428,7 @@
       "LastSeenUtc": "2026-07-27 08:54:26Z"
     },
     {
-      "Position": 13,
+      "Position": 14,
       "PilotKey": "brooklynspo",
       "Pilot": "brooklynspo",
       "Rank": "Pilot Officer / Feldwebel",
@@ -428,7 +460,7 @@
       "LastSeenUtc": "2026-07-19 02:25:48Z"
     },
     {
-      "Position": 14,
+      "Position": 15,
       "PilotKey": "fedchuk457",
       "Pilot": "fedchuk457",
       "Rank": "Pilot Officer / Feldwebel",
@@ -460,7 +492,7 @@
       "LastSeenUtc": "2026-07-24 08:46:52Z"
     },
     {
-      "Position": 15,
+      "Position": 16,
       "PilotKey": "johnhastie",
       "Pilot": "johnhastie",
       "Rank": "Pilot Officer / Feldwebel",
@@ -492,7 +524,7 @@
       "LastSeenUtc": "2026-07-23 07:58:39Z"
     },
     {
-      "Position": 16,
+      "Position": 17,
       "PilotKey": "obt~brunov",
       "Pilot": "OBT~Brunov",
       "Rank": "Pilot Officer / Feldwebel",
@@ -524,7 +556,7 @@
       "LastSeenUtc": "2026-07-20 20:33:11Z"
     },
     {
-      "Position": 17,
+      "Position": 18,
       "PilotKey": "stormrider",
       "Pilot": "Stormrider",
       "Rank": "Pilot Officer / Feldwebel",
@@ -556,7 +588,7 @@
       "LastSeenUtc": "2026-08-06 12:39:59Z"
     },
     {
-      "Position": 18,
+      "Position": 19,
       "PilotKey": "szewcu",
       "Pilot": "SZEWCU",
       "Rank": "Pilot Officer / Feldwebel",
@@ -588,7 +620,7 @@
       "LastSeenUtc": "2026-07-26 22:11:57Z"
     },
     {
-      "Position": 19,
+      "Position": 20,
       "PilotKey": "*kot_pilot*",
       "Pilot": "*KoT_Pilot*",
       "Rank": "Pilot Officer / Feldwebel",
@@ -620,7 +652,7 @@
       "LastSeenUtc": "2026-07-26 10:03:55Z"
     },
     {
-      "Position": 20,
+      "Position": 21,
       "PilotKey": "betty \\| 6-2 big-g",
       "Pilot": "Betty | 6-2 Big-G",
       "Rank": "Pilot Officer / Feldwebel",
@@ -650,38 +682,6 @@
       "FlightMinutes": 104.95,
       "FlightHours": 1.75,
       "LastSeenUtc": "2026-07-21 00:17:53Z"
-    },
-    {
-      "Position": 21,
-      "PilotKey": "blondi",
-      "Pilot": "Blondi",
-      "Rank": "Pilot Officer / Feldwebel",
-      "Score": 0,
-      "Sorties": 1,
-      "SuccessfulSorties": 0,
-      "SuccessRate": 0,
-      "AirKills": 0,
-      "GroundKills": 0,
-      "ShipKills": 0,
-      "TankKills": 0,
-      "TruckKills": 0,
-      "AaaKills": 0,
-      "ArtilleryKills": 0,
-      "TrainKills": 0,
-      "StaticAircraftKills": 0,
-      "BuildingKills": 0,
-      "OtherGroundKills": 0,
-      "TotalKills": 0,
-      "Deaths": 0,
-      "KillDeathRatio": 0,
-      "Bailouts": 0,
-      "Landings": 0,
-      "BombKg": 0,
-      "BombsDropped": 0,
-      "BombingTargetsDestroyed": 0,
-      "FlightMinutes": 5.21,
-      "FlightHours": 0.09,
-      "LastSeenUtc": "2026-08-06 21:15:22Z"
     },
     {
       "Position": 22,
