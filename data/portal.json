@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-06T21:16:00.5879499Z",
+  "GeneratedUtc": "2026-08-06T21:25:00.6583116Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1498,7 +1498,7 @@
   "ActivePlayers": [
     {
       "Pilot": "Blondi",
-      "Aircraft": ""
+      "Aircraft": "tobruk:Aircraft.SpitfireMkVb"
     }
   ],
   "AirbaseRepairHours": 72,
