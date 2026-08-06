@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-06T00:18:53.6638319Z",
+  "GeneratedUtc": "2026-08-06T00:28:53.7179217Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -41,7 +41,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 16338.58,
       "FlightHours": 272.31,
-      "LastSeenUtc": "2026-08-05 23:27:08Z"
+      "LastSeenUtc": "2026-08-06 00:28:51Z"
     },
     {
       "Position": 2,
@@ -1431,7 +1431,12 @@
       "Available": 100
     }
   ],
-  "ActivePlayers": [],
+  "ActivePlayers": [
+    {
+      "Pilot": "TWC_BlacKnight",
+      "Aircraft": ""
+    }
+  ],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
