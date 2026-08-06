@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-06T23:45:01.6673584Z",
+  "GeneratedUtc": "2026-08-06T23:55:01.6897200Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1498,7 +1498,7 @@
   "ActivePlayers": [
     {
       "Pilot": "TWC_Pedro",
-      "Aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
+      "Aircraft": ""
     },
     {
       "Pilot": "TWC_BlacKnight",
