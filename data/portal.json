@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-06T18:24:59.4655959Z",
+  "GeneratedUtc": "2026-08-06T18:28:59.5081419Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -41,7 +41,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 19312.57,
       "FlightHours": 321.88,
-      "LastSeenUtc": "2026-08-06 18:24:48Z"
+      "LastSeenUtc": "2026-08-06 18:28:33Z"
     },
     {
       "Position": 2,
