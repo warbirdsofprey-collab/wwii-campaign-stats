@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-06T12:40:57.0976937Z",
+  "GeneratedUtc": "2026-08-06T12:41:57.0984701Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -41,7 +41,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 18592.79,
       "FlightHours": 309.88,
-      "LastSeenUtc": "2026-08-06 12:40:46Z"
+      "LastSeenUtc": "2026-08-06 12:41:20Z"
     },
     {
       "Position": 2,
@@ -1434,7 +1434,7 @@
   "ActivePlayers": [
     {
       "Pilot": "TWC_BlacKnight",
-      "Aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late"
+      "Aircraft": ""
     }
   ],
   "AirbaseRepairHours": 72,
