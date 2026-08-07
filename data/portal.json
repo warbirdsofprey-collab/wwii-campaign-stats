@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-07T15:00:05.4529266Z",
+  "GeneratedUtc": "2026-08-07T15:01:05.4641679Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1633,8 +1633,8 @@
       "Aircraft": "tobruk:Aircraft.SpitfireMkVbLate"
     },
     {
-      "Pilot": "TWC_Spartacus",
-      "Aircraft": ""
+      "Pilot": "Kirikou",
+      "Aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late"
     }
   ],
   "AirbaseRepairHours": 72,
