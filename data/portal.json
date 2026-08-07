@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-07T01:35:02.4338442Z",
+  "GeneratedUtc": "2026-08-07T01:44:02.5020918Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -657,7 +657,7 @@
       "Pilot": "Betty 6-2 | Big-G",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -681,7 +681,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-08-07 01:30:31Z"
+      "LastSeenUtc": "2026-08-07 01:43:26Z"
     },
     {
       "Position": 22,
