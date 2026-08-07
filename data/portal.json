@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-07T15:08:05.5191383Z",
+  "GeneratedUtc": "2026-08-07T15:11:05.5246128Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1624,14 +1624,6 @@
     }
   ],
   "ActivePlayers": [
-    {
-      "Pilot": "TWC_BlacKnight",
-      "Aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
-    },
-    {
-      "Pilot": "TWC_Anonymous",
-      "Aircraft": "tobruk:Aircraft.SpitfireMkVbLate"
-    },
     {
       "Pilot": "Kirikou",
       "Aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late"
