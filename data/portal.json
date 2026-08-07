@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-07T13:30:05.0063517Z",
+  "GeneratedUtc": "2026-08-07T13:31:05.0165074Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -177,9 +177,9 @@
       "Pilot": "TWC_Spartacus",
       "Rank": "Flying Officer / Leutnant",
       "Score": 205,
-      "Sorties": 2,
+      "Sorties": 3,
       "SuccessfulSorties": 1,
-      "SuccessRate": 0.5,
+      "SuccessRate": 0.3333,
       "AirKills": 2,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -201,7 +201,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 90.96,
       "FlightHours": 1.52,
-      "LastSeenUtc": "2026-08-07 13:29:20Z"
+      "LastSeenUtc": "2026-08-07 13:30:49Z"
     },
     {
       "Position": 7,
@@ -1595,6 +1595,10 @@
     {
       "Pilot": "TWC_BlacKnight",
       "Aircraft": "tobruk:Aircraft.WellingtonMkIc_Late"
+    },
+    {
+      "Pilot": "TWC_Spartacus",
+      "Aircraft": ""
     }
   ],
   "AirbaseRepairHours": 72,
