@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-07T17:49:06.6568355Z",
+  "GeneratedUtc": "2026-08-07T17:51:06.6911803Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1659,14 +1659,6 @@
     {
       "Pilot": "TWC_BlacKnight",
       "Aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
-    },
-    {
-      "Pilot": "ER*Wumme",
-      "Aircraft": "tobruk:Aircraft.SpitfireMkVb"
-    },
-    {
-      "Pilot": "Blondi",
-      "Aircraft": "tobruk:Aircraft.SpitfireMkVb"
     }
   ],
   "AirbaseRepairHours": 72,
