@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-07T09:28:05.4539697Z",
+  "GeneratedUtc": "2026-08-07T09:29:05.4758782Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -657,7 +657,7 @@
       "Pilot": "ACG_Stu",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -681,7 +681,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-08-07 09:27:52Z"
+      "LastSeenUtc": "2026-08-07 09:28:29Z"
     },
     {
       "Position": 22,
