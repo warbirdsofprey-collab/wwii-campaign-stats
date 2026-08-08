@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-08T19:17:14.2061896Z",
+  "GeneratedUtc": "2026-08-08T19:18:14.2037088Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1390,6 +1390,10 @@
       "DamagePercent": 75
     },
     {
+      "Target": "Flugplatz Pihen Fighter",
+      "DamagePercent": 69
+    },
+    {
       "Target": "Flugfeld Le Touquet",
       "DamagePercent": 58
     },
@@ -1407,10 +1411,6 @@
     },
     {
       "Target": "Flugplatz Abbeville",
-      "DamagePercent": 22
-    },
-    {
-      "Target": "Flugplatz Pihen Fighter",
       "DamagePercent": 22
     },
     {
