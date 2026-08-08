@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-08T21:57:15.0565478Z",
+  "GeneratedUtc": "2026-08-08T22:01:15.0972344Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -817,7 +817,7 @@
       "Pilot": "=IRFC=W-Havelock",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -841,7 +841,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-08-08 21:56:44Z"
+      "LastSeenUtc": "2026-08-08 22:01:02Z"
     },
     {
       "Position": 27,
@@ -1719,7 +1719,12 @@
       "Available": 100
     }
   ],
-  "ActivePlayers": [],
+  "ActivePlayers": [
+    {
+      "Pilot": "",
+      "Aircraft": "IRFC=W-Havelock="
+    }
+  ],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
