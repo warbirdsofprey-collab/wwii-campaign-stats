@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-08T16:08:13.2016098Z",
+  "GeneratedUtc": "2026-08-08T16:09:13.1933440Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -240,10 +240,10 @@
       "PilotKey": "mk",
       "Pilot": "MK",
       "Rank": "Pilot Officer / Feldwebel",
-      "Score": 105,
+      "Score": 110,
       "Sorties": 3,
-      "SuccessfulSorties": 1,
-      "SuccessRate": 0.3333,
+      "SuccessfulSorties": 2,
+      "SuccessRate": 0.6667,
       "AirKills": 1,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -259,12 +259,12 @@
       "Deaths": 0,
       "KillDeathRatio": 1,
       "Bailouts": 0,
-      "Landings": 1,
+      "Landings": 2,
       "BombKg": 0,
       "BombsDropped": 0,
       "BombingTargetsDestroyed": 0,
-      "FlightMinutes": 44.65,
-      "FlightHours": 0.74,
+      "FlightMinutes": 105.07,
+      "FlightHours": 1.75,
       "LastSeenUtc": "2026-08-08 15:56:21Z"
     },
     {
