@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-08T15:57:13.0989889Z",
+  "GeneratedUtc": "2026-08-08T15:58:13.1090614Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1702,11 +1702,11 @@
     },
     {
       "Pilot": "MK",
-      "Aircraft": "tobruk:Aircraft.Bf-109E-7N"
+      "Aircraft": "tobruk:Aircraft.Bf-109F-4"
     },
     {
       "Pilot": "Betty 6-2 | Big-G",
-      "Aircraft": ""
+      "Aircraft": "tobruk:Aircraft.SpitfireMkVb-HF"
     }
   ],
   "AirbaseRepairHours": 72,
