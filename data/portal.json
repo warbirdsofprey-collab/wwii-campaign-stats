@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-08T15:34:12.9373856Z",
+  "GeneratedUtc": "2026-08-08T15:38:12.9766848Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1697,16 +1697,16 @@
       "Aircraft": "tobruk:Aircraft.HurricaneMkIIb-Late"
     },
     {
-      "Pilot": "Betty 6-2 | Big-G",
-      "Aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
-    },
-    {
       "Pilot": "TWC_Spartacus",
       "Aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
     },
     {
       "Pilot": "MK",
       "Aircraft": "tobruk:Aircraft.Bf-109E-7N"
+    },
+    {
+      "Pilot": "Betty 6-2 | Big-G",
+      "Aircraft": ""
     }
   ],
   "AirbaseRepairHours": 72,
