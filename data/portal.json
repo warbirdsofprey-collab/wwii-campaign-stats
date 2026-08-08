@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-08T14:56:12.6441130Z",
+  "GeneratedUtc": "2026-08-08T14:58:12.6747153Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1694,7 +1694,7 @@
     },
     {
       "Pilot": "TWC_Anonymous",
-      "Aircraft": "tobruk:Aircraft.WellingtonMkIc_Late"
+      "Aircraft": ""
     },
     {
       "Pilot": "Betty 6-2 | Big-G",
