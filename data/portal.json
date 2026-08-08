@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-08T15:15:12.7976622Z",
+  "GeneratedUtc": "2026-08-08T15:17:12.8020031Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -41,7 +41,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 24559.61,
       "FlightHours": 409.33,
-      "LastSeenUtc": "2026-08-08 14:55:14Z"
+      "LastSeenUtc": "2026-08-08 15:16:27Z"
     },
     {
       "Position": 2,
@@ -49,9 +49,9 @@
       "Pilot": "TWC_Spartacus",
       "Rank": "Flying Officer / Leutnant",
       "Score": 420,
-      "Sorties": 6,
+      "Sorties": 7,
       "SuccessfulSorties": 4,
-      "SuccessRate": 0.6667,
+      "SuccessRate": 0.5714,
       "AirKills": 4,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -73,7 +73,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 461.64,
       "FlightHours": 7.69,
-      "LastSeenUtc": "2026-08-08 14:19:08Z"
+      "LastSeenUtc": "2026-08-08 15:16:48Z"
     },
     {
       "Position": 3,
