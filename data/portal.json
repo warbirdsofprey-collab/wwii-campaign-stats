@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-08T14:19:12.3714150Z",
+  "GeneratedUtc": "2026-08-08T14:20:12.3906361Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -945,7 +945,7 @@
       "Pilot": "Hans Be",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -969,7 +969,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-08-08 14:19:06Z"
+      "LastSeenUtc": "2026-08-08 14:19:43Z"
     },
     {
       "Position": 31,
