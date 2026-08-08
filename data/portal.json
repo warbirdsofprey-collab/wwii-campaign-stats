@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-08T22:11:15.1533934Z",
+  "GeneratedUtc": "2026-08-08T22:21:15.1990123Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1722,7 +1722,7 @@
   "ActivePlayers": [
     {
       "Pilot": "",
-      "Aircraft": "IRFC=W-Havelock=tobruk:Aircraft.SpitfireMkVb-HF-Late"
+      "Aircraft": "IRFC=W-Havelock="
     }
   ],
   "AirbaseRepairHours": 72,
