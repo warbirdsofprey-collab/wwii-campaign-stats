@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-08T15:27:12.8766260Z",
+  "GeneratedUtc": "2026-08-08T15:28:12.8943028Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -265,7 +265,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 44.65,
       "FlightHours": 0.74,
-      "LastSeenUtc": "2026-08-08 15:27:00Z"
+      "LastSeenUtc": "2026-08-08 15:27:16Z"
     },
     {
       "Position": 9,
@@ -361,7 +361,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 237.68,
       "FlightHours": 3.96,
-      "LastSeenUtc": "2026-08-08 15:26:19Z"
+      "LastSeenUtc": "2026-08-08 15:27:52Z"
     },
     {
       "Position": 12,
@@ -1694,15 +1694,19 @@
     },
     {
       "Pilot": "TWC_Anonymous",
-      "Aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late"
+      "Aircraft": "tobruk:Aircraft.HurricaneMkIIb-Late"
     },
     {
       "Pilot": "Betty 6-2 | Big-G",
-      "Aircraft": "tobruk:Aircraft.SpitfireMkVbLate"
+      "Aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
     },
     {
       "Pilot": "TWC_Spartacus",
       "Aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
+    },
+    {
+      "Pilot": "MK",
+      "Aircraft": "tobruk:Aircraft.Bf-109E-7N"
     }
   ],
   "AirbaseRepairHours": 72,
