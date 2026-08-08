@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-08T14:37:12.5120151Z",
+  "GeneratedUtc": "2026-08-08T14:38:12.5333423Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -361,7 +361,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 118.97,
       "FlightHours": 1.98,
-      "LastSeenUtc": "2026-08-08 14:35:51Z"
+      "LastSeenUtc": "2026-08-08 14:37:43Z"
     },
     {
       "Position": 12,
@@ -1065,7 +1065,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 6.78,
       "FlightHours": 0.11,
-      "LastSeenUtc": "2026-08-08 14:36:53Z"
+      "LastSeenUtc": "2026-08-08 14:37:56Z"
     },
     {
       "Position": 34,
@@ -1703,6 +1703,10 @@
     {
       "Pilot": "TWC_Spartacus",
       "Aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
+    },
+    {
+      "Pilot": "MK",
+      "Aircraft": "tobruk:Aircraft.Bf-109F-4"
     }
   ],
   "AirbaseRepairHours": 72,
