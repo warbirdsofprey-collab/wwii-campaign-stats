@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-08T15:17:12.8020031Z",
+  "GeneratedUtc": "2026-08-08T15:18:12.8124919Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -393,7 +393,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 118.97,
       "FlightHours": 1.98,
-      "LastSeenUtc": "2026-08-08 14:55:13Z"
+      "LastSeenUtc": "2026-08-08 15:17:47Z"
     },
     {
       "Position": 13,
@@ -1690,11 +1690,11 @@
   "ActivePlayers": [
     {
       "Pilot": "TWC_BlacKnight",
-      "Aircraft": "tobruk:Aircraft.WellingtonMkIc_Late"
+      "Aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late"
     },
     {
       "Pilot": "TWC_Anonymous",
-      "Aircraft": ""
+      "Aircraft": "tobruk:Aircraft.HurricaneMkIIc-Late"
     },
     {
       "Pilot": "Betty 6-2 | Big-G",
@@ -1703,10 +1703,6 @@
     {
       "Pilot": "TWC_Spartacus",
       "Aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
-    },
-    {
-      "Pilot": "MK",
-      "Aircraft": "tobruk:Aircraft.Bf-109F-4"
     }
   ],
   "AirbaseRepairHours": 72,
