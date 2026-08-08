@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-08T13:29:11.9813696Z",
+  "GeneratedUtc": "2026-08-08T13:32:12.0194853Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -365,6 +365,38 @@
     },
     {
       "Position": 12,
+      "PilotKey": "betty 6-2 \\| big-g",
+      "Pilot": "Betty 6-2 | Big-G",
+      "Rank": "Pilot Officer / Feldwebel",
+      "Score": 5,
+      "Sorties": 2,
+      "SuccessfulSorties": 1,
+      "SuccessRate": 0.5,
+      "AirKills": 0,
+      "GroundKills": 0,
+      "ShipKills": 0,
+      "TankKills": 0,
+      "TruckKills": 0,
+      "AaaKills": 0,
+      "ArtilleryKills": 0,
+      "TrainKills": 0,
+      "StaticAircraftKills": 0,
+      "BuildingKills": 0,
+      "OtherGroundKills": 0,
+      "TotalKills": 0,
+      "Deaths": 0,
+      "KillDeathRatio": 0,
+      "Bailouts": 0,
+      "Landings": 1,
+      "BombKg": 0,
+      "BombsDropped": 0,
+      "BombingTargetsDestroyed": 0,
+      "FlightMinutes": 127.42,
+      "FlightHours": 2.12,
+      "LastSeenUtc": "2026-08-08 12:42:01Z"
+    },
+    {
+      "Position": 13,
       "PilotKey": "blondi",
       "Pilot": "Blondi",
       "Rank": "Pilot Officer / Feldwebel",
@@ -396,7 +428,7 @@
       "LastSeenUtc": "2026-08-07 17:24:34Z"
     },
     {
-      "Position": 13,
+      "Position": 14,
       "PilotKey": "bonditaria",
       "Pilot": "Bonditaria",
       "Rank": "Pilot Officer / Feldwebel",
@@ -428,7 +460,7 @@
       "LastSeenUtc": "2026-07-27 08:54:26Z"
     },
     {
-      "Position": 14,
+      "Position": 15,
       "PilotKey": "brooklynspo",
       "Pilot": "brooklynspo",
       "Rank": "Pilot Officer / Feldwebel",
@@ -460,7 +492,7 @@
       "LastSeenUtc": "2026-07-19 02:25:48Z"
     },
     {
-      "Position": 15,
+      "Position": 16,
       "PilotKey": "er*wumme",
       "Pilot": "ER*Wumme",
       "Rank": "Pilot Officer / Feldwebel",
@@ -492,7 +524,7 @@
       "LastSeenUtc": "2026-08-07 17:13:08Z"
     },
     {
-      "Position": 16,
+      "Position": 17,
       "PilotKey": "fedchuk457",
       "Pilot": "fedchuk457",
       "Rank": "Pilot Officer / Feldwebel",
@@ -524,7 +556,7 @@
       "LastSeenUtc": "2026-07-24 08:46:52Z"
     },
     {
-      "Position": 17,
+      "Position": 18,
       "PilotKey": "johnhastie",
       "Pilot": "johnhastie",
       "Rank": "Pilot Officer / Feldwebel",
@@ -556,7 +588,7 @@
       "LastSeenUtc": "2026-07-23 07:58:39Z"
     },
     {
-      "Position": 18,
+      "Position": 19,
       "PilotKey": "kirikou",
       "Pilot": "Kirikou",
       "Rank": "Pilot Officer / Feldwebel",
@@ -588,7 +620,7 @@
       "LastSeenUtc": "2026-08-07 14:53:25Z"
     },
     {
-      "Position": 19,
+      "Position": 20,
       "PilotKey": "obt~brunov",
       "Pilot": "OBT~Brunov",
       "Rank": "Pilot Officer / Feldwebel",
@@ -620,7 +652,7 @@
       "LastSeenUtc": "2026-07-20 20:33:11Z"
     },
     {
-      "Position": 20,
+      "Position": 21,
       "PilotKey": "stormrider",
       "Pilot": "Stormrider",
       "Rank": "Pilot Officer / Feldwebel",
@@ -652,7 +684,7 @@
       "LastSeenUtc": "2026-08-06 12:39:59Z"
     },
     {
-      "Position": 21,
+      "Position": 22,
       "PilotKey": "szewcu",
       "Pilot": "SZEWCU",
       "Rank": "Pilot Officer / Feldwebel",
@@ -684,7 +716,7 @@
       "LastSeenUtc": "2026-07-26 22:11:57Z"
     },
     {
-      "Position": 22,
+      "Position": 23,
       "PilotKey": "twc_anonymous",
       "Pilot": "TWC_Anonymous",
       "Rank": "Pilot Officer / Feldwebel",
@@ -716,7 +748,7 @@
       "LastSeenUtc": "2026-08-08 12:30:40Z"
     },
     {
-      "Position": 23,
+      "Position": 24,
       "PilotKey": "*kot_pilot*",
       "Pilot": "*KoT_Pilot*",
       "Rank": "Pilot Officer / Feldwebel",
@@ -748,7 +780,7 @@
       "LastSeenUtc": "2026-07-26 10:03:55Z"
     },
     {
-      "Position": 24,
+      "Position": 25,
       "PilotKey": "acg_stu",
       "Pilot": "ACG_Stu",
       "Rank": "Pilot Officer / Feldwebel",
@@ -778,38 +810,6 @@
       "FlightMinutes": 6.4,
       "FlightHours": 0.11,
       "LastSeenUtc": "2026-08-07 09:28:29Z"
-    },
-    {
-      "Position": 25,
-      "PilotKey": "betty 6-2 \\| big-g",
-      "Pilot": "Betty 6-2 | Big-G",
-      "Rank": "Pilot Officer / Feldwebel",
-      "Score": 0,
-      "Sorties": 2,
-      "SuccessfulSorties": 0,
-      "SuccessRate": 0,
-      "AirKills": 0,
-      "GroundKills": 0,
-      "ShipKills": 0,
-      "TankKills": 0,
-      "TruckKills": 0,
-      "AaaKills": 0,
-      "ArtilleryKills": 0,
-      "TrainKills": 0,
-      "StaticAircraftKills": 0,
-      "BuildingKills": 0,
-      "OtherGroundKills": 0,
-      "TotalKills": 0,
-      "Deaths": 0,
-      "KillDeathRatio": 0,
-      "Bailouts": 0,
-      "Landings": 0,
-      "BombKg": 0,
-      "BombsDropped": 0,
-      "BombingTargetsDestroyed": 0,
-      "FlightMinutes": 78.04,
-      "FlightHours": 1.3,
-      "LastSeenUtc": "2026-08-08 12:42:01Z"
     },
     {
       "Position": 26,
