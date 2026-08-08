@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-08T16:02:13.1431575Z",
+  "GeneratedUtc": "2026-08-08T16:08:13.2016098Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1695,10 +1695,6 @@
     {
       "Pilot": "TWC_Anonymous",
       "Aircraft": "tobruk:Aircraft.HurricaneMkIIb-Late"
-    },
-    {
-      "Pilot": "TWC_Spartacus",
-      "Aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
     },
     {
       "Pilot": "MK",
