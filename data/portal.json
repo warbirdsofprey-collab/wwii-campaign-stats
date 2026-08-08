@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-08T13:48:12.1631512Z",
+  "GeneratedUtc": "2026-08-08T13:51:12.1866751Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -305,9 +305,9 @@
       "Pilot": "TWC_Anonymous",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 10,
-      "Sorties": 3,
+      "Sorties": 4,
       "SuccessfulSorties": 2,
-      "SuccessRate": 0.6667,
+      "SuccessRate": 0.5,
       "AirKills": 0,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -329,7 +329,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 118.97,
       "FlightHours": 1.98,
-      "LastSeenUtc": "2026-08-08 13:36:41Z"
+      "LastSeenUtc": "2026-08-08 13:50:59Z"
     },
     {
       "Position": 11,
