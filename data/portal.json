@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-08T16:39:13.3289434Z",
+  "GeneratedUtc": "2026-08-08T16:48:13.4022529Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1687,12 +1687,7 @@
       "Available": 100
     }
   ],
-  "ActivePlayers": [
-    {
-      "Pilot": "TWC_Anonymous",
-      "Aircraft": "tobruk:Aircraft.HurricaneMkIIb-Late"
-    }
-  ],
+  "ActivePlayers": [],
   "AirbaseRepairHours": 72,
   "DestroyedBases": []
 }
