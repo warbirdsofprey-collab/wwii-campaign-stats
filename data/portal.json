@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-08T12:42:11.6378015Z",
+  "GeneratedUtc": "2026-08-08T12:48:11.6847168Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1666,6 +1666,10 @@
     },
     {
       "Pilot": "TWC_Spartacus",
+      "Aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
+    },
+    {
+      "Pilot": "Betty 6-2 | Big-G",
       "Aircraft": "tobruk:Aircraft.SpitfireMkVb-HF-Late"
     }
   ],
