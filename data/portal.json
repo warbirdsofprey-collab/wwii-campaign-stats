@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-10T12:49:27.7859710Z",
+  "GeneratedUtc": "2026-08-10T12:58:27.8094302Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1752,10 +1752,6 @@
     }
   ],
   "ActivePlayers": [
-    {
-      "Pilot": "RS_Odyssey",
-      "Aircraft": "tobruk:Aircraft.HurricaneMkIIc"
-    },
     {
       "Pilot": "TWC_BlacKnight",
       "Aircraft": ""
