@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-10T12:12:27.4960282Z",
+  "GeneratedUtc": "2026-08-10T12:17:27.5209350Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -37,11 +37,11 @@
       "Bailouts": 0,
       "Landings": 43,
       "BombKg": 0,
-      "BombsDropped": 202,
+      "BombsDropped": 211,
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 25269.77,
       "FlightHours": 421.16,
-      "LastSeenUtc": "2026-08-10 12:12:16Z"
+      "LastSeenUtc": "2026-08-10 12:17:03Z"
     },
     {
       "Position": 2,
@@ -1470,16 +1470,16 @@
       "DamagePercent": 33
     },
     {
+      "Target": "Calais Kriegsmarine Docks Area",
+      "DamagePercent": 29
+    },
+    {
       "Target": "Calais Luftwaffe Signal School",
       "DamagePercent": 22
     },
     {
       "Target": "Flugplatz Abbeville",
       "DamagePercent": 22
-    },
-    {
-      "Target": "Calais Kriegsmarine Docks Area",
-      "DamagePercent": 17
     },
     {
       "Target": "Flugfeld Querqueville",
