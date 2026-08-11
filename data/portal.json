@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-11T10:30:36.7627260Z",
+  "GeneratedUtc": "2026-08-11T10:34:36.8006943Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -37,11 +37,11 @@
       "Bailouts": 0,
       "Landings": 43,
       "BombKg": 0,
-      "BombsDropped": 227,
+      "BombsDropped": 236,
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 25657.24,
       "FlightHours": 427.62,
-      "LastSeenUtc": "2026-08-11 10:30:06Z"
+      "LastSeenUtc": "2026-08-11 10:34:26Z"
     },
     {
       "Position": 2,
@@ -1430,6 +1430,10 @@
       "DamagePercent": 100
     },
     {
+      "Target": "Caffiers 110",
+      "DamagePercent": 100
+    },
+    {
       "Target": "Calais Jackboot Storage",
       "DamagePercent": 100
     },
@@ -1537,6 +1541,7 @@
   "DestroyedTargets": [
     "Alert (Uxbridge) (AL,27)",
     "Bolougne_Calais Tank Convoy",
+    "Caffiers 110",
     "Calais Jackboot Storage",
     "Calais Manufacturing Area",
     "Calais Panzer Tank Camp",
