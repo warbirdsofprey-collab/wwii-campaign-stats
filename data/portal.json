@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-11T00:28:32.5882936Z",
+  "GeneratedUtc": "2026-08-11T00:35:32.6339276Z",
   "Campaign": {
     "RedCampaignPoints": 272,
     "BlueCampaignPoints": 2,
@@ -1037,6 +1037,38 @@
     },
     {
       "Position": 33,
+      "PilotKey": "glox",
+      "Pilot": "GLOX",
+      "Rank": "Pilot Officer / Feldwebel",
+      "Score": 0,
+      "Sorties": 0,
+      "SuccessfulSorties": 0,
+      "SuccessRate": 0,
+      "AirKills": 0,
+      "GroundKills": 0,
+      "ShipKills": 0,
+      "TankKills": 0,
+      "TruckKills": 0,
+      "AaaKills": 0,
+      "ArtilleryKills": 0,
+      "TrainKills": 0,
+      "StaticAircraftKills": 0,
+      "BuildingKills": 0,
+      "OtherGroundKills": 0,
+      "TotalKills": 0,
+      "Deaths": 0,
+      "KillDeathRatio": 0,
+      "Bailouts": 0,
+      "Landings": 0,
+      "BombKg": 0,
+      "BombsDropped": 0,
+      "BombingTargetsDestroyed": 0,
+      "FlightMinutes": 0,
+      "FlightHours": 0,
+      "LastSeenUtc": "2026-08-11 00:35:07Z"
+    },
+    {
+      "Position": 34,
       "PilotKey": "hans be",
       "Pilot": "Hans Be",
       "Rank": "Pilot Officer / Feldwebel",
@@ -1068,7 +1100,7 @@
       "LastSeenUtc": "2026-08-08 14:23:34Z"
     },
     {
-      "Position": 34,
+      "Position": 35,
       "PilotKey": "joffski",
       "Pilot": "Joffski",
       "Rank": "Pilot Officer / Feldwebel",
@@ -1100,7 +1132,7 @@
       "LastSeenUtc": "2026-07-20 19:30:00Z"
     },
     {
-      "Position": 35,
+      "Position": 36,
       "PilotKey": "kozlo",
       "Pilot": "kozlo",
       "Rank": "Pilot Officer / Feldwebel",
@@ -1132,7 +1164,7 @@
       "LastSeenUtc": "2026-07-28 14:48:10Z"
     },
     {
-      "Position": 36,
+      "Position": 37,
       "PilotKey": "littlebill",
       "Pilot": "LittleBill",
       "Rank": "Pilot Officer / Feldwebel",
@@ -1164,7 +1196,7 @@
       "LastSeenUtc": "2026-08-08 23:42:46Z"
     },
     {
-      "Position": 37,
+      "Position": 38,
       "PilotKey": "no boss no toss",
       "Pilot": "No Boss No Toss",
       "Rank": "Pilot Officer / Feldwebel",
@@ -1196,7 +1228,7 @@
       "LastSeenUtc": "2026-07-25 14:04:32Z"
     },
     {
-      "Position": 38,
+      "Position": 39,
       "PilotKey": "obt~lionel",
       "Pilot": "OBT~Lionel",
       "Rank": "Pilot Officer / Feldwebel",
@@ -1228,7 +1260,7 @@
       "LastSeenUtc": "2026-07-22 20:04:55Z"
     },
     {
-      "Position": 39,
+      "Position": 40,
       "PilotKey": "owlupmost",
       "Pilot": "owlupmost",
       "Rank": "Pilot Officer / Feldwebel",
@@ -1260,7 +1292,7 @@
       "LastSeenUtc": "2026-07-30 14:14:02Z"
     },
     {
-      "Position": 40,
+      "Position": 41,
       "PilotKey": "pinguim01",
       "Pilot": "Pinguim01",
       "Rank": "Pilot Officer / Feldwebel",
@@ -1292,7 +1324,7 @@
       "LastSeenUtc": "2026-07-24 02:31:27Z"
     },
     {
-      "Position": 41,
+      "Position": 42,
       "PilotKey": "ranger 01",
       "Pilot": "Ranger 01",
       "Rank": "Pilot Officer / Feldwebel",
@@ -1324,7 +1356,7 @@
       "LastSeenUtc": "2026-07-31 14:54:06Z"
     },
     {
-      "Position": 42,
+      "Position": 43,
       "PilotKey": "tigertactics",
       "Pilot": "TIGERTACTICS",
       "Rank": "Pilot Officer / Feldwebel",
@@ -1356,7 +1388,7 @@
       "LastSeenUtc": "2026-08-03 17:07:07Z"
     },
     {
-      "Position": 43,
+      "Position": 44,
       "PilotKey": "vf-1_fakino",
       "Pilot": "VF-1_FAKINO",
       "Rank": "Pilot Officer / Feldwebel",
