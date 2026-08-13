@@ -1,7 +1,7 @@
 {
-  "GeneratedUtc": "2026-08-13T10:31:27.2623209Z",
+  "GeneratedUtc": "2026-08-13T10:33:27.2896009Z",
   "Campaign": {
-    "RedCampaignPoints": 297,
+    "RedCampaignPoints": 322,
     "BlueCampaignPoints": 2,
     "RedFactoriesDestroyed": 0,
     "BlueFactoriesDestroyed": 0,
@@ -37,11 +37,11 @@
       "Bailouts": 0,
       "Landings": 43,
       "BombKg": 0,
-      "BombsDropped": 272,
+      "BombsDropped": 281,
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 28248.24,
       "FlightHours": 470.8,
-      "LastSeenUtc": "2026-08-13 10:31:26Z"
+      "LastSeenUtc": "2026-08-13 10:32:45Z"
     },
     {
       "Position": 2,
@@ -1518,6 +1518,10 @@
       "DamagePercent": 100
     },
     {
+      "Target": "Fliegerhorst Desvres",
+      "DamagePercent": 100
+    },
+    {
       "Target": "Fliegerhorst Peuplingues",
       "DamagePercent": 100
     },
@@ -1612,6 +1616,7 @@
     "Coquelles Fighter",
     "Fighter Bomber Zutkerque",
     "Fliegerhorst Calais Marck Fighter / Bomber",
+    "Fliegerhorst Desvres",
     "Fliegerhorst Peuplingues",
     "Flugfeld Audembert",
     "Guines Airfield",
