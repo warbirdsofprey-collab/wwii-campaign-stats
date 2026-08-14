@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-14T19:06:36.0569640Z",
+  "GeneratedUtc": "2026-08-14T19:06:47.3278185Z",
   "Campaign": {
     "RedCampaignPoints": 322,
     "BlueCampaignPoints": 2,
@@ -1169,7 +1169,7 @@
       "Pilot": "johnmarechal",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -1193,7 +1193,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-08-14 19:06:16Z"
+      "LastSeenUtc": "2026-08-14 19:06:42Z"
     },
     {
       "Position": 38,
