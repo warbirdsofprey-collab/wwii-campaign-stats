@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-14T14:28:45.3216315Z",
+  "GeneratedUtc": "2026-08-14T14:30:45.3340812Z",
   "Campaign": {
     "RedCampaignPoints": 322,
     "BlueCampaignPoints": 2,
@@ -1457,7 +1457,7 @@
       "Pilot": "TWC_Brett",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -1481,7 +1481,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-08-14 14:28:28Z"
+      "LastSeenUtc": "2026-08-14 14:30:42Z"
     },
     {
       "Position": 47,
