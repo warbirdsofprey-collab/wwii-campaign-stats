@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-15T12:02:54.7471828Z",
+  "GeneratedUtc": "2026-08-15T12:04:54.7760658Z",
   "Campaign": {
     "RedCampaignPoints": 322,
     "BlueCampaignPoints": 2,
@@ -1449,7 +1449,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 4.64,
       "FlightHours": 0.08,
-      "LastSeenUtc": "2026-08-15 11:57:39Z"
+      "LastSeenUtc": "2026-08-15 12:04:04Z"
     },
     {
       "Position": 46,
@@ -1957,6 +1957,10 @@
     {
       "Pilot": "TWC_BlacKnight",
       "Aircraft": "tobruk:Aircraft.WellingtonMkIc_Late"
+    },
+    {
+      "Pilot": "RAF0004",
+      "Aircraft": "tobruk:Aircraft.SpitfireMkVbLate"
     }
   ],
   "AirbaseRepairHours": 72,
