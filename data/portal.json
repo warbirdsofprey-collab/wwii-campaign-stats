@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-15T12:05:54.7643249Z",
+  "GeneratedUtc": "2026-08-15T12:14:52.6599665Z",
   "Campaign": {
     "RedCampaignPoints": 322,
     "BlueCampaignPoints": 2,
@@ -1449,7 +1449,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 4.64,
       "FlightHours": 0.08,
-      "LastSeenUtc": "2026-08-15 12:05:03Z"
+      "LastSeenUtc": "2026-08-15 12:14:48Z"
     },
     {
       "Position": 46,
@@ -1960,7 +1960,7 @@
     },
     {
       "Pilot": "RAF0004",
-      "Aircraft": "tobruk:Aircraft.SpitfireMkVbLate"
+      "Aircraft": ""
     }
   ],
   "AirbaseRepairHours": 72,
