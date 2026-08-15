@@ -1,7 +1,7 @@
 {
-  "GeneratedUtc": "2026-08-15T12:23:52.7304779Z",
+  "GeneratedUtc": "2026-08-15T12:24:52.7457856Z",
   "Campaign": {
-    "RedCampaignPoints": 322,
+    "RedCampaignPoints": 347,
     "BlueCampaignPoints": 2,
     "RedFactoriesDestroyed": 0,
     "BlueFactoriesDestroyed": 0,
@@ -1960,8 +1960,8 @@
       "Aircraft": "tobruk:Aircraft.WellingtonMkIc_Late"
     },
     {
-      "Pilot": "RAF0004",
-      "Aircraft": ""
+      "Pilot": "Karguy23",
+      "Aircraft": "tobruk:Aircraft.WellingtonMkIc_Late"
     }
   ],
   "AirbaseRepairHours": 72,
