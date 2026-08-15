@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-15T13:44:53.2863478Z",
+  "GeneratedUtc": "2026-08-15T13:51:53.3088411Z",
   "Campaign": {
     "RedCampaignPoints": 347,
     "BlueCampaignPoints": 2,
@@ -80,10 +80,10 @@
       "PilotKey": "nazg\u00FBl",
       "Pilot": "Nazg\u00FBl",
       "Rank": "Flight Lieutenant / Oberleutnant",
-      "Score": 500,
+      "Score": 505,
       "Sorties": 1,
-      "SuccessfulSorties": 0,
-      "SuccessRate": 0,
+      "SuccessfulSorties": 1,
+      "SuccessRate": 1,
       "AirKills": 5,
       "GroundKills": 0,
       "ShipKills": 0,
@@ -99,12 +99,12 @@
       "Deaths": 0,
       "KillDeathRatio": 5,
       "Bailouts": 0,
-      "Landings": 0,
+      "Landings": 1,
       "BombKg": 0,
       "BombsDropped": 0,
       "BombingTargetsDestroyed": 0,
-      "FlightMinutes": 0,
-      "FlightHours": 0,
+      "FlightMinutes": 69.72,
+      "FlightHours": 1.16,
       "LastSeenUtc": "2026-08-15 13:43:57Z"
     },
     {
