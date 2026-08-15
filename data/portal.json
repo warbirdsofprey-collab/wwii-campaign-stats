@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-15T13:32:53.1994345Z",
+  "GeneratedUtc": "2026-08-15T13:34:53.2184341Z",
   "Campaign": {
     "RedCampaignPoints": 347,
     "BlueCampaignPoints": 2,
@@ -141,6 +141,38 @@
     },
     {
       "Position": 5,
+      "PilotKey": "nazg\u00FBl",
+      "Pilot": "Nazg\u00FBl",
+      "Rank": "Flying Officer / Leutnant",
+      "Score": 300,
+      "Sorties": 1,
+      "SuccessfulSorties": 0,
+      "SuccessRate": 0,
+      "AirKills": 3,
+      "GroundKills": 0,
+      "ShipKills": 0,
+      "TankKills": 0,
+      "TruckKills": 0,
+      "AaaKills": 0,
+      "ArtilleryKills": 0,
+      "TrainKills": 0,
+      "StaticAircraftKills": 0,
+      "BuildingKills": 0,
+      "OtherGroundKills": 0,
+      "TotalKills": 3,
+      "Deaths": 0,
+      "KillDeathRatio": 3,
+      "Bailouts": 0,
+      "Landings": 0,
+      "BombKg": 0,
+      "BombsDropped": 0,
+      "BombingTargetsDestroyed": 0,
+      "FlightMinutes": 0,
+      "FlightHours": 0,
+      "LastSeenUtc": "2026-08-15 12:44:14Z"
+    },
+    {
+      "Position": 6,
       "PilotKey": "atag_slot",
       "Pilot": "ATAG_Slot",
       "Rank": "Flying Officer / Leutnant",
@@ -172,7 +204,7 @@
       "LastSeenUtc": "2026-08-05 14:57:19Z"
     },
     {
-      "Position": 6,
+      "Position": 7,
       "PilotKey": "gr_val",
       "Pilot": "GR_Val",
       "Rank": "Flying Officer / Leutnant",
@@ -204,7 +236,7 @@
       "LastSeenUtc": "2026-07-27 18:51:11Z"
     },
     {
-      "Position": 7,
+      "Position": 8,
       "PilotKey": "hun hunter",
       "Pilot": "Hun Hunter",
       "Rank": "Flying Officer / Leutnant",
@@ -236,7 +268,7 @@
       "LastSeenUtc": "2026-07-31 13:16:20Z"
     },
     {
-      "Position": 8,
+      "Position": 9,
       "PilotKey": "mk",
       "Pilot": "MK",
       "Rank": "Pilot Officer / Feldwebel",
@@ -268,7 +300,7 @@
       "LastSeenUtc": "2026-08-08 15:56:21Z"
     },
     {
-      "Position": 9,
+      "Position": 10,
       "PilotKey": "rs_odyssey",
       "Pilot": "RS_Odyssey",
       "Rank": "Pilot Officer / Feldwebel",
@@ -298,38 +330,6 @@
       "FlightMinutes": 74.23,
       "FlightHours": 1.24,
       "LastSeenUtc": "2026-08-10 11:33:40Z"
-    },
-    {
-      "Position": 10,
-      "PilotKey": "nazg\u00FBl",
-      "Pilot": "Nazg\u00FBl",
-      "Rank": "Pilot Officer / Feldwebel",
-      "Score": 100,
-      "Sorties": 1,
-      "SuccessfulSorties": 0,
-      "SuccessRate": 0,
-      "AirKills": 1,
-      "GroundKills": 0,
-      "ShipKills": 0,
-      "TankKills": 0,
-      "TruckKills": 0,
-      "AaaKills": 0,
-      "ArtilleryKills": 0,
-      "TrainKills": 0,
-      "StaticAircraftKills": 0,
-      "BuildingKills": 0,
-      "OtherGroundKills": 0,
-      "TotalKills": 1,
-      "Deaths": 0,
-      "KillDeathRatio": 1,
-      "Bailouts": 0,
-      "Landings": 0,
-      "BombKg": 0,
-      "BombsDropped": 0,
-      "BombingTargetsDestroyed": 0,
-      "FlightMinutes": 0,
-      "FlightHours": 0,
-      "LastSeenUtc": "2026-08-15 12:44:14Z"
     },
     {
       "Position": 11,
