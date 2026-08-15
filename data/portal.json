@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-15T12:39:52.8061354Z",
+  "GeneratedUtc": "2026-08-15T12:41:52.8261383Z",
   "Campaign": {
     "RedCampaignPoints": 347,
     "BlueCampaignPoints": 2,
@@ -41,7 +41,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 28419.62,
       "FlightHours": 473.66,
-      "LastSeenUtc": "2026-08-15 12:32:54Z"
+      "LastSeenUtc": "2026-08-15 12:41:52Z"
     },
     {
       "Position": 2,
@@ -1297,7 +1297,7 @@
       "Pilot": "Nazg\u00FBl",
       "Rank": "Pilot Officer / Feldwebel",
       "Score": 0,
-      "Sorties": 0,
+      "Sorties": 1,
       "SuccessfulSorties": 0,
       "SuccessRate": 0,
       "AirKills": 0,
@@ -1321,7 +1321,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-08-15 12:38:56Z"
+      "LastSeenUtc": "2026-08-15 12:41:20Z"
     },
     {
       "Position": 42,
