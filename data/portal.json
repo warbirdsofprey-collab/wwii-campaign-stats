@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-08-15T12:41:52.8261383Z",
+  "GeneratedUtc": "2026-08-15T12:44:52.8685662Z",
   "Campaign": {
     "RedCampaignPoints": 347,
     "BlueCampaignPoints": 2,
@@ -1321,7 +1321,7 @@
       "BombingTargetsDestroyed": 0,
       "FlightMinutes": 0,
       "FlightHours": 0,
-      "LastSeenUtc": "2026-08-15 12:41:20Z"
+      "LastSeenUtc": "2026-08-15 12:44:14Z"
     },
     {
       "Position": 42,
@@ -2024,8 +2024,8 @@
       "Aircraft": "tobruk:Aircraft.WellingtonMkIc_Late"
     },
     {
-      "Pilot": "RAF0005",
-      "Aircraft": ""
+      "Pilot": "Nazg\u00FBl",
+      "Aircraft": "tobruk:Aircraft.SpitfireMkVbLate"
     }
   ],
   "AirbaseRepairHours": 72,
